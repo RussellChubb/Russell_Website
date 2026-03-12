@@ -1,0 +1,35 @@
+disabled = false
+languageCode = "en"
+languageName = "English"
+weight = 1
+title = "Blowfish"
+
+[params]
+  displayName = "EN"
+  isoCode = "en"
+  rtl = false
+  dateFormat = "2 January 2006"
+  # logo = "img/logo.png"
+  # secondaryLogo = "img/secondary-logo.png"
+  # description = "My awesome website"
+  # copyright = "Copy, _right?_ :thinking_face:"
+
+[params.author]
+   name = "Russell Chubb"
+  email = "Russell.d.Chubb@gmail.com"
+  image = "img/blowfish_logo.png"
+#   imageQuality = 96
+  headline = "Professional Shit Talker"
+  bio = "Professional Tui Drinker"
+  links = [
+    { email = "Russell.d.Chubb@gmail.com" },
+    { github = "https://github.com/RussellChubb" },
+    { instagram = "https://www.instagram.com/russell.chubb/" },
+    { linkedin = "https://www.linkedin.com/in/russell-chubb-323a1821b/" },
+#     { medium = "https://medium.com/username" }, # will do this one day!
+#     { patreon = "https://www.patreon.com/username" }, # will do this one day!
+    { pinterest = "https://pin.it/130Y0XqQf" },
+    { soundcloud = "https://soundcloud.com/ogrussellc" },
+    { spotify = "https://open.spotify.com/user/12165084687" },
+    { youtube = "https://www.youtube.com/@Russell_Chubb" },
+  ]
