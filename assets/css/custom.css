@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+@layer base {
+    body, h1, h2, h3, h4, h5, h6, p, a, li, span, code, pre {
+        font-family: 'JetBrains Mono', monospace;
+    }
+}
