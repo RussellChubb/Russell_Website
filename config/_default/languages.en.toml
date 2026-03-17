@@ -11,16 +11,16 @@ title = ""
   dateFormat = "2 January 2006"
   logo = "Logo_Trans.png" # Transpearent Logo for the top left corner
   # secondaryLogo = "Headshot"
-  description = "Russell's Hugo Website"
+  description = "Russell's Website"
   copyright = "© 2026 Russell Chubb"
 
 [params.author]
-   name = "Russell Chubb"
+  #  name = "Russell Chubb"
   email = "Russell.d.Chubb@gmail.com"
-  image = "Logo_BG.png"
+  # image = "Logo_BG.png"
 #   imageQuality = 96
-  headline = "Professional Shit Talker"
-  bio = "Professional Tui Drinker"
+  # headline = "Professional Shit Talker"
+  bio = ""
   links = [
     { email = "Russell.d.Chubb@gmail.com" },
     { github = "https://github.com/RussellChubb" },

@@ -1,0 +1,16 @@
+<!-- Foreground hero image -->
+<div class="relative px-8 py-0 flex flex-col items-center justify-center text-center" style="margin-top: -100px;">
+  <img src="/img/Russell_Website_V3.png" class="nozoom" style="max-width: 900px; width: 100%;" />
+</div>
+
+<!-- Background image (fixed, full screen) -->
+<div class="fixed inset-x-0 top-0" style="z-index:-10">
+  <img class="w-full h-[1000px] object-cover m-0 nozoom" src="/img/BG_Fix.png">
+  <div class="absolute inset-0 h-[1000px] bg-gradient-to-t from-neutral dark:from-neutral-800 to-transparent"></div>
+  <div class="opacity-60 absolute inset-0 h-[1000px] bg-gradient-to-t from-neutral dark:from-neutral-800 to-neutral-100 dark:to-neutral-800"></div>
+</div>
+
+<!-- Your page content below -->
+<div class="relative px-8 py-8 flex flex-col items-center justify-center text-center">
+  {{ .Content }}
+</div>
