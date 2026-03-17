@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Authors on </title>
-    <link>http://localhost:1313/authors/</link>
+    <link>http://localhost:1313/Russell_Website_V2/authors/</link>
     <description>Recent content in Authors on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>Russell.d.Chubb@gmail.com</managingEditor>
     <webMaster>Russell.d.Chubb@gmail.com</webMaster>
     <copyright>© 2026 Russell Chubb</copyright>
-    <atom:link href="http://localhost:1313/authors/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/Russell_Website_V2/authors/index.xml" rel="self" type="application/rss+xml" />
     
   </channel>
 </rss>
