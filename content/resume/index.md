@@ -2,6 +2,20 @@
 title: "Resume"
 description: "My experience and skills"
 showAuthor: true
+showDate: false
+---
+
+<!-- Quote for this Page -->
+{{< typeit
+  tag=h4
+  speed=80
+  lifeLike=true
+  breakLines=false
+  loop=false
+>}}
+"It's hard to look him in the eyes he has so much Rizz - Phillipa Kate"
+{{< /typeit >}}
+
 ---
 
 ## Todo on this page
@@ -11,20 +25,14 @@ showAuthor: true
 * Create Meridian Section
 * Update Profile Section
 * Center the Timeline?
-* Add in some Images
+* Add in some Images / Videos
 * ~~Add in Author Badge at top~~
 * ~~Add in Page summary on the right~~
 * Try make page take the custom BG
 
 ---
 
-## Profile
-
-I have a proven track record of leading and driving change initiatives in a project capacity, as well as strong performance in a BAU role, delivering consistent results, and finding critical process or functional improvements. I bring the ability to seek opportunities and provide support in the delivery of outcomes, a willingness to learn, and a fresh outlook to any challenge.
-
----
-
-## Download my Resume in a PDF Format!
+## Download my Resume in a PDF Format
 
 {{< button href="#button" target="_self" >}}
 Wire this button up to download PDF

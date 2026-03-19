@@ -64,8 +64,8 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
 
 [article]
   showDate = true
-  showViews = true
-  showLikes = true
+  showViews = false # need to set-up firebase first
+  showLikes = false # need to set-up firebase first
   showDateOnlyInArticle = true
   showDateUpdated = true
   showAuthor = true
@@ -161,11 +161,11 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
   # enableTrackEvent = true
 
 [buymeacoffee]
-  # identifier = ""
-  # globalWidget = true
+  identifier = "RussellChubb"
+  globalWidget = true
   # globalWidgetMessage = "Hello"
-  # globalWidgetColor = "#FFDD00"
-  # globalWidgetPosition = "right"
+  globalWidgetColor = "#ffffff"
+  globalWidgetPosition = "right"
 
 [verification]
   # google = ""

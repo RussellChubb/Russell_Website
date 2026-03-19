@@ -2,6 +2,7 @@
 title: "Projects"
 description: "Things I've built"
 showAuthor: true
+showDate: false
 ---
 
 <!-- Projects Section  -->
