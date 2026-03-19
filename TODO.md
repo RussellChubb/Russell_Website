@@ -1,8 +1,8 @@
 # TODO
 
 * ~~Adjust background to not have the "Russell Logo bs"~~
-* Setup buy me a coffee
-* Setup GA4
+* ~~Setup buy me a coffee~~
+* ~~Setup GA4~~
 * ~~Create Photoshop Hero Image~~
 * Create Resume Page
 * Create Projects page

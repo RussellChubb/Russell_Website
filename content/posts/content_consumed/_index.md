@@ -1,13 +1,9 @@
 ---
-title: "Content Consumed"
+title: "What Media have I consumed in 2026?"
 description: "TODO"
 showAuthor: true
 date: 2025-03-19
 ---
-
-# Media Consumption
-
-A lightweight, public log of movies I’ve watched and books I’ve read.
 
 ---
 
@@ -36,6 +32,7 @@ A lightweight, public log of movies I’ve watched and books I’ve read.
 | Sully | B+ | Great work from Eastwood, very intense. |
 | Brick | C- | Interesting concept, kinda boring though. Part of the ending annoyed me too. |
 | Paprika | B | Very interesting film visually, kind of hard to follow. |
+| Ghost in the Shell | B | Very beautiful, plot is weird. |
 
 ---
 

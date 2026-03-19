@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog on </title>
-    <link>http://localhost:1313/Russell_Website_V2/posts/</link>
-    <description>Recent content in Blog on </description>
+    <title>Travel on </title>
+    <link>http://localhost:1313/Russell_Website_V2/posts/travel/</link>
+    <description>Recent content in Travel on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>Russell.d.Chubb@gmail.com (Russell Chubb)</managingEditor>
     <webMaster>Russell.d.Chubb@gmail.com (Russell Chubb)</webMaster>
     <copyright>© 2026 Russell Chubb</copyright>
-    <lastBuildDate></lastBuildDate><atom:link href="http://localhost:1313/Russell_Website_V2/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate></lastBuildDate><atom:link href="http://localhost:1313/Russell_Website_V2/posts/travel/index.xml" rel="self" type="application/rss+xml" />
     
   </channel>
 </rss>

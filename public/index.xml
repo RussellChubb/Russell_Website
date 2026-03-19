@@ -22,16 +22,6 @@
     </item>
     
     <item>
-      <title>Blog</title>
-      <link>http://localhost:1313/Russell_Website_V2/posts/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>Russell.d.Chubb@gmail.com (Russell Chubb)</author>
-      <guid>http://localhost:1313/Russell_Website_V2/posts/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
       <title>Projects</title>
       <link>http://localhost:1313/Russell_Website_V2/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
