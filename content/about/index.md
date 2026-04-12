@@ -36,7 +36,7 @@ I've been doing ***Data Stuff*** (*including but not limited to Software Enginee
 > i.e. I like making shit that people use and enjoy.
 
 <!-- TODO: Add in BASH & Terminal / Git -->
-## Skills 🎯
+### Skills 🎯
 
 I always think it's a little silly to have to create a skill matrix for yourself and boil an entire person down to just some skills or characteristics. However, just taking a look at this chart gives you a good idea of what kind of skills I have out of the box.
 
@@ -47,7 +47,8 @@ I've expressed my level of "*skill*" in a given area, by providing a value betwe
 >
 > **NOTE:** I've noticed this chart has some text cut-off on mobile, best to view the site on desktop anyway.
 
-### Skill Matrix Spider Chart 🕷️
+<!-- TODO: Why is there so much room at the top and bottom of this chart? -->
+#### Skill Matrix Spider Chart 🕷️
 
 {{< chart >}}
 type: 'radar',
@@ -199,7 +200,7 @@ Since that pivotal moment, I've been completely enthralled in them. It's hard to
 ![Bro said how many hours!?](https://images.steamusercontent.com/ugc/2204010189983913838/E0E0AE30F1C491ABD8D962B74BD56BC9D4933524/)
 
 <!-- Hacked CSGO Clients -->
-I guess you could say that I first started "*programming*" circa 2016, when I was playing around with CS:GO Hacked Clients and Scripts, I remember following a YouTube video for how I can download Visual Studio, pasting some code C++ (*which have essentially been straight jibberish to me*), and then injecting code into the CSGO run-time, just to bunny-hop around servers. (*good fun would reccomend it*).
+I guess you could say that I first started "*programming*" circa 2016, when I was playing around with CS:GO Hacked Clients and Scripts, I remember following a YouTube video for how I can download Visual Studio, pasting some code C++ (*which would have essentially been straight jibberish to me*), and then injecting code into the CSGO run-time, just to bunny-hop around servers. (*good fun would reccomend it*).
 
 <!-- Adding this in to let people know that crime doesn't pay -->
 > [!WARNING]
@@ -253,7 +254,7 @@ After developing my first dashboard, I got bit with the "**data bug**", as there
 1) Technical.
 2) Good to look at.
 
-## Self Driven Data Studies 🔬
+### Self Driven Data Studies 🔬
 
 At a certain point, I hit some kind of constraint with what I could do with Looker Studio as a data-visualisation engine that I began looking into what else is possible in this space, wherein my world opened to a variety of new avenues.
 
@@ -291,7 +292,7 @@ I would actually recommend that more people go-down a path of semi-self driven s
 <!-- TODO: Early Career Skill-Maps -->
 <!-- {{< carousel images="{<https://i.imgur.com/0NPMDXA.png,https://i.imgur.com/5oBLzcC.png,https://i.imgur.com/Oxbmacj.png,https://i.imgur.com/JGQhcZd.png,https://i.imgur.com/eqiPb8l.png}>" captions="{<https://i.imgur.com/0NPMDXA.png:He> Pikorua Website Dashboard,<https://i.imgur.com/5oBLzcC.png:Kauwhata> Reo Website Dashboard,<https://i.imgur.com/Oxbmacj.png:MoE> Intranet Dashboard,<https://i.imgur.com/JGQhcZd.png:NCEA> Education Website Dashboard,<https://i.imgur.com/eqiPb8l.png:Kauwhata> Reo Website Dashboard}" >}} -->
 
-### YouTube Channel 💼
+<!-- ### YouTube Channel 📹
 
 * TODO
 
@@ -301,7 +302,11 @@ I would actually recommend that more people go-down a path of semi-self driven s
 
 ### The Future! 🔮
 
+* TODO
+
 ## TODO
+
+* **Need some kind of disclaimer about the data that I'm showing on this page**
 
 * Self Driven Study
   * Roadmaps
@@ -315,8 +320,9 @@ I would actually recommend that more people go-down a path of semi-self driven s
   * Engineering
 * The Future!
   * Travel
-  * Scotland
+  * Scotland -->
 
+<!-- TODO: Possibly add a custom colour and Icon to this (*to make it a bit more fancy*) -->
 <!-- Anti AI Slop Sentiment -->
 > [!IMPORTANT]
 > Every line on this page is written by me. I do use AI assistance for the following:
