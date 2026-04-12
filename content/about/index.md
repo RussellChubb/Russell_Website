@@ -31,7 +31,7 @@ I'm a Data-Analyst living (*as of 12/04/26*) in New Zealand (*although moving to
 
 I've been doing ***Data Stuff*** (*including but not limited to Software Engineering, UX/UI Design and Development, Video and Graphics Editing, Project Implementation*) for ~ 3 years at this point, with a key area that I enjoy being the dissemination of complex and or technical information to a large audience, emphasising design and purpose that fits the need of an end user (*i.e. I like making shit that people use and enjoy*).
 
-## Skill Matrix Spider Chart
+## Skill Matrix Spider Chart 🕷️
 
 I always think it's a little silly to have to create a skill matrix for yourself and boil and entire person down to just some skills or characteristics. I think it degrades the complexity of a human being to something abstract.
 
@@ -83,7 +83,8 @@ options: {
         font: {
           size: 13,
           weight: 'bold'
-        }
+        },
+        color: '#ffffff'
       }
     }
   },
@@ -95,30 +96,78 @@ options: {
 }
 {{< /chart >}}
 
-## Long Version
+## Long Version 📜
 
 Heyo! - My name is **Russell David Chubb**.
 
-I'm a "*Data Analyst*" (*title feels a little limiting to the work that I do sometimes*) current living in New-Zealand (*although moving over to Scotland in the second half of 2026*).
+At the time of writing this, I'm 25 years old. I was born in Brisbane Australia, and moved over to New Zealand when I was around ~ 1 year old. I grew up in Palmerston North, and studied at Wellington, then, moved to Masterton to be closer to my girlfriend and her family!
+
+Somewhere in late 2026, I'll be settling down in Edinburgh, Scotland, wherein I'll be exploring a brand new country! When I'm not doing "*Data Stuff*", I'm normally doing the one of the following shown in this graph:
+
+{{< chart >}}
+type: 'doughnut',
+data: {
+  labels: ['Golfing', 'Running', 'Gyming', 'Surfing', 'Mixing Music'],
+  datasets: [{
+    data: [35, 25, 25, 10, 5],
+    backgroundColor: [
+      'rgba(255, 99, 132, 0.8)',
+      'rgba(255, 159, 64, 0.8)',
+      'rgba(255, 205, 86, 0.8)',
+      'rgba(75, 192, 192, 0.8)',
+      'rgba(54, 162, 235, 0.8)'
+    ],
+    borderColor: '#14191f',
+    borderWidth: 3
+  }]
+},
+options: {
+  plugins: {
+    legend: {
+      position: 'bottom',
+      labels: {
+        color: '#ffffff',
+        padding: 20,
+        font: {
+          size: 13,
+          weight: 'bold'
+        }
+      }
+    }
+  }
+}
+{{< /chart >}}
 
 <!-- First time on PC / Origins -->
-I still remember the exact moment I first used a computer, and since then, I've been completly enthralled in them. It's hard to say the amount of hours I've spent behind a computer screen, but I'd have to guess that it would be up there at maybe **30,000** Hours over the course of my entire life.
+I still remember the exact moment I first used a computer, I would have been about 7 or 8, and the computer would have looked something like the below image:
+
+[My Childhood Computer](https://i.redd.it/can-anyone-please-tell-me-the-name-of-this-desktop-i-v0-8cpnf9fymosa1.jpg?width=612&format=pjpg&auto=webp&s=eda6ecca368cb69ff05fc2e487f6d546f6c9366d)
+
+Since that pivotal moment, I've been completly enthralled in them. It's hard to say the amount of hours I've spent behind a computer screen, but I'd have to guess that it would be up there at maybe **30,000** Hours over the course of my entire life (*Jeez touch grass much*)
+
+[Bro said how many hours!?](https://images.steamusercontent.com/ugc/2204010189983913838/E0E0AE30F1C491ABD8D962B74BD56BC9D4933524/)
 
 <!-- Hacked CSGO Clients -->
-I guess you could say that I first started "*programming*" in 2016, when I was playing around with CS:GO Hacked Clients and Scripts, I remember following a YouTube video for how I can download Visual Studio, pasting some code C++ (*which have essentially been straight jibberish to me*), and then injecting code into the CSGO run-time, just to bunny-hop around servers. (*good fun would reccomend it*).
+I guess you could say that I first started "*programming*" circa 2016, when I was playing around with CS:GO Hacked Clients and Scripts, I remember following a YouTube video for how I can download Visual Studio, pasting some code C++ (*which have essentially been straight jibberish to me*), and then injecting code into the CSGO run-time, just to bunny-hop around servers. (*good fun would reccomend it*).
+
+<!-- Adding this in to let people know that crime doesn't pay -->
+> [!WARNING]
+> Cheating is against Steam Services ToC and can result in punishment (I got banned lol)
 
 <!-- This is an image of an Indigo paste that I remember using back in the day. -->
-![CSGO Cheat - Indigo](https://i.imgur.com/DkhoABu.jpg)
+![This is the image of the pasted cheat I was using](https://i.imgur.com/DkhoABu.jpg)
 
-Even though I was coding (*coding is a loose term to describe what I would have been doing back in 2016 (Pre LLM Era)*) in my free-time, I never picked up any computer sciences subjects in school, or even really understood how I could use this as a skill that other people would be interested in. As such, in high-school I was actually studying to become an accountant, an idea, which, once I actually started studying accounting at University, went down the drain very quickly. Anyway, I pivoted across to Marketing and Management, and graduated from Victoria University, Wellington in 2023.
+Even though I was coding (*coding is a loose term to describe what I would have been doing back in 2016*) in my free-time, I never picked up any computer sciences subjects in school, or even really understood how I could utilize computing as a skill that other people would be interested in. As such, in high-school I was actually studying to become an accountant, an idea, which, once I actually started studying accounting at University, went down the drain very quickly. Long story shirt, I pivoted across to Marketing and Management, and graduated from Victoria University, Wellington in 2023.
+
+<!-- Graduation Photo -->
+[Me on my Graduation day with my parents!](https://i.imgur.com/rRCndl9.jpeg)
 
 Now, I know this doesn't really explain where those "*data skills*" I listed above came from. As it turns out, all a Marketing and Management Degree gives you is about **$50,000** worth of student loan debt, a bunch of life-long friends, and the ability to sink *brews* at an alarming rate.
 
-<!-- Insert a Graduation Photo of Me -->
+I managed to get a job prior to finishing my degree as a "*Implementation Advisor*" at the [Ministry of Education](https://www.education.govt.nz/) (*MoE*) working on a project to remove the [Decile System](https://en.wikipedia.org/wiki/Socioeconomic_decile) from the New Zealand Education System (*In the context of the New Zealand Education System, you can think of a decile as a measurement of socioeconomic disadvantage that the composistion of students in a school face. i.e. Decile 1 schools were composed of students facing the highest proportion of socio-economic disadvatnage*). During this role, I engaged with a variety of Education Subject Matter Experts (SME's) to understand how decile was baked into a variety of inititatves, and work out how we can use the new "*Equity Index*" system instead.
 
-I managed to get a job prior to finishing my degree as a "*Implementation Advisor*" at the [Ministry of Education](https://www.education.govt.nz/) (*MoE*) working on a project to remove the [Decile System](https://en.wikipedia.org/wiki/Socioeconomic_decile) from the New Zealand Education System (*In the context of the New Zealand Education System, you can think of a decile as a measurement of socioeconomic disadvantage that the composistion of students in a school face. i.e. Decile 1 schools were composed of students facing the highest proportion of socio-economic disadvatnage*). During this role, I engaged with a variety of Education Subject Matter Experts (SME's) to understand how decile was baked into a variety of inititatves, and work out how we can use the new "Equity Index" system instead.
-
-<!-- MOE - Need to insert an image. -->
+<!-- MoE image. -->
+[Image of the MoE Decile Removal Project Team!](https://i.imgur.com/2Pz7VRl.jpeg)
 
 During this role, I was moved towards the ICT Business-Unit within MoE wherein I got to engage and work first-hand with ICT Professionals for the first time in my career, and I actually attribute this, (*combined with insipiration from a Data-Analyst within my team at MoE - shout out to you Scott*), for first opening my eyes to the world of data, and the outcomes that can be gleamed from it.
 
@@ -134,20 +183,20 @@ With this being said, my actualy actual responsibilities in this role were limit
 
 During this role was the first time that I actually began "*working*" directly with data. I was assigned responsibility for managing the Ministry of Educations [Google Analytics Platform](https://developers.google.com/analytics), ensuring that traffic volume data, usage patterns and user journey information was recorded, and continually flowing. It was also during this time that I created my first dashboard using [Looker Studio](https://lookerstudio.google.com/navigation/reporting) (*which I believe was a further breakdown of a user-joruney map for a specific .education.govt.nz site which I can no longer remember the name of*).
 
-<!-- This should be a Carousel showing images of some of the visuals I created for MoE - Note maybe switch to Gallery? -->
-{{< carousel images="{<https://i.imgur.com/0NPMDXA.png/https://i.imgur.com/5oBLzcC.png/https://i.imgur.com/Oxbmacj.png/https://i.imgur.com/JGQhcZd.png/https://i.imgur.com/eqiPb8l.png}>" >}}
+<!-- If this is still not displaying when I go to prod, I need to fix my autoformatter -->
+{{< carousel images="{<https://i.imgur.com/0NPMDXA.png,https://i.imgur.com/5oBLzcC.png,https://i.imgur.com/Oxbmacj.png,https://i.imgur.com/JGQhcZd.png,https://i.imgur.com/eqiPb8l.png}>" captions="{<https://i.imgur.com/0NPMDXA.png:He> Pikorua Website Dashboard,<https://i.imgur.com/5oBLzcC.png:Kauwhata> Reo Website Dashboard,<https://i.imgur.com/Oxbmacj.png:MoE> Intranet Dashboard,<https://i.imgur.com/JGQhcZd.png:NCEA> Education Website Dashboard,<https://i.imgur.com/eqiPb8l.png:Kauwhata> Reo Website Dashboard}" >}}
 
 After developing my first dashboard, I got bit with the "**data bug**", as there was just something so satisfying about the creation of something that could be both:
 
 1) Technical.
 2) Good to look at.
 
-Anyway, at a certain point, I hit some kind of constraint with what I could do with Looker Studio as a Data-Visualisation Engine that I began looking into what else is possible in this space, wherien my world opened to a variety of new skills.
+At a certain point, I hit some kind of constraint with what I could do with Looker Studio as a Data-Visualisation Engine that I began looking into what else is possible in this space, wherien my world opened to a variety of new avenues.
 
 * SQL (*Enjoyed watching girl with the Dragon Tattoo and seeing her write some lol*)
 * Python / Coding
 * Databases
-* Data Visualisation (*Using Python, PowerBI, )
+* Data Visualisation (*Using Python, PowerBI, Tableau etc*)
 * Databricks
 * Statistics
 * UX / UI
