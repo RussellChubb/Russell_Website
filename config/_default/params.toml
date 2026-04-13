@@ -102,8 +102,8 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
   layoutBackgroundHeaderSpace = true # only used when heroStyle equals background
   showBreadcrumbs = false
   showSummary = false
-  showViews = false
-  showLikes = false
+  showViews = true
+  showLikes = true
   showTableOfContents = false
   showCards = false
   orderByWeight = false
@@ -129,21 +129,22 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
   showHero = false
   # heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
   showBreadcrumbs = false
-  showViews = false
-  showLikes = false
+  showViews = true
+  showLikes = true
   showTableOfContents = true
   groupByYear = false
   cardView = false
   cardViewScreenWidth = false
 
+# Trying to get likes and views setup
 [firebase]
-  # apiKey = "XXXXXX"
-  # authDomain = "XXXXXX"
-  # projectId = "XXXXXX"
-  # storageBucket = "XXXXXX"
-  # messagingSenderId = "XXXXXX"
-  # appId = "XXXXXX"
-  # measurementId = "XXXXXX"
+  apiKey = "AIzaSyAwuF1nlB_ZwbeSmplsRVGFqzU-DTOox5A"
+  authDomain = "russell-s-website-73b94.firebaseapp.com"
+  projectId = "russell-s-website-73b94"
+  storageBucket = "russell-s-website-73b94.firebasestorage.app"
+  messagingSenderId = "375990516434"
+  appId = "1:375990516434:web:4367c6d7143e8ac251cb0b"
+  measurementId = "G-9N6PR47SHZ"
 
 [fathomAnalytics]
   # site = "ABC12345"

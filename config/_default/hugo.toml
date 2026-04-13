@@ -3,48 +3,70 @@
 # https://blowfish.page/docs/getting-started/
 
 theme = "blowfish"
+
+# The base URL of your site - used to generate absolute URLs in RSS, sitemaps etc.
 baseURL = "https://russellchubb.github.io/Russell_Website_V2/"
+
+# Default language for the site
 defaultContentLanguage = "en"
 
 # pluralizeListTitles = "true" # hugo function useful for non-english languages, find out more in  https://gohugo.io/getting-started/configuration/#pluralizelisttitles
 
+# Generates a robots.txt file to guide search engine crawlers
 enableRobotsTXT = true
+
+# Number of words used for auto-generated summaries (0 = disabled, use front matter descriptions instead)
 summaryLength = 0
 
+# Exclude draft and future-dated content from builds
 buildDrafts = false
 buildFuture = false
 
+# Enables emoji shortcodes e.g. :smile:
 enableEmoji = true
 
-googleAnalytics = "G-CF7XWCHGNJ "
+# Google Analytics tracking ID
+googleAnalytics = "G-CF7XWCHGNJ"
 
+# -- Pagination --
 [pagination]
+# Max number of items per list page (set high to effectively disable pagination)
 pagerSize = 100
 
+# -- Image Processing --
 [imaging]
+# Anchor point used when cropping images (Center, Top, Bottom etc.)
 anchor = 'Center'
 
+# -- Taxonomies --
+# Defines the URL structure for content groupings
 [taxonomies]
 tag = "tags"
 category = "categories"
 author = "authors"
 series = "series"
 
+# -- Sitemap --
 [sitemap]
-changefreq = 'daily'
-filename = 'sitemap.xml'
-priority = 0.5
+changefreq = 'daily'        # How often pages are likely to change (hints to search engines)
+filename = 'sitemap.xml'    # Output filename
+priority = 0.5              # Default page priority (0.0 - 1.0)
 
+# -- Output Formats --
 [outputs]
+# Generates HTML pages, an RSS feed, and a JSON index (JSON is used by Blowfish for search)
 home = ["HTML", "RSS", "JSON"]
 
+# -- Related Content --
+# Controls how Hugo finds and ranks related content
 [related]
-threshold = 0
-toLower = false
+threshold = 0       # Minimum score for a page to be considered related (0 = include everything)
+toLower = false     # Whether to lowercase terms before matching
 
+# Weights determine how much each taxonomy contributes to the relatedness score
 [[related.indices]]
 name = "tags"
-weight = 100
+weight = 100        # Tags are the strongest signal for related content
 
 [[related.indices]]
 name = "categories"
@@ -52,22 +74,25 @@ weight = 100
 
 [[related.indices]]
 name = "series"
-weight = 50
+weight = 50         # Being in the same series is a moderate signal
 
 [[related.indices]]
 name = "authors"
-weight = 20
+weight = 20         # Same author is a weak signal
 
 [[related.indices]]
 name = "date"
-weight = 10
+weight = 10         # Proximity in time is the weakest signal
 
 [[related.indices]]
+# Fragment references — links between pages via heading anchors
 applyFilter = false
 name = 'fragmentrefs'
 type = 'fragments'
 weight = 10
 
+# -- Caches --
 [caches]
 [caches.images]
+# Where Hugo stores processed/resized images between builds
 dir = ':cacheDir/images'
