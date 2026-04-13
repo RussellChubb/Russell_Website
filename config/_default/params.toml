@@ -5,137 +5,179 @@
 # Refer to the theme docs for more details about each of these parameters.
 # https://blowfish.page/docs/configuration/#theme-parameters
 
+# Colour scheme for the site - matches GitHub's colour palette
 colorScheme = "github"
+# Default appearance when user first visits (light or dark)
 defaultAppearance = "dark" # valid options: light or dark
-autoSwitchAppearance = true
+# Automatically switch between light/dark based on the user's OS preference
+autoSwitchAppearance = false # I set this to false, you mf's are using dark mode lol
 
+# Enables accessibility features (ARIA labels etc.)
 enableA11y = false
+# Enables the search functionality in the header
 enableSearch = true
+# Adds a copy button to code blocks
 enableCodeCopy = false
+# Enables structured breadcrumbs (schema.org markup for SEO)
 enableStructuredBreadcrumbs = false
 # enableStyledScrollbar = true # disable to use native scrollbar style (defaults to true)
 
-replyByEmail = false
+# Allows readers to reply via email
+replyByEmail = true # turning this on to see what it does
 
-# mainSections = ["section1", "section2"]
-# robots = ""
+# mainSections = ["section1", "section2"] # Sections to include in the main content feed
+# robots = "" # Custom robots meta tag value
 
+# Whether Hugo should optimise/resize images during build
 disableImageOptimization = false
+# Whether to disable image optimisation for images referenced in markdown
 disableImageOptimizationMD = false
+# Whether to hide the site title text in the header
 disableTextInHeader = false
-# backgroundImageWidth = 1200
+# backgroundImageWidth = 1200 # Max width for background images
 
+# Default background image used across the site
 defaultBackgroundImage = "BG_Fix" # used as default for background images
 # defaultFeaturedImage = "IMAGE.jpg" # used as default for featured images in all articles
 # defaultSocialImage = "/android-chrome-512x512.png" # used as default for social media sharing (Open Graph and Twitter)
+# Whether to allow hotlinking of feature images from external sources
 hotlinkFeatureImage = false
-# imagePosition = "50% 50%"
+# imagePosition = "50% 50%" # CSS background-position for images
 
-# highlightCurrentMenuArea = true
-# smartTOC = true
-# smartTOCHideUnfocusedChildren = true
+# highlightCurrentMenuArea = true # Highlights the active section in the nav menu
+# smartTOC = true # Only shows TOC headings relevant to current scroll position
+# smartTOCHideUnfocusedChildren = true # Hides child headings in TOC when not in focus
 
+# Algorithm used for asset fingerprinting (cache busting)
 fingerprintAlgorithm = "sha512" # Valid values are "sha512" (default), "sha384", "sha256"
 
+# Default Gitea server for Gitea-hosted code links
 giteaDefaultServer = "https://git.fsfe.org"
+# Default Forgejo server for Forgejo-hosted code links
 forgejoDefaultServer = "https://v11.next.forgejo.org"
 
+# -- Header --
 [header]
+  # Controls how the header behaves on scroll
   layout = "fixed" # valid options: basic, fixed, fixed-fill, fixed-gradient, fixed-fill-blur
 
+# -- Footer --
 [footer]
-  showMenu = true
-  showCopyright = true
-  showThemeAttribution = true
-  showAppearanceSwitcher = true
-  showScrollToTop = true
+  showMenu = true               # Show nav menu links in the footer
+  showCopyright = true          # Show copyright notice
+  showThemeAttribution = true   # Show "Powered by Hugo & Blowfish"
+  showAppearanceSwitcher = true # Show light/dark mode toggle in footer
+  showScrollToTop = true        # Show scroll-to-top button
 
+# -- Homepage --
 [homepage]
+  # Controls the homepage layout style
   layout = "custom" # valid options: page, profile, hero, card, background, custom
+  # Image used in hero and card layouts
   homepageImage = "BG_Fix.png" # used in: hero, and card
-  showRecent = true # need to actually have some content
+  # Whether to show recent articles on the homepage
+  showRecent = true
+  # Number of recent articles to show
   showRecentItems = 5
+  # Whether to show a "see more" link below recent articles
   showMoreLink = true
+  # Where the "see more" link points to
   showMoreLinkDest = "/posts/"
+  # Display recent articles as cards with thumbnails
   cardView = true
+  # Whether cards should span the full screen width
   cardViewScreenWidth = false
+  # Blur the background image behind content (background layout only)
   layoutBackgroundBlur = false # only used when layout equals background
+  # Disable the dark filter overlay on the hero image (hero layout only)
   disableHeroImageFilter = false # only used when layout equals hero
 
+# -- Article Pages --
 [article]
-  showDate = true
-  showViews = true
-  showLikes = true
-  showDateOnlyInArticle = true
-  showDateUpdated = true
-  showAuthor = true
-  # showAuthorBottom = false
-  # showHero = false
-  # heroStyle = "basic" # valid options: basic, big, background, thumbAndBackground
+  showDate = true               # Show the article's published date
+  showViews = true              # Show view count (requires Firebase)
+  showLikes = true              # Show like button (requires Firebase)
+  showDateOnlyInArticle = true  # Only show date inside the article, not in lists
+  showDateUpdated = true        # Show the last updated date
+  showAuthor = true             # Show the author's name and avatar
+  # showAuthorBottom = false    # Show author info at the bottom instead of top
+  # showHero = false            # Show a hero image at the top of the article
+  # heroStyle = "basic"         # valid options: basic, big, background, thumbAndBackground
   # layoutBackgroundBlur = true # only used when heroStyle equals background or thumbAndBackground
+  # Whether to add extra space above the header (background heroStyle only)
   layoutBackgroundHeaderSpace = true # only used when heroStyle equals background
-  showBreadcrumbs = true
-  showDraftLabel = true
-  # showEdit = true
-  # editURL = "https://github.com/username/repo/"
+  showBreadcrumbs = true        # Show breadcrumb navigation
+  showDraftLabel = true         # Show a "Draft" label on unpublished content
+  # showEdit = true             # Show an "Edit this page" link
+  # editURL = "https://github.com/username/repo/" # Base URL for edit links
+  # Whether to append the file path to the edit URL
   editAppendPath = true
-  # seriesOpened = false
-  showHeadingAnchors = true
-  showPagination = true
-  # invertPagination = false
-  showReadingTime = true
-  showTableOfContents = true
-  # showRelatedContent = false
-  # relatedContentLimit = 3
-  # showTaxonomies = false # use showTaxonomies OR showCategoryOnly, not both
-  # showCategoryOnly = false # use showTaxonomies OR showCategoryOnly, not both
-  showAuthorsBadges = true
-  showWordCount = true
-  sharingLinks = [ "linkedin", "twitter", "bluesky", "reddit", "pinterest", "facebook", "email", "whatsapp"]
-  # showZenMode = false
+  # seriesOpened = false        # Whether series accordion is open by default
+  showHeadingAnchors = true     # Show anchor links next to headings
+  showPagination = true         # Show previous/next article navigation
+  # invertPagination = false    # Swap the direction of prev/next links
+  showReadingTime = true        # Show estimated reading time
+  showTableOfContents = true    # Show table of contents sidebar
+  # showRelatedContent = false  # Show related articles at the bottom
+  # relatedContentLimit = 3     # Max number of related articles to show
+  # showTaxonomies = false      # Show tags/categories (use showTaxonomies OR showCategoryOnly, not both)
+  # showCategoryOnly = false    # Show only categories (use showTaxonomies OR showCategoryOnly, not both)
+  showAuthorsBadges = true      # Show author badge/avatar
+  showWordCount = true          # Show word count
+  # Sharing buttons shown at the bottom of each article
+  sharingLinks = [ "linkedin", "twitter", "reddit", "pinterest", "facebook", "email"]
+  # showZenMode = false         # Enable distraction-free reading mode
   # externalLinkForceNewTab = false # disable to allow external links in the same tab (defaults to true)
 
+# -- List Pages --
 [list]
-  showHero = false
-  # heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
+  showHero = false              # Show a hero image at the top of list pages
+  # heroStyle = "background"   # valid options: basic, big, background, thumbAndBackground
+  # Blur the background behind content (background/thumbAndBackground heroStyle only)
   layoutBackgroundBlur = true # only used when heroStyle equals background or thumbAndBackground
+  # Add extra space above header (background heroStyle only)
   layoutBackgroundHeaderSpace = true # only used when heroStyle equals background
-  showBreadcrumbs = false
-  showSummary = false
-  showViews = true
-  showLikes = true
-  showTableOfContents = false
-  showCards = true
-  orderByWeight = false
-  groupByYear = true
-  cardView = true
-  cardViewScreenWidth = false
-  constrainItemsWidth = false
+  showBreadcrumbs = true       # Show breadcrumb navigation on list pages
+  showSummary = false           # Show article summary/description in list
+  showViews = true              # Show view count on list items (requires Firebase)
+  showLikes = true              # Show like count on list items (requires Firebase)
+  showTableOfContents = false   # Show table of contents on list pages
+  showCards = true              # Show articles as cards with thumbnails
+  orderByWeight = false         # Order articles by weight front matter instead of date
+  groupByYear = true            # Group articles by year
+  cardView = true               # Use card layout for list items
+  cardViewScreenWidth = false   # Whether cards span full screen width
+  constrainItemsWidth = false   # Constrain list item width for readability
 
+# -- Sitemap --
 [sitemap]
+  # Page types to exclude from the sitemap
   excludedKinds = ["taxonomy", "term"]
 
+# -- Taxonomy Pages (tag/category index pages) --
 [taxonomy]
-  showTermCount = true
-  showHero = false
-  # heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
-  showBreadcrumbs = false
-  showViews = true
-  showLikes = true
-  showTableOfContents = false
-  cardView = false
+  showTermCount = true          # Show count of articles per tag/category
+  showHero = false              # Show hero image on taxonomy pages
+  # heroStyle = "background"   # valid options: basic, big, background, thumbAndBackground
+  showBreadcrumbs = false       # Show breadcrumbs on taxonomy pages
+  showViews = true              # Show view count (requires Firebase)
+  showLikes = true              # Show like count (requires Firebase)
+  showTableOfContents = false   # Show table of contents
+  cardView = false              # Use card layout for taxonomy items
 
+# -- Term Pages (individual tag/category pages) --
 [term]
-  showHero = false
-  # heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
-  showBreadcrumbs = false
-  showViews = true
-  showLikes = true
-  showTableOfContents = true
-  groupByYear = false
-  cardView = false
-  cardViewScreenWidth = false
+  showHero = false              # Show hero image on term pages
+  # heroStyle = "background"   # valid options: basic, big, background, thumbAndBackground
+  showBreadcrumbs = false       # Show breadcrumbs on term pages
+  showViews = true              # Show view count (requires Firebase)
+  showLikes = true              # Show like count (requires Firebase)
+  showTableOfContents = true    # Show table of contents
+  groupByYear = false           # Group articles by year on term pages
+  cardView = false              # Use card layout for term items
+  cardViewScreenWidth = false   # Whether cards span full screen width
 
+# -- Firebase (Views & Likes) --
 # Trying to get likes and views setup
 [firebase]
   apiKey = "AIzaSyAwuF1nlB_ZwbeSmplsRVGFqzU-DTOox5A"
@@ -146,6 +188,7 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
   appId = "1:375990516434:web:4367c6d7143e8ac251cb0b"
   measurementId = "G-9N6PR47SHZ"
 
+# -- Alternative Analytics (all disabled) --
 [fathomAnalytics]
   # site = "ABC12345"
   # domain = "llama.yoursite.com"
@@ -161,23 +204,26 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
   # token = "XXXXXX"
   # enableTrackEvent = true
 
+# -- Buy Me a Coffee Widget --
 [buymeacoffee]
-  identifier = "RussellChubb"
-  globalWidget = true
+  identifier = "RussellChubb"  # Your Buy Me a Coffee username
+  globalWidget = true           # Show the floating widget on every page
   # globalWidgetMessage = "Hello"
-  globalWidgetColor = "#ffffff"
-  globalWidgetPosition = "right"
+  globalWidgetColor = "#ffffff" # Widget button colour
+  globalWidgetPosition = "right" # Widget position (left or right)
 
+# -- Site Verification --
 [verification]
-  # google = ""
-  # bing = ""
-  # pinterest = ""
-  # yandex = ""
-  # fediverse = ""
+  # google = ""    # Google Search Console verification token
+  # bing = ""      # Bing Webmaster Tools verification token
+  # pinterest = "" # Pinterest verification token
+  # yandex = ""    # Yandex Webmaster verification token
+  # fediverse = "" # Fediverse verification link
 
 [rssnext]
-  # feedId = ""
-  # userId = ""
+  # feedId = ""  # RSSNext feed ID
+  # userId = ""  # RSSNext user ID
 
+# -- Advertisements --
 [advertisement]
-  # adsense = ""
+  # adsense = "" # Google AdSense publisher ID
