@@ -2,7 +2,9 @@
 title: "About"
 description: "The Story of Russell Chubb"
 showAuthor: true
-date: 2026-04-12
+showViews: true # Testing whether this adds views
+showLikes: true # Testing whether this adds likes
+date: 2026-04-13
 ---
 
 <!-- Adding this in to let people know that this page is WIP -->
