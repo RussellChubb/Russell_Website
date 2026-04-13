@@ -2,8 +2,8 @@
 title: "About"
 description: "The Story of Russell Chubb"
 showAuthor: true
-showViews: true # Testing whether this adds views
-showLikes: true # Testing whether this adds likes
+showViews: true
+showLikes: true
 date: 2026-04-13
 ---
 
