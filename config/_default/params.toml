@@ -138,7 +138,7 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
   # Add extra space above header (background heroStyle only)
   layoutBackgroundHeaderSpace = true # only used when heroStyle equals background
   showBreadcrumbs = true       # Show breadcrumb navigation on list pages
-  showSummary = false           # Show article summary/description in list
+  showSummary = true           # Show article summary/description in list
   showViews = true              # Show view count on list items (requires Firebase)
   showLikes = true              # Show like count on list items (requires Firebase)
   showTableOfContents = false   # Show table of contents on list pages
