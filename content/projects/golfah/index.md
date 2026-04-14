@@ -21,14 +21,56 @@ tags: ["Python", "Streamlit", "Personal"]
   breakLines=true
   loop=false
 >}}
-Q: Did you get your photos printed?
-A: Bogos binted?
-Q: Huh?
+"There is no such thing as **Natural Touch**. Touch is something you craete by hitting millions of golf balls." - Lee Trevino
 {{< /typeit >}}
+
+---
 
 ## Golfah ⛳
 
-Golfah is a Golf Stats app...
+### Meta Information 🧠
 
-<!-- Golfah Repo -->
+**Status:** {{< badge >}} In-Progress {{< /badge >}}
+**Last Updated (*Roughly*)**: {{< badge >}} 13/04/2026 {{< /badge >}}
+**Project-Type**: {{< badge >}} Personal {{< /badge >}}
+**Link**: {{< badge >}} [Golfah](https://golfah.streamlit.app/) {{< /badge >}}
+
+### Purpose 🎯
+
+The purpose of Golfah is to help me track data and information related to my golf-game such that I'm able to leverage that information to track whether or not I'm improving.
+
+### Context / History
+
+### Problem Statement
+
+Golfah is a funny application, it really came from the fact that I wanted a golf-app that would let me use data to find out whether or not my golf was improving. I had actually taken a look at the suite of off-the-shelf applications, and wasn't super impressed.
+
+I think I tried to use the Grint for a short period of time, but I really didn't like the UI, nor the fact that they had master-control over my data.
+
+### Retrospective
+
+Looking back, if I knew that NZ-Golf had an application, as well as hard-ware related to allowing you to basically track this information through them, I wouldn't have gone about making this application.
+
+<!-- Add some context about how exactly you can use the Dot-Golf Stuff -->
+
+<!-- ### Design Inspiration
+
+* TODO
+
+{{< gallery >}}
+  {{< figure src="gallery/01.jpg" alt="Gallery image 1" caption="First caption" figureClass="grid-w33" >}}
+  {{< figure src="gallery/02.jpg" alt="Gallery image 2" caption="Second caption" figureClass="grid-w33" >}}
+  {{< figure src="gallery/03.jpg" alt="Gallery image 3" caption="Third caption" figureClass="grid-w33" >}}
+{{< /gallery >}}
+
+### Tech Stack
+
+* TODO
+
+### Limitations?
+
+### Future Ideas? -->
+
+### Github Repository 🔗
+
 {{< github repo="RussellChubb/Golfah" showThumbnail=false >}}
