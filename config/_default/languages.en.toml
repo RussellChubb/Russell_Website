@@ -1,26 +1,46 @@
+# Whether this language is enabled for the site
 disabled = false
+# The IETF language tag for this language
 languageCode = "en"
+# Human-readable name for this language
 languageName = "English"
+# Priority of this language when multiple languages are configured (lower = higher priority)
 weight = 1
-title = ""
+# The site title shown in the browser tab and header
+title = "Russell's Website"
 
 [params]
+# Short language code shown in the language switcher UI
 displayName = "EN"
+# ISO language code used for HTML lang attribute and SEO
 isoCode = "en"
+# Whether this language reads right-to-left
 rtl = false
+# Format for displaying dates across the site (Go date format)
 dateFormat = "2 January 2006"
-logo = "Logo_Trans.png"            # Transpearent Logo for the top left corner
+# Logo shown in the top-left corner of the site (stored in assets/)
+logo = "Logo_Trans.png" # Transpearent Logo for the top left corner
+# Secondary logo (e.g. used in light mode if different from primary)
 secondaryLogo = "Logo_Trans.png"
+# Site description used in meta tags for SEO
 description = "Russell's Website"
+# Copyright notice shown in the footer
 copyright = "© 2026 Russell Chubb"
 
 [params.author]
+# Display name of the author
 name = "Russell Chubb"
+# Author email address (used for reply-by-email feature)
 email = "Russell.d.Chubb@gmail.com"
+# Author avatar image (stored in assets/)
 image = "Logo_BG.png"
+# Quality of the processed author image (0-100)
 imageQuality = 96
-headline = "All I am is what I am..."
-bio = "yo"
+# Short tagline shown below the author name
+headline = "Working at the intersection of Technology and Art."
+# Longer bio shown on the author profile
+bio = "Working at the intersection of Technology and Art."
+# Social links shown on the author profile and article bylines | Each entry is a key-value pair of platform name and URL
 links = [
   { email = "Russell.d.Chubb@gmail.com" },
   { github = "https://github.com/RussellChubb" },

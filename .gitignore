@@ -17,3 +17,10 @@ Thumbs.db
 
 # Node (if you ever use npm tools)
 node_modules/
+
+# Screenshot folders containing PII - not ready for public release
+content/about/MoE_Dashboard_Screenshots/
+content/projects/crm/CRM_Screenshots/
+content/projects/golfah/Golfah_Screenshots/
+content/projects/optix/Optix_Screenshots/
+content/projects/suggestion_box/Suggestion_Box_Screenshots/

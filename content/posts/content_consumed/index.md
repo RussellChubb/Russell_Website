@@ -3,6 +3,7 @@ title: "What Media have I consumed in 2026?"
 description: "TODO"
 showAuthor: true
 date: 2025-03-19
+featureimage: "featured.jpg"
 ---
 
 <!-- Adding this in to let people know that this page is WIP -->
@@ -62,6 +63,6 @@ date: 2025-03-19
 ## 🔜 To Read
 
 | Title | Notes |
-| ------ | ------|
+| ------ | ------ |
 | The Problem of the Green Capsule | *The Hollow Man* is a book referenced in *Wake Up Dead Man: A Knives Out Mystery*. When I went to research it, people (*someone in a Reddit thread*) recommended this instead. |
 | The Invisible Man | This book was referenced in *Prisoners*. |

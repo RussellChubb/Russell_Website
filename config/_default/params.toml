@@ -23,7 +23,7 @@ enableStructuredBreadcrumbs = false
 # enableStyledScrollbar = true # disable to use native scrollbar style (defaults to true)
 
 # Allows readers to reply via email
-replyByEmail = true # turning this on to see what it does
+replyByEmail = false # turning this on to see what it does
 
 mainSections = ["posts", "projects"] # Sections to include in the main content feed
 # robots = "" # Custom robots meta tag value

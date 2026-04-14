@@ -5,6 +5,7 @@ showAuthor: true
 showViews: true
 showLikes: true
 showDate: false
+featureimage: "featured.jpg"
 ---
 
 <!-- Adding this in to let people know that this page is WIP -->

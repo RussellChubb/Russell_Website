@@ -22,20 +22,6 @@ showDate: false
 
 ---
 
-## Todo on this page
-
-* Insert download PDF version of CV
-* See what icons are available
-* Create Meridian Section
-* Update Profile Section
-* Center the Timeline?
-* Add in some Images / Videos
-* ~~Add in Author Badge at top~~
-* ~~Add in Page summary on the right~~
-* Try make page take the custom BG
-
----
-
 ## Download my Resume in a PDF Format
 
 {{< button href="#button" target="_self" >}}

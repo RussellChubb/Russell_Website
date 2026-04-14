@@ -2,25 +2,38 @@
 # These settings are required for the theme to function.
 
 [goldmark]
-  [goldmark.parser]
-    wrapStandAloneImageWithinParagraph = false
+[goldmark.parser]
+# Prevents Hugo from wrapping standalone images in <p> tags
+# Required for Blowfish's image styling to work correctly
+wrapStandAloneImageWithinParagraph = false
 
-    [goldmark.parser.attribute]
-      block = true
+[goldmark.parser.attribute]
+# Enables adding HTML attributes to block-level elements using {} syntax
+# e.g. ## My Heading {.my-class}
+block = true
 
-  [goldmark.renderer]
-    unsafe = true
+[goldmark.renderer]
+# Allows raw HTML to be rendered in markdown files
+# Required for Blowfish shortcodes and custom HTML embeds to work
+unsafe = true
 
-  [goldmark.extensions]
-    [goldmark.extensions.passthrough]
-      enable = true
-      [goldmark.extensions.passthrough.delimiters]
-        block = [['\[', '\]'], ['$$', '$$']]
-        inline = [['\(', '\)']]
+[goldmark.extensions]
+[goldmark.extensions.passthrough]
+# Enables passthrough of delimited content without Goldmark processing it
+# Required for LaTeX/math rendering
+enable = true
+[goldmark.extensions.passthrough.delimiters]
+# Delimiters for block-level math expressions (e.g. \[ ... \] or $$ ... $$)
+block = [['\[', '\]'], ['$$', '$$']]
+# Delimiters for inline math expressions (e.g. \( ... \))
+inline = [['\(', '\)']]
 
 [highlight]
-  noClasses = false
+# Use external CSS classes for syntax highlighting instead of inline styles
+# Required for Blowfish's syntax highlighting themes to work correctly
+noClasses = false
 
 [tableOfContents]
-  startLevel = 2
-  endLevel = 4
+# Heading levels to include in the table of contents
+startLevel = 2 # Start from H2 (## headings)
+endLevel = 4   # End at H4 (#### headings)
