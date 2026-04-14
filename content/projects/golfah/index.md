@@ -6,7 +6,7 @@ showViews: true
 showLikes: true
 date: 2026-04-14
 featureimage: "featured.png"
-tags: ["Python", "Streamlit" "Personal"]
+tags: ["Python", "Streamlit", "Personal"]
 ---
 
 <!-- Adding this in to let people know that this page is WIP -->
