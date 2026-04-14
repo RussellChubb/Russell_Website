@@ -7,7 +7,7 @@ languageName = "English"
 # Priority of this language when multiple languages are configured (lower = higher priority)
 weight = 1
 # The site title shown in the browser tab and header
-title = "Russell's Website"
+title = "" # Leave this as blank or else "Russells Website" will be shown in the browser tab and header instead of the logo
 
 [params]
 # Short language code shown in the language switcher UI
