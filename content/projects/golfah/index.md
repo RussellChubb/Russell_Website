@@ -37,7 +37,7 @@ tags: ["Python", "Streamlit", "Personal"]
 
 ### Golfah - Images
 
-{{< carousel images="Golfah_Screenshots/*" interval="2500" >}}
+{{< carousel images=["Golfah_Screenshots/Golfah_1.png","Golfah_Screenshots/Golfah_2.png","Golfah_Screenshots/Golfah_3.png","Golfah_Screenshots/Golfah_4.png","Golfah_Screenshots/Golfah_5.png","Golfah_Screenshots/Golfah_6.png","Golfah_Screenshots/Golfah_7.png","Golfah_Screenshots/Golfah_8.png"] interval="2500" >}}
 
 ### Purpose 🎯
 
