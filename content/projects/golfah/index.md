@@ -30,16 +30,16 @@ tags: ["Python", "Streamlit", "Personal"]
 
 ### Meta Information 🧠
 
-**Status:** {{< badge >}} In-Progress {{< /badge >}}
-**Last Updated (*Roughly*)**: {{< badge >}} 13/04/2026 {{< /badge >}}
-**Project-Type**: {{< badge >}} Personal {{< /badge >}}
-**Link**: [Golfah](https://golfah.streamlit.app/)
+* **Status:** {{< badge >}} In-Progress {{< /badge >}}
+* **Last Updated (*Roughly*)**: {{< badge >}} 13/04/2026 {{< /badge >}}
+* **Project-Type**: {{< badge >}} Personal {{< /badge >}}
+* **Link**: [Golfah](https://golfah.streamlit.app/)
 
 <!-- ### Golfah - Images
 
 {{< carousel images=["Golfah_Screenshots/Golfah_1.png","Golfah_Screenshots/Golfah_2.png","Golfah_Screenshots/Golfah_3.png","Golfah_Screenshots/Golfah_4.png","Golfah_Screenshots/Golfah_5.png","Golfah_Screenshots/Golfah_6.png","Golfah_Screenshots/Golfah_7.png","Golfah_Screenshots/Golfah_8.png"] interval="2500" >}} -->
 
-### Purpose 🎯
+### What's Golfah's purpose? 🎯
 
 The purpose of Golfah is to help me track data and information related to my golf-game such that I'm able to leverage that information to track whether or not I'm improving.
 
@@ -56,7 +56,11 @@ Looking back, if I knew that NZ-Golf had an application, as well as hard-ware re
 
 <!-- ### Design Inspiration
 
+{{/* 
+### Design Inspiration
+
 {{< carousel images="Golfah_Inspiration/*" interval="2500" >}}
+*/}}
 
 ### Tech Stack
 
