@@ -1,19 +1,34 @@
 ---
-title: "What Media have I consumed in 2026?"
-description: "TODO"
+title: "What movies have I watched in 2026?"
+description: "I used to spend a large amount of time commuting on trains, and to fill the time, I used to watch movies. I now do a lot less commuting, but I still thought it would be interesting to make a record of all the movies I've watched (*Specifically in 2026*)"
 showAuthor: true
-date: 2026-03-19
+date: 2026-04-16
 featureimage: "featured.jpg"
 tags: ["Personal"]
 ---
 
-<!-- Adding this in to let people know that this page is WIP -->
+<!-- Adding this in to let people know that this page is a living document -->
 > [!NOTE]
-> As with other pages on the russellchubb.com , this page is a work in progress.
+> This page is a living document, expect it to grow!.
+
+<!-- Insert an obelisk somewhere here -->
+{{< typeit
+  tag=h4
+  speed=80
+  lifeLike=true
+  breakLines=true
+  loop=false
+>}}
+"A film is - or should be - more like music than like fiction. It should be a progression of moods and feelings." — Stanley Kubrick
+{{< /typeit >}}
 
 ---
 
-## 🎬 Movies
+## Overview 🎯
+
+I used to spend a large amount of time commuting on trains, and to fill the time, I used to watch movies. I now do a lot less commuting, but I still thought it would be interesting to make a record of all the movies I've watched (*Specifically in 2026*).
+
+## Movies List 🎬
 
 | Title | Rating | Notes |
 | ------ | -------- | ------- |
@@ -39,8 +54,10 @@ tags: ["Personal"]
 | Brick | C- | Interesting concept, kinda boring though. Part of the ending annoyed me too. |
 | Paprika | B | Very interesting film visually, kind of hard to follow. |
 | Ghost in the Shell | B | Very beautiful, plot is weird. |
+| Crime 101 | B | Pretty good action film |
 
----
+<!-- Maybe one day I'll unhide this information -->
+<!--
 
 ## 🔜 To Watch
 
@@ -66,4 +83,4 @@ tags: ["Personal"]
 | Title | Notes |
 | ------ | ------ |
 | The Problem of the Green Capsule | *The Hollow Man* is a book referenced in *Wake Up Dead Man: A Knives Out Mystery*. When I went to research it, people (*someone in a Reddit thread*) recommended this instead. |
-| The Invisible Man | This book was referenced in *Prisoners*. |
+| The Invisible Man | This book was referenced in *Prisoners*. | -->

@@ -21,14 +21,59 @@ tags: ["Python", "Streamlit", "Professional"]
   breakLines=true
   loop=false
 >}}
-Q: Did you get your photos printed?
-A: Bogos binted?
-Q: Huh?
+Rowan: Do the valuations pass the sniff test?
+Russell: Depends who's sniffing...
 {{< /typeit >}}
+
+---
 
 ## OptiX ⚡
 
-Outage Planning Tool...
+### Meta Information 🧠
 
-<!-- OptiX Image Carousel -->
-{{< carousel images="{<https://i.imgur.com/0NPMDXA.png,https://i.imgur.com/5oBLzcC.png,https://i.imgur.com/Oxbmacj.png,https://i.imgur.com/JGQhcZd.png,https://i.imgur.com/eqiPb8l.png}>" captions="{<https://i.imgur.com/0NPMDXA.png:He> Pikorua Website Dashboard,<https://i.imgur.com/5oBLzcC.png:Kauwhata> Reo Website Dashboard,<https://i.imgur.com/Oxbmacj.png:MoE> Intranet Dashboard,<https://i.imgur.com/JGQhcZd.png:NCEA> Education Website Dashboard,<https://i.imgur.com/eqiPb8l.png:Kauwhata> Reo Website Dashboard}" >}}
+* **Project-Type**: {{< badge >}} Professional {{< /badge >}}
+* **My Role in Project**: {{< badge >}} Front-end Developer, Communications, Planning, Design, UX/UI {{< /badge >}}
+
+<!-- * TODO -->
+<!-- ### OptiX - Images -->
+
+### What's OptiX's purpose? 🎯
+
+OptiX serves as a tool that allows key-stakeholders the ability to:
+
+* Gather information about Meridian outages by surfacing the COKE (*COKE is a Ruby on Rails application that Meridian uses to manage plant-outages*) Outage Plan in a more user-friendly format.
+
+* Simulate Historic and Future Outage Scenarios to allow users to understand “what could have happened” as well as evaluate scenarios against each other to find the most financially, and operationally viable.
+
+* Understand the Opportunity Cost associated with all Meridian Outages by using our valuation model to value each Meridian Outage, going back to 2021, and forward two weeks into the future.
+
+* Provide site staff with information on beneficial outage moves, without forcing staff into executing.
+
+<!-- TODO -->
+<!-- Add some more text into this about tech-stack, limitations etc etc, but I just want to start out with some "finished" content -->
+<!-- Add some context about how exactly you can use the Dot-Golf Stuff -->
+<!-- Captions for the images? -->
+
+<!-- ### Design Inspiration
+
+* TODO
+
+### Tech Stack
+
+* Streamlit
+* Databricks
+* SQL?
+
+### Limitations?
+
+* Streamlit
+
+### Context / History
+
+* TODO
+
+### Problem Statement
+
+* TODO
+
+-->

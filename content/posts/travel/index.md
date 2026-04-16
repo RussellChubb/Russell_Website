@@ -8,8 +8,7 @@ tags: ["Personal"]
 ---
 
 > [!NOTE]
-> This is a living document, as such, expect it to change as time progresses. However, if you want though, you can pull legacy information back through from my commit History.
-> If you don't know what commit history means, just ask me instead.
+> This is a living document, as such, expect it to change as time progresses!
 
 <!-- Thanks Anthony for this Quote -->
 {{< typeit
@@ -26,9 +25,9 @@ tags: ["Personal"]
 
 ## Page Purpose 🎯
 
-Lot's of people seem to ask Olivia and I for the details surrounding our travel plan, I've included a variety of information ranging from:
+Lot's of people seem to ask Olivia and I for the details surrounding our travel plan. I've included a variety of information about our travels ranging from:
 
-* Travel Overview
+* a travel overview
 * Key Actions (*What's on our todo list.*)
 * Countries and cities we want to vist.
 * a high-level plan of our movements.
@@ -84,7 +83,7 @@ Here's a list of the countries and cities that Olivia and I are keen to visit. *
 
 ## High Level Plan ⬆️
 
-This is a bit of a high level plan letting us know where we need to be when, **NOTE:** Very much WIP lol.
+This is a bit of a high level plan letting us know where we need to be when! **NOTE:** Very much WIP lol.
 
 | From | To | Transport | Approx Date | Timing / Notes |
 | ------ | ---- | ----------- | ------------- | ------- |
@@ -92,7 +91,6 @@ This is a bit of a high level plan letting us know where we need to be when, **N
 | London | Barcelona | **✈️ Flight** | 26th of May | |
 | Barcelona | Suit Fitting | Walk | 27th of May | |
 | Barcelona | Masia Vilasendra (*Wedding Venue*) | Bus / Train? | 30th of May | |
-<!-- | Barcelona | Madrid | Bus / Train? | | | -->
 
 ## Packing List 🎒
 
@@ -105,7 +103,7 @@ Here's a bit of information about what I expect to pack! **NOTE: WIP**
 
 ### Wetpack 👛
 
-* **NOTE: Will need to make sure any liquids in this, plus the medicial kit are under 100ml**
+NOTE: Will need to make sure any liquids in this, plus the medicial kit are under 100ml
 
 * Toothbrush (*Need to get a toothbrush holder, otherwise the wet-bag will get wet*)
 * Toothpaste

@@ -38,17 +38,9 @@ tags: ["PowerApps", "PowerBI", "Power-Automate", "Professional"]
 > [!IMPORTANT]
 > Given the nature of the CRM being both a professional project, as well as one that handles a large amount of PII (*Personally Identifiable Information), care has been taken to ensure that I'm not surfacing any sensitive information about Meridian, or it's external stakeholders.
 
-<!-- ### Image Gallery
+### CRM - Images 🖼️
 
-* TODO
-
-{{< gallery >}}
-  {{< figure src="gallery/01.jpg" alt="Gallery image 1" caption="First caption" figureClass="grid-w33" >}}
-  {{< figure src="gallery/02.jpg" alt="Gallery image 2" caption="Second caption" figureClass="grid-w33" >}}
-  {{< figure src="gallery/03.jpg" alt="Gallery image 3" caption="Third caption" figureClass="grid-w33" >}}
-{{< /gallery >}}
-
--->
+{{< carousel images="gallery/*" aspectRatio="21-9" interval="2500" >}}
 
 ### Purpose 🎯
 
@@ -63,12 +55,6 @@ Business Memory Tool...
 <!-- ### Design Inspiration
 
 * TODO
-
-{{< gallery >}}
-  {{< figure src="gallery/01.jpg" alt="Gallery image 1" caption="First caption" figureClass="grid-w33" >}}
-  {{< figure src="gallery/02.jpg" alt="Gallery image 2" caption="Second caption" figureClass="grid-w33" >}}
-  {{< figure src="gallery/03.jpg" alt="Gallery image 3" caption="Third caption" figureClass="grid-w33" >}}
-{{< /gallery >}}
 
 ### Tech Stack
 

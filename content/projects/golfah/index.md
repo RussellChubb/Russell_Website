@@ -35,8 +35,9 @@ tags: ["Python", "Streamlit", "Personal"]
 * **Project-Type**: {{< badge >}} Personal {{< /badge >}}
 * **Link**: [Golfah](https://golfah.streamlit.app/)
 
-<!-- * TODO -->
-<!-- ### Golfah - Images -->
+### Golfah - Images 🖼️
+
+{{< carousel images="gallery/*" aspectRatio="21-9" interval="2500" >}}
 
 ### What's Golfah's purpose? 🎯
 
