@@ -17,3 +17,6 @@ Thumbs.db
 
 # Node
 node_modules/
+
+# Drafts Folder for Posts
+content/posts/drafts/
