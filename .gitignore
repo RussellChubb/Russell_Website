@@ -19,4 +19,4 @@ Thumbs.db
 node_modules/
 
 # Drafts Folder for Posts
-content/posts/drafts/
+# content/posts/drafts/
