@@ -4,7 +4,7 @@ description: "The Story of Russell Chubb"
 showAuthor: true
 showViews: true
 showLikes: true
-showDate: false
+date: 2026-04-24
 ---
 
 <!-- Adding this in to let people know that this page is WIP -->
@@ -51,6 +51,8 @@ I've expressed my level of "*skill*" in a given area, by providing a value betwe
 
 <!-- TODO: Why is there so much room at the top and bottom of this chart? -->
 #### Skill Matrix Spider Chart 🕷️
+
+**NOTE:** Don't view this in light mode, I haven't got this configured to be able to dynamically check which theme people are using and then switch around colour elements. Just use dark mode!
 
 {{< chart >}}
 type: 'radar',
@@ -202,7 +204,7 @@ Since that pivotal moment, I've been completely enthralled in them. It's hard to
 ![Bro said how many hours!?](https://images.steamusercontent.com/ugc/2204010189983913838/E0E0AE30F1C491ABD8D962B74BD56BC9D4933524/)
 
 <!-- Hacked CSGO Clients -->
-I guess you could say that I first started "*programming*" circa 2016, when I was playing around with CS:GO Hacked Clients and Scripts, I remember following a YouTube video for how I can download Visual Studio, pasting some code C++ (*which would have essentially been straight jibberish to me*), and then injecting code into the CSGO run-time, just to bunny-hop around servers. (*good fun would reccomend it*).
+I guess you could say that I first started "*programming*" circa 2016, when I was playing around with CS:GO Hacked Clients and Scripts, I remember following a YouTube video for how I can download Visual Studio, pasting some code C++ (*which would have essentially been straight jibberish to me*), and then injecting code into the CSGO run-time, just to bunny-hop around servers. (*good fun would recommend it*).
 
 <!-- Adding this in to let people know that crime doesn't pay -->
 > [!WARNING]
@@ -224,7 +226,7 @@ I managed to get a job prior to finishing my degree as a "*Implementation Adviso
 
 <!-- What is decile Accordion -->
 {{< accordion >}}
-  {{< accordionItem title="What is a Decile?" icon="information-circle" >}}
+  {{< accordionItem title="What is a Decile?" icon="circle-question" >}}
   In the context of the New Zealand Education System, a decile is a measurement of socioeconomic disadvantage that the composition of students in a school face. Decile 1 schools were composed of students facing the highest proportion of socio-economic disadvantage.
   {{< /accordionItem >}}
 {{< /accordion >}}
@@ -259,7 +261,7 @@ After developing my first dashboard, I got bit with the "**data bug**", as there
 
 ### Self Driven Data Studies 🔬
 
-At a certain point, I hit some kind of constraint with what I could do with Looker Studio as a data-visualisation engine that I began looking into what else is possible in this space, wherein my world opened to a variety of new avenues.
+At a certain point, I really got interested in the idea of doing Data-Analysis as my full time job. As, I began devoting a significant portion of my free time to the pursuit of this goal. However, before you can spend time actually studying, you need to know what your syllabus looks like. As such, I spent a large portion of time working out what skills and technologies data-analysts actually need to perform, which led me to discover the following topics:
 
 * SQL
 * Python
@@ -270,11 +272,9 @@ At a certain point, I hit some kind of constraint with what I could do with Look
 * Statistics
 * UX / UI
 
-It was from this point on that I decided to dedicate a decent portion of my free-time towards studying data, with my specific goal to become a Data Analyst. I'm always so proud when I look back on where I came from, to where I am, and what I can do today. I don't remember exactly how I got started in all of this, but I'm pretty sure I would have googled something along the lines of "*how to become a data analyst*".
+I'm always so proud when I look back on where I came from, to where I am, and what I can do today. I don't remember exactly how I got started in all of this, but I'm pretty sure I would have googled something along the lines of "*how to become a data analyst*".
 
-<!-- TODO: Maybe an image here? -->
-
-From there, I belive I would have got onto the [Roadmap.sh](https://roadmap.sh/dashboard) website, wherein I would have taken a look at some of the Data-Analysis roadmaps they have.
+One of the best resources I found on my search would have been the [Roadmap.sh](https://roadmap.sh/dashboard) website. I specifically landed on the BI Analyst Roadmap (*shown below*).
 
 <!-- BI Analyst Roadmap -->
 {{< accordion >}}
@@ -282,6 +282,18 @@ From there, I belive I would have got onto the [Roadmap.sh](https://roadmap.sh/d
   ![BI Analyst Roadmap](https://i.imgur.com/5CJr0v3.jpeg)
   {{< /accordionItem >}}
 {{< /accordion >}}
+
+From here, I basically had the topics that I needed to "study-up on" in order to become competent in this new field. This was very helpful early on, as (*at least personally*) I find that I can learn best when I have a top-down understanding of what is actually involved in a certain topic, or field.
+
+Regardless, after this, I spent a large amount of time researching different topics, watching videos, writing notes etc.
+
+<!-- Insert section on Google Data Analytics -->
+
+<!-- #### Alex the Analyst
+
+Alex the Analyst is one of the few Data-Analysts that I really would recomend to people. He's an exceptional humble, down to earth guy that has exceptionally solid data, teaching and people skills (*as demonstrated by his > 1 Million Subscriber count on YouTube*) -->
+
+Eventually however, I got to a really solid starting point as a data-analyst, I had some technical understanding and practice with SQL, Python, BI, which are effectively the pillars of a Data Analyst role, wherein I was ready to begin applying!
 
 <!-- TODO: Rewrite this -->
 I would actually recommend that more people go-down a path of semi-self driven study, as I attribute this work with expanding my:
@@ -292,38 +304,80 @@ I would actually recommend that more people go-down a path of semi-self driven s
 * Communications
 * And Much more!
 
-<!-- TODO: Early Career Skill-Maps -->
-<!-- {{< carousel images="{<https://i.imgur.com/0NPMDXA.png,https://i.imgur.com/5oBLzcC.png,https://i.imgur.com/Oxbmacj.png,https://i.imgur.com/JGQhcZd.png,https://i.imgur.com/eqiPb8l.png}>" captions="{<https://i.imgur.com/0NPMDXA.png:He> Pikorua Website Dashboard,<https://i.imgur.com/5oBLzcC.png:Kauwhata> Reo Website Dashboard,<https://i.imgur.com/Oxbmacj.png:MoE> Intranet Dashboard,<https://i.imgur.com/JGQhcZd.png:NCEA> Education Website Dashboard,<https://i.imgur.com/eqiPb8l.png:Kauwhata> Reo Website Dashboard}" >}} -->
+### YouTube Channel 📹
 
-<!-- ### YouTube Channel 📹
+Now, I'd say that the chips are stacked against you when you're trying to get your first Data-Analysis role. Ideally, I'd recomend you try make this move when the global economy is in a solid place (*rather than one where you rotate in and out of crises and recessions*).
 
-* TODO
+I say this because of my first experience trying to land a data-role.
+
+To put it bluntly, I struggled. I found that I wasn't getting much traction with recruiters, and as such wasn't getting job-offers. T
+
+his was during a particularly difficult period in my life, as I had just been made redundant from my previous job, and as such, needed to "*clutch up*", or else I faced some fairly negative prospects.
+
+However, this is where that old phrase "*pressure makes diamonds*" really shines through, as I began thinking about how I could "*stand out*" from other applicants (*and thus increase my chances of landing a role.*)
+
+This is where the original idea for starting my YouTube channel came from, as prior to that, it was just an idea that floated around in my mind.
+
+As such, I immediately began work planning videos, developing a channel logo, banner, intro, outro etc. When I had finished all this, and had a plan for the videos I wanted to create, I suddenly found myself stuck. I was in a phase that some have coined "*analysis paralysis*", which is a state of mind where you do so much preparation that you never end up actually creating, or doing anything.
+
+I was only able to break out of this state of mind when I listened to **someone** talk about how your first YouTube videos aren't going to be good, regardless of how much planning you do, and that you'll only ever get better by creating more videos.
+
+Almost as soon as I heard this advice, I got straight into creating my first video; "Introduction to Python"... **24** videos later, and I've grown the channel to ~ 560 Subscribers (*at the point of writing this*).
 
 ### Working at Meridian Energy 💼
 
-* TODO
+Anyway, 42 Job Applications, 2 Interviews, and two follow-up interviews later, I was offered a role as a Data Analyst at Meridian Energy.
+
+Knowing what I know now about Meridian Energy, I only wish I could have been working for them sooner. The people that I've met at Meridian are so incredibly smart, kind and caring.
+
+<!-- About Meridian Accordion -->
+{{< accordion >}}
+  {{< accordionItem title="What does Meridian do?" icon="circle-question" >}}
+  Meridian Energy is New Zealand's largest renewable energy generator, producing around ~ 30% of the country's electricity (3 GW) from a portfolio comprised of 6 Wind Farms and 7 Hydro Sites (and soon to be one Solar Farm)
+  {{< /accordionItem >}}
+{{< /accordion >}}
+
+The business unit that I inserted into is called "*Generation*" which is primarily concerned with ensuring Meridian's 7 Hydro Stations and 6 Wind Farms are running in the most optimal fashion, through timely and proper maintenance, and management.
+
+This was quite a shock to me, as prior to this role at Meridian, I never even thought about a power-station, other than in passing. As such, the domain context was quite a lot to take in, and I very quickly learned that I was a non-engineer in a sea of engineers.
+
+Much like any situation I found myself in, I was eventually able to build an understanding of the Power-Generation Industry.
+
+ I found myself quickly coming to understand what the terms (*like the following*), actually meant:
+
+* "MW vs MWH"
+* "Wind Power Curve"
+* "Nacelle"
+* "Transformers"
+* "Penstocks"
+* "Wicket Gates"
+* "Under Frequency Events"
+* "Revenue Metering"
+
+And so, so, so many more...
+
+<!-- TODO -->
+<!-- PowerBI -->
+<!-- In my role at Meridian, I was stepping into very of a BI / Visualisation Analyst role. The individual person I was replacing at Meridian was a PowerBI Savant, even now looking back at what Saif built, I'm still in awe of the creativity he showed in the development of this PowerBI work.
+
+As such, as large portion of my work when I first started at Meridian -->
+
+<!-- Power-Apps -->
+
+<!-- Software Development -->
 
 ### The Future! 🔮
 
-* TODO
+I'm unsure of what the future holds, I know a few things for certain:
 
-## TODO
+1) I finish up with Meridian on the 8th of May 2026
+2) My flight leaves New Zealand on the 21st of May 2026
 
-* **Need some kind of disclaimer about the data that I'm showing on this page**
+Other than that, I'm playing the world by ear right now, taking it one step at a time. I'm looking forward to taking some time away from work, meeting new people and seeing (*and eating*) all that Europe has to offer!
 
-* Self Driven Study
-  * Roadmaps
-  * Personal Skill Maps
-  * Being made redudnant
-* YouTube Channel
-  * Graphic Design
-  * Video Editing
-  * Making Minecraft Videos
-* Working at Meridian
-  * Engineering
-* The Future!
-  * Travel
-  * Scotland -->
+Thank you for reading,
+
+Cheers!
 
 <!-- TODO: Possibly add a custom colour and Icon to this (*to make it a bit more fancy*) -->
 <!-- Anti AI Slop Sentiment -->

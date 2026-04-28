@@ -20,3 +20,9 @@ node_modules/
 
 # Drafts Folder for Posts
 # content/posts/drafts/
+
+# This is for ignoring the rendercv outputs
+/static/rendercv_output/*.html
+/static/rendercv_output/*.md
+/static/rendercv_output/*.typ
+/static/rendercv_output/*.png

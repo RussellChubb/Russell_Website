@@ -1,0 +1,105 @@
+cv:
+  name: Russell Chubb
+  location: Wellington, New Zealand
+  email: russell.d.chubb@gmail.com
+  website: https://russellchubb.com
+  social_networks:
+    - network: LinkedIn
+      username: russell-chubb-323a1821b
+    - network: GitHub
+      username: RussellChubb
+
+  sections:
+    experience:
+      - company: Meridian Energy
+        position: Data Analyst
+        location: Wellington, NZ
+        start_date: 2024-08
+        end_date: 2026-05
+        highlights:
+          - Developed and maintained data pipelines, analytical models, and dashboards
+            spanning P&L, emissions, and engineering/PI data to support decision-making
+            across the Generation Business Unit
+          - Sole front-end developer for **OptiX** (Streamlit on Databricks) — enabling
+            outage valuation, scenario modelling, market data visualisation, and outage
+            optimisation for site owners, maintenance leads, and generation planners;
+            returned ~$620K in commercial value by directly supporting outage scheduling
+            decisions across Meridian's generation portfolio
+          - Built a Power BI P&L Overheads Dashboard enabling budget-holders to analyse
+            overhead spend in detail — directly identifying unnecessary spending and
+            saving ~$500K
+          - Built and delivered Power BI dashboards and reports for stakeholders ranging
+            from engineers and analysts through to executives and board-level audiences
+          - Built a full stakeholder **CRM** from scratch in Power Apps — replacing a
+            manual Loop-based process, with SharePoint-backed document uploads via Power
+            Automate, role-based access control, an audit logging system, and an embedded
+            Power BI analytics layer; onboarded 50+ users across the Generation Business Unit
+          - Designed and delivered a full-stack **Suggestion Box** platform in Power Apps
+            (Canvas) — featuring a voting engine, admin triage workflow, automated
+            notifications via Power Automate, SharePoint file attachments, and an embedded
+            Power BI analytics layer backed by SQL on the Meridian Data Platform; deployed
+            in both desktop and mobile versions
+          - Worked in Agile and Waterfall environments using Jira and Miro to collaborate
+            across engineering, portfolio, and planning teams — defining requirements,
+            managing delivery risk, and shipping iterative improvements
+          - Produced internal product communications including video walkthroughs
+            (Premiere Pro) and graphic design/marketing assets (Photoshop) to drive
+            adoption of new tooling
+
+      - company: Ministry of Education
+        position: Web Adviser
+        location: Wellington, NZ
+        start_date: 2023-02
+        end_date: 2024-08
+        highlights:
+          - Extracted and transformed website data via GA4; created customised GTM tags
+            to support content and marketing objectives
+          - Built 30 tailored analytics dashboards for internal business groups in
+            Looker Studio
+          - Managed creation, configuration, and consulting for SurveyMonkey surveys;
+            migrated 100 surveys from a legacy forms platform
+          - Established a GA4 to BigQuery data pipeline and migrated the Vimeo account
+            to an Enterprise solution
+          - Performed functional and accessibility testing of Ministry websites;
+            CMS/backend content uploading and editing in SilverStripe and Drupal
+
+      - company: Ministry of Education
+        position: Adviser – Equity Index Implementation
+        location: Wellington, NZ
+        start_date: 2021-10
+        end_date: 2023-02
+        highlights:
+          - Implemented Equity Funding tooling to identify and respond to socio-economic
+            barriers in schools, collaborating across business groups to define
+            requirements and manage delivery risk
+          - Prepared and maintained project documentation; engaged Ministry business
+            unit experts to provide bespoke advice and solutions
+          - Successfully launched January 2023 — schools received new equity-based
+            funding, with multiple Ministry initiatives transitioned to the new system
+          - Won the Excellence in Public Policy 2023 **'Spirit of Service' Award**
+
+    education:
+      - institution: Victoria University of Wellington
+        area: Marketing and Management
+        degree: Bachelor of Commerce
+        start_date: 2019-01
+        end_date: 2022-12
+
+    certifications:
+      - bullet: "**Google Data Analytics Professional Certificate** — Google, 2024"
+
+design:
+  theme: sb2nov
+  page:
+    size: a4
+    top_margin: 0.6in
+    bottom_margin: 0.6in
+    left_margin: 0.6in
+    right_margin: 0.6in
+  colors:
+    name: rgb(0, 79, 144)
+    section_titles: rgb(0, 79, 144)
+    links: rgb(0, 79, 144)
+  typography:
+    font_family: Source Sans 3
+    alignment: justified
