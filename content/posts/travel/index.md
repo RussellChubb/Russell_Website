@@ -28,11 +28,11 @@ tags: ["Personal"]
 
 Lot's of people seem to ask Olivia and I for the details surrounding our travel plan. I've included a variety of information about our travels ranging from:
 
-* a travel overview
-* Key Actions (*What's on our todo list.*)
+* A travel overview.
+* Key Actions (*What's on our todo list.*).
 * Countries and cities we want to vist.
-* a high-level plan of our movements.
-* a packing list (*for what I'm bringing*)
+* A high-level plan of our movements.
+* A packing list (*for what I'm bringing*).
 
 ## Travel Overview ✈️
 
@@ -46,7 +46,7 @@ This is high-level information about how Olivia and I are travelling!
 
 ---
 
-## Key Actions 🚨
+<!-- ## Key Actions 🚨
 
 This is a table with a list of actions that Olivia and I need to get on top of prior to travelling!
 
@@ -56,13 +56,11 @@ This is a table with a list of actions that Olivia and I need to get on top of p
 | 2 | Book Barcelona → Valencia → Madrid → Granada trains | 🔴 | |
 | 3 | Coordinate Scotland plans with Tim and Kat | 🟡 | |
 | 4 | Get an Interrail / Eurail Global Pass | 🟡 | |
-| 5 | Sort travel insurance | 🟡 | *Comprehensive cover before we leave NZ (medical, cancellation, gear theft.)* |
+| 5 | Sort travel insurance | 🟡 | *Comprehensive cover before we leave NZ (medical, cancellation, gear theft.)* | -->
 
----
+## Locations 📍
 
-## Countries / Cities 📍
-
-Here's a list of the countries and cities that Olivia and I are keen to visit. **NOTE:** not reflective of where we actually end-up going.
+Here's a list of the countries and cities that Olivia and I are keen to visit. <!-- **NOTE:** not necessairly reflective of where we actually end-up going. -->
 
 | Country | Cities / Regions | Dates | Duration |
 | --------- | ------------------- | ------- | ---------- |
@@ -82,7 +80,7 @@ Here's a list of the countries and cities that Olivia and I are keen to visit. *
 
 ---
 
-## High Level Plan ⬆️
+<!-- ## High Level Plan ⬆️
 
 This is a bit of a high level plan letting us know where we need to be when! **NOTE:** Very much WIP lol.
 
@@ -91,9 +89,9 @@ This is a bit of a high level plan letting us know where we need to be when! **N
 | - | London | **✈️ Flight** | Arrive 22nd of May | |
 | London | Barcelona | **✈️ Flight** | 26th of May | |
 | Barcelona | Suit Fitting | Walk | 27th of May | |
-| Barcelona | Masia Vilasendra (*Wedding Venue*) | Bus / Train? | 30th of May | |
+| Barcelona | Masia Vilasendra (*Wedding Venue*) | Bus / Train? | 30th of May | | -->
 
-## Packing List 🎒
+## Packing List 🧳
 
 Here's a bit of information about what I expect to pack! **NOTE: WIP**
 
