@@ -7,10 +7,6 @@ showLikes: true
 date: 2026-04-24
 ---
 
-<!-- Adding this in to let people know that this page is WIP -->
-> [!NOTE]
-> As with other pages on the russellchubb.com , this page is a work in progress.
-
 <!-- Saw this from an image on Pinterest, thought it went hard, kinda references a few things I'm into lol -->
 {{< typeit
   tag=h4

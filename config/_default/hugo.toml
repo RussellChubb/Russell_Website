@@ -20,7 +20,7 @@ summaryLength = 0
 
 # Exclude draft and future-dated content from builds
 buildDrafts = false
-buildFuture = false
+buildFuture = true # Set this to true because I was having issues with UTC based date handling and posts not showing up.
 
 # Enables emoji shortcodes e.g. :smile:
 enableEmoji = true

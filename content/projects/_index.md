@@ -6,12 +6,20 @@ showLikes: true
 showDate: false
 ---
 
-<!-- Adding this in to let people know that this page is WIP -->
-> [!NOTE]
-> As with other pages on the russellchubb.com , this page is a work in progress.
 
 <!-- Letting people know about the personal / professional divide -->
-> [!WARNING]
+> [!NOTE]
 > Includes both personal, and work (*with certain content abridged / removed.*)
 
-----
+<!-- Thanks Anthony for this Quote -->
+{{< typeit
+  tag=h4
+  speed=80
+  lifeLike=true
+  breakLines=true
+  loop=false
+>}}
+“Watch your thoughts, they become your words; watch your words, they become your actions; watch your actions, they become your habits; watch your habits, they become your character; watch your character, it becomes your destiny.”  - Lao Tzu
+{{< /typeit >}}
+
+---

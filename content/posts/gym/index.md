@@ -1,7 +1,7 @@
 ---
 title: "Fitness"
 description: "I've been working out and training since I was roughly 18 years old. I wouldn't say I'm a decent athlete, but I certainly like to get amongst it."
-summary: "Want to know how to grow a mid-physique? - Check out this post..."
+summary: "Want to learn how I've grown my mid-physique? - Check out this post..."
 showAuthor: true
 date: 2026-05-11
 featureimage: "featured.png"
@@ -10,7 +10,7 @@ tags: ["Personal"]
 
 <!-- Adding this in to let people know that this page is a living document -->
 > [!NOTE]
-> This page is a living document, expect it to change and grow!.
+> This page is a living document, expect it to change and grow!
 
 <!-- Nothing but a peanut... -->
 {{< typeit

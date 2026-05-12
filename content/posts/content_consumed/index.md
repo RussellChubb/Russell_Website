@@ -10,7 +10,7 @@ tags: ["Personal"]
 
 <!-- Adding this in to let people know that this page is a living document -->
 > [!NOTE]
-> This page is a living document, expect it to grow!.
+> This page is a living document, expect it to grow!
 
 <!-- Insert an obelisk somewhere here -->
 {{< typeit
