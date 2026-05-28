@@ -1,9 +1,9 @@
 ---
 title: "2026 OE/Travel"
-description: "Overview of the information surrounding Russell & Olivia's Travel Plan for 2026"
+description: "Overview of Russell & Olivia's Travel Plan for 2026"
 showAuthor: true
 date: 2026-04-16
-summary: "Take a look at my plan for how I plan to travel through Europe in 2026!"
+summary: "Take a look at our plan for how I plan to travel through Europe in 2026!"
 featureimage: "featured.jpg"
 tags: ["Personal"]
 ---
@@ -26,12 +26,10 @@ tags: ["Personal"]
 
 ## Page Purpose 🎯
 
-Lot's of people seem to ask Olivia and I for the details surrounding our travel plan. I've included a variety of information about our travels ranging from:
+People ask Olivia and I for the details surrounding our travel plan. I've included a variety of information about our travels ranging from:
 
 * A travel overview.
-* Key Actions (*What's on our todo list.*).
 * Countries and cities we want to vist.
-* A high-level plan of our movements.
 * A packing list (*for what I'm bringing*).
 
 ## Travel Overview ✈️
@@ -45,18 +43,6 @@ This is high-level information about how Olivia and I are travelling!
 * **Budget:** {{< badge >}} ~NZD $30k each {{< /badge >}}
 
 ---
-
-<!-- ## Key Actions 🚨
-
-This is a table with a list of actions that Olivia and I need to get on top of prior to travelling!
-
-| # | Action | Priority | Notes |
-| --- | -------- | ---------- | ------- |
-| 1 | Book London → Barcelona flight | 🔴 | |
-| 2 | Book Barcelona → Valencia → Madrid → Granada trains | 🔴 | |
-| 3 | Coordinate Scotland plans with Tim and Kat | 🟡 | |
-| 4 | Get an Interrail / Eurail Global Pass | 🟡 | |
-| 5 | Sort travel insurance | 🟡 | *Comprehensive cover before we leave NZ (medical, cancellation, gear theft.)* | -->
 
 ## Locations 📍
 
@@ -80,20 +66,9 @@ Here's a list of the countries and cities that Olivia and I are keen to visit. <
 
 ---
 
-<!-- ## High Level Plan ⬆️
-
-This is a bit of a high level plan letting us know where we need to be when! **NOTE:** Very much WIP lol.
-
-| From | To | Transport | Approx Date | Timing / Notes |
-| ------ | ---- | ----------- | ------------- | ------- |
-| - | London | **✈️ Flight** | Arrive 22nd of May | |
-| London | Barcelona | **✈️ Flight** | 26th of May | |
-| Barcelona | Suit Fitting | Walk | 27th of May | |
-| Barcelona | Masia Vilasendra (*Wedding Venue*) | Bus / Train? | 30th of May | | -->
-
 ## Packing List 🧳
 
-Here's a bit of information about what I expect to pack! **NOTE: WIP**
+Here's a bit of information about what I've packed!
 
 ### Backpack 🎒
 
@@ -102,97 +77,53 @@ Here's a bit of information about what I expect to pack! **NOTE: WIP**
 
 ### Wetpack 👛
 
-NOTE: Will need to make sure any liquids in this, plus the medicial kit are under 100ml
+**NOTE:** Will need to make sure any liquids in this, plus the medicial kit are under 100ml
 
-* Toothbrush (*Need to get a toothbrush holder, otherwise the wet-bag will get wet*)
+* Toothbrush
 * Toothpaste
 * Hand Sanitizer
-* Bug Spray
 * Dental Floss
 * Deoderant
-* SPF Lipbalm
+* Lipbalm
 * Shampoo
 * Soap
 * Electric Razor
 * Sunscreen
 * Nail Clippers
 * Tweezers
-* Volume Powder
 
 ### Medical Kit 💊
 
 * Plasters
 * Ibuprofen
-* Melatonin (*Reccomended for Jet-Lag*)
-* Wet Wipes? (*They've been super useful for my own personal medical kit*)
+* Wet Wipes
 * Antihistamines
-* Savlon
-* Insect Repellent
-* Activated Charcoal (*For sore tummies lol*)
 
 ### Misc 🩻
 
 * Facemask
-* Ear-Plugs (*might need a case for these, they can get manky lol*)
-* Travel sized yoga mat? (*idk maybe, some dude reccomended as a way to assist in getting workouts in*)
-* Quick Dry / Anti Sand Towel (*I'll use the Nudie one we've got*)
+* Ear-Plugs
+* Quick Dry / Anti Sand Towel
 * Cap
-* Sunglasses
-* Laundry Bag (*Deoderizing Balls to chuck in as well?*)
-* Collapsable Day Packs (*Might pick up one from Kathmandu*)
-* Print out some documents and phone numbers (*in case of losing phone etc*)
-* Shoulder Bag (*Just the Carharrt one*)
+* Laundry Bag
+* Documents (*in case of losing phone etc*)
+* Shoulder Bag
 
 ### Technology 💻
 
 * Laptop
 * Wall-Adapter Plugs for UK & Europe
-* Power Bank (*I think I've got one, but I'd like to get a better one!*)
-* Charging Cables (*Iphone & Macbook*)
+* Power Bank
+* Charging Cables
 * External Hard-Drive
-* Hand-Held Gimbal? (*idk, maybe*)
 
 ### Clothing 👔
 
-* Jersey (*Warmer Layer, unsure of what this is right now?*)
-* Swimshorts (*I think these are living in Tim & Kat's Garage*)
-* 4x Shorts (*I've got two pairs already, need to think about the other two*)
-* 1x Pants (*need to think about which ones to take*)
+* Jersey
+* Swimshorts
+* 3x Shorts
+* 1x Jeans
 * 7x Underwear
 * 7x Socks
 
 ---
-
-<!-- NOTE This section is WIP, just for me! -->
-
-<!-- ## Low Level Plan ⬇️ 
-
-| Date | Location | Activities | Cost |
-| ------ | ----- | ------------------------ | ----- |
-| 22nd May | London | Rest-off Jet-lag |  |
-| 23rd May | London | ? |  |
-| 24th May | London | ? |  |
-| 25th May | London | ? |  |
-| 26th May | London | ? |  |
-| 27th May | Barcelona | Suit Fitting |  |
-
----
-
-## Notes 📝
-
-* Reduce the amount of flights we take
-* Re-order of Travel:
-
-1) UK
-2) Spain
-3) Portugal
-4) France
-5) Croatia (*Have to be here 26th June - 30th June*)
-6) Italy
-7) Scotland (Have to go back for Trip with Tim & Kat)
-8) Belgium
-9) Nethlerands
-10) Germany
-11) Hungary (*I think it will need to be around here to make Szgiett work*)
-12) Austria
-13) Greece (*Long as flight to the Greek Islands?*) -->
