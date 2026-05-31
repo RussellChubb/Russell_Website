@@ -44,6 +44,29 @@ This is high-level information about how Olivia and I are travelling!
 
 ---
 
+## Travel Plan 🗺️
+
+This is our actual route — where we've been and where we're headed. (*Days marked with ✅ are done!*)
+
+| Date | Location | Country | Status |
+| ---- | -------- | ------- | ------ |
+| 22–24 May | London | 🏴󠁧󠁢󠁥󠁮󠁧󠁿 England | ✅ |
+| 25 May | Travel Day | 🇪🇸 Spain | ✅ |
+| 26–30 May | Barcelona | 🇪🇸 Spain | ✅ |
+| 1–4 Jun | Nice | 🇫🇷 France | ✅ |
+| 4–6 Jun | Milan | 🇮🇹 Italy | |
+| 6–8 Jun | Bellagio, Lake Como | 🇮🇹 Italy | |
+| 8–11 Jun | Venice | 🇮🇹 Italy | |
+| 11–14 Jun | Bologna | 🇮🇹 Italy | |
+| 14–16 Jun | Florence | 🇮🇹 Italy | |
+| 16–18 Jun | Sienna | 🇮🇹 Italy | |
+| 18–21 Jun | Rome | 🇮🇹 Italy | |
+| 21–25 Jun | Sorrento | 🇮🇹 Italy | |
+| 25–26 Jun | Travel Day to Ancona | 🇮🇹 Italy | |
+| 26–27 Jun | Travel to Split (*Overnight Ferry*) | 🇮🇹 Italy | |
+
+---
+
 ## Locations 📍
 
 Here's a list of the countries and cities that Olivia and I are keen to visit. <!-- **NOTE:** not necessairly reflective of where we actually end-up going. -->
