@@ -46,24 +46,44 @@ This is high-level information about how Olivia and I are travelling!
 
 ## Travel Plan 🗺️
 
-This is our actual route — where we've been and where we're headed. (*Days marked with ✅ are done!*)
+This is our actual route — where we've been and where we're headed + how we're getting there!
 
-| Date | Location | Country | Status |
-| ---- | -------- | ------- | ------ |
-| 22–24 May | London | 🏴󠁧󠁢󠁥󠁮󠁧󠁿 England | ✅ |
-| 25 May | Travel Day | 🇪🇸 Spain | ✅ |
-| 26–30 May | Barcelona | 🇪🇸 Spain | ✅ |
-| 1–4 Jun | Nice | 🇫🇷 France | ✅ |
-| 4–6 Jun | Milan | 🇮🇹 Italy | |
-| 6–8 Jun | Bellagio, Lake Como | 🇮🇹 Italy | |
-| 8–11 Jun | Venice | 🇮🇹 Italy | |
-| 11–14 Jun | Bologna | 🇮🇹 Italy | |
-| 14–16 Jun | Florence | 🇮🇹 Italy | |
-| 16–18 Jun | Sienna | 🇮🇹 Italy | |
-| 18–21 Jun | Rome | 🇮🇹 Italy | |
-| 21–25 Jun | Sorrento | 🇮🇹 Italy | |
-| 25–26 Jun | Travel Day to Ancona | 🇮🇹 Italy | |
-| 26–27 Jun | Travel to Split (*Overnight Ferry*) | 🇮🇹 Italy | |
+| Date | Location | Country | Transport | Accomm |
+| ---- | -------- | ------- | ---------------- | ------------- |
+| 22 May | London | 🏴󠁧󠁢󠁥󠁮󠁧󠁿 England | Flight | Rian's Couch |
+| 23 May | London | 🏴󠁧󠁢󠁥󠁮󠁧󠁿 England | | |
+| 24 May | London | 🏴󠁧󠁢󠁥󠁮󠁧󠁿 England | | |
+| 25 May | London → Spain | 🇪🇸 Spain | Flight | Mum & Dad's AirBNB |
+| 26 May | Barcelona | 🇪🇸 Spain | | |
+| 27 May | Barcelona | 🇪🇸 Spain | | |
+| 28 May | Barcelona | 🇪🇸 Spain | | |
+| 29 May | Barcelona | 🇪🇸 Spain | | |
+| 30 May | Barcelona | 🇪🇸 Spain | | |
+| 1 Jun | Barcelona → Nice | 🇫🇷 France | FlixBus | 3 Rue Rouget de l'Isle (AirBNB) |
+| 2 Jun | Nice | 🇫🇷 France | | |
+| 3 Jun | Nice | 🇫🇷 France | | |
+| 4 Jun | Nice → Milan | 🇮🇹 Italy | FlixBus | Via Stampa, 1 (AirBNB) |
+| 5 Jun | Milan | 🇮🇹 Italy | | |
+| 6 Jun | Milan → Bellagio, Lake Como | 🇮🇹 Italy | Train | Via per Biosio (AirBNB) |
+| 7 Jun | Bellagio, Lake Como | 🇮🇹 Italy | | |
+| 8 Jun | Bellagio, Lake Como → Venice | 🇮🇹 Italy | Train → Milan + Bus → Venice | Anda Venice (Hostel) |
+| 9 Jun | Venice | 🇮🇹 Italy | | |
+| 10 Jun | Venice | 🇮🇹 Italy | | |
+| 11 Jun | Venice → Bologna | 🇮🇹 Italy | | |
+| 12 Jun | Bologna | 🇮🇹 Italy | | |
+| 13 Jun | Bologna | 🇮🇹 Italy | | |
+| 14 Jun | Bologna → Florence | 🇮🇹 Italy | | |
+| 15 Jun | Florence | 🇮🇹 Italy | | |
+| 16 Jun | Florence → Siena | 🇮🇹 Italy | | |
+| 17 Jun | Siena | 🇮🇹 Italy | | |
+| 18 Jun | Siena → Rome | 🇮🇹 Italy | | |
+| 19 Jun | Rome | 🇮🇹 Italy | | |
+| 20 Jun | Rome | 🇮🇹 Italy | | |
+| 21 Jun | Rome → Sorrento | 🇮🇹 Italy | | |
+| 22 Jun | Sorrento | 🇮🇹 Italy | | |
+| 23 Jun | Sorrento | 🇮🇹 Italy | | |
+| 24 Jun | Sorrento | 🇮🇹 Italy | | |
+| 25 Jun | Sorrento → Ancona | 🇮🇹 Italy | | |
 
 ---
 
