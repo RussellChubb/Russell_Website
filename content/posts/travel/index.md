@@ -46,7 +46,7 @@ This is high-level information about how Olivia and I are travelling!
 
 ## Travel Plan 🗺️
 
-This is our actual route — where we've been and where we're headed + how we're getting there!
+This is our actual route — where we've been and where we're headed + how we're getting there! (**NOTE:** - Not everything on here has been booked, as we want to give ourselves flexibility when travelling. )
 
 | Date | Location | Country | Transport | Accomm |
 | ---- | -------- | ------- | ---------------- | ------------- |
@@ -69,10 +69,10 @@ This is our actual route — where we've been and where we're headed + how we're
 | 8 Jun | Bellagio, Lake Como → Venice | 🇮🇹 Italy | Train → Milan + Bus → Venice | Anda Venice (Hostel) |
 | 9 Jun | Venice | 🇮🇹 Italy | | |
 | 10 Jun | Venice | 🇮🇹 Italy | | |
-| 11 Jun | Venice → Bologna | 🇮🇹 Italy | | |
+| 11 Jun | Venice → Bologna | 🇮🇹 Italy | FlixBus | Combo Bologna (Hostel) |
 | 12 Jun | Bologna | 🇮🇹 Italy | | |
 | 13 Jun | Bologna | 🇮🇹 Italy | | |
-| 14 Jun | Bologna → Florence | 🇮🇹 Italy | | |
+| 14 Jun | Bologna → Florence | 🇮🇹 Italy | | PLUS Florence (Hostel) |
 | 15 Jun | Florence | 🇮🇹 Italy | | |
 | 16 Jun | Florence → Siena | 🇮🇹 Italy | | |
 | 17 Jun | Siena | 🇮🇹 Italy | | |
@@ -91,21 +91,21 @@ This is our actual route — where we've been and where we're headed + how we're
 
 Here's a list of the countries and cities that Olivia and I are keen to visit. <!-- **NOTE:** not necessairly reflective of where we actually end-up going. -->
 
-| Country | Cities / Regions | Dates | Duration |
-| --------- | ------------------- | ------- | ---------- |
-| 🇬🇧 **United Kingdom** | London | 22/5 – 25/525th May | 3 days |
-| 🇪🇸 **Spain** | Barcelona, Valencia, Madrid, Granada | 25 May – 2 Jun | 8 days |
-| 🇫🇷 **France** | Nice, Marseille, Avignon | 11–16 Jun | 5 days |
-| 🇵🇹 **Portugal** | Lisbon, Porto, Lagos | 16–19 Jun | 3 days |
-| 🇭🇷 **Croatia** | Split + Dalmatian Coast | 25 Jun – 5 Jul | 10 days |
-| 🏴󠁧󠁢󠁳󠁣󠁴󠁿 **Scotland** | Edinburgh + Highlands | 12–25 Jul | 13 days |
-| 🇧🇪 **Belgium** | Brussels, Antwerp, Bruges | 25 Jul – 1 Aug | 7 days |
-| 🇳🇱 **Netherlands** | Amsterdam, Rotterdam | 1–8 Aug | 7 days |
-| 🇩🇪 **Germany** | Berlin, Hamburg, Munich | 8–21 Aug | 13 days |
-| 🇮🇹 **Italy** | Milan, Florence, Rome, Amalfi Coast | 1–22 Sep | 21 days |
-| 🇦🇹 **Austria** | Innsbruck, Salzburg, Vienna | 22 Sep – 2 Oct | 10 days |
-| 🇭🇺 **Hungary** | Budapest | 2–12 Oct | 10 days |
-| 🇬🇷 **Greece** | Athens, Santorini, Mykonos, Corfu | 12–26 Oct | 14 days |
+| Country | Cities / Regions |
+| --------- | ------------------- |
+| 🇬🇧 **England** | London |
+| 🇪🇸 **Spain** | Barcelona |
+| 🇫🇷 **France** | Nice, Paris |
+| 🇵🇹 **Portugal** | Lisbon, Porto, Lagos |
+| 🇭🇷 **Croatia** | Split + Dalmatian Coast |
+| 🏴󠁧󠁢󠁳󠁣󠁴󠁿 **Scotland** | Edinburgh |
+| 🇧🇪 **Belgium** | Brussels, Antwerp, Bruges |
+| 🇳🇱 **Netherlands** | Amsterdam, Rotterdam |
+| 🇩🇪 **Germany** | Berlin, Hamburg, Munich |
+| 🇮🇹 **Italy** | Milan, Florence, Rome, Amalfi Coast |
+| 🇦🇹 **Austria** | Innsbruck, Salzburg, Vienna |
+| 🇭🇺 **Hungary** | Budapest |
+| 🇬🇷 **Greece** | Athens, Santorini, Mykonos, Corfu |
 
 ---
 
@@ -119,8 +119,6 @@ Here's a bit of information about what I've packed!
 * 2x PadLock (*For bag*)
 
 ### Wetpack 👛
-
-**NOTE:** Will need to make sure any liquids in this, plus the medicial kit are under 100ml
 
 * Toothbrush
 * Toothpaste
@@ -155,10 +153,9 @@ Here's a bit of information about what I've packed!
 ### Technology 💻
 
 * Laptop
-* Wall-Adapter Plugs for UK & Europe
+* Wall-Adapter Plugs (*for UK & Europe*)
 * Power Bank
 * Charging Cables
-* External Hard-Drive
 
 ### Clothing 👔
 
