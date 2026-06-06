@@ -1,5 +1,5 @@
 ---
-title: "Designing a portfolio"
+title: "The Removal of Lesiure"
 draft: true
 # description: ""
 # date: 2026-04-16
@@ -25,6 +25,13 @@ draft: true
 
 ## Notes for this Blog post
 
-In this blog post, I'd love to talk about how I went about the process for how I created this portfolio website, how I tried other options such as Jekyll, but found that the out of the box selection for themes couldn't keep pace with newer, more modern static site generators.
+The big ones for this one comes from how I used to (*and kind of still do*) spend weekends mostly recovering and preparing for the next week.
 
-I'd also like to touch on why I did it, how it's changed my life in interesting ways, and how it provides a new outlet for creating content on the internet touching on how it's managed to tie together a bunch of loose ends.
+i.e. instead of using the weekend to actually live my life, I'm forced into doing chores (*or alternatively, I can put them off and suffer the consequences.*)
+
+I was thinking I could start weaving this into an arguement for the 4 day work-week.
+
+I'd also like to touch on my thoughts on:
+
+* 996 Hour Structure.
+* Tan Piang (Lying Flat)
