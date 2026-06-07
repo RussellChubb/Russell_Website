@@ -72,11 +72,11 @@ This is our actual route — where we've been and where we're headed + how we're
 | 11 Jun | Venice → Bologna | 🇮🇹 Italy | FlixBus | Combo Bologna (Hostel) |
 | 12 Jun | Bologna | 🇮🇹 Italy | | |
 | 13 Jun | Bologna | 🇮🇹 Italy | | |
-| 14 Jun | Bologna → Florence | 🇮🇹 Italy | | PLUS Florence (Hostel) |
+| 14 Jun | Bologna → Florence | 🇮🇹 Italy | Flixbus | PLUS Florence (Hostel) |
 | 15 Jun | Florence | 🇮🇹 Italy | | |
-| 16 Jun | Florence → Siena | 🇮🇹 Italy | | |
+| 16 Jun | Florence → Siena | 🇮🇹 Italy | Flixbus | Casina VioLa (AirBNB) |
 | 17 Jun | Siena | 🇮🇹 Italy | | |
-| 18 Jun | Siena → Rome | 🇮🇹 Italy | | |
+| 18 Jun | Siena → Rome | 🇮🇹 Italy | Flixbus | Spritz House (AirBNB) |
 | 19 Jun | Rome | 🇮🇹 Italy | | |
 | 20 Jun | Rome | 🇮🇹 Italy | | |
 | 21 Jun | Rome → Sorrento | 🇮🇹 Italy | | |
