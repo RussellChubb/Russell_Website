@@ -34,6 +34,12 @@ name = "Projects"
 pageRef = "projects"
 weight = 40          # Fourth item in the menu
 
+# Courses link — points to content/courses/
+[[main]]
+name = "Courses"
+pageRef = "courses"
+weight = 50          # Fifth item in the menu
+
 # Example of a dropdown sub-item under Projects
 # Uncomment to add individual project links nested under the Projects menu item
 # [[main]]
