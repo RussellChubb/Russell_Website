@@ -21,6 +21,15 @@ node_modules/
 # Drafts Folder for Posts
 # content/posts/drafts/
 
+# Archieves Folder
+# content/posts/archieved/
+
+# Course Content
+content/courses/Linux
+content/courses/Python
+content/courses/SQL
+
+
 # This is for ignoring the rendercv outputs
 /static/rendercv_output/*.html
 /static/rendercv_output/*.md
