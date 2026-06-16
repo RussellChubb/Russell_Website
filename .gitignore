@@ -25,9 +25,9 @@ node_modules/
 # content/posts/archieved/
 
 # Course Content
-content/courses/Linux
-content/courses/Python
-content/courses/SQL
+# content/courses/Linux
+# content/courses/Python
+# content/courses/SQL
 
 
 # This is for ignoring the rendercv outputs

@@ -8,8 +8,6 @@ featureimage: "featured.jpg"
 tags: ["Python"]
 ---
 
-# Variables
-
 Variables in Python are like containers that store data values. You can think of them as labels that you attach pieces of information to.
 
 To create a variable in Python, choose a name for it, and use the equals sign to assign a value to it.

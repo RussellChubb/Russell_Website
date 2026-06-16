@@ -79,11 +79,11 @@ This is our actual route — where we've been and where we're headed + how we're
 | 18 Jun | Siena → Rome | 🇮🇹 Italy | Flixbus | Spritz House (AirBNB) |
 | 19 Jun | Rome | 🇮🇹 Italy | | |
 | 20 Jun | Rome | 🇮🇹 Italy | | |
-| 21 Jun | Rome → Sorrento | 🇮🇹 Italy | | |
-| 22 Jun | Sorrento | 🇮🇹 Italy | | |
-| 23 Jun | Sorrento | 🇮🇹 Italy | | |
-| 24 Jun | Sorrento | 🇮🇹 Italy | | |
-| 25 Jun | Sorrento → Ancona | 🇮🇹 Italy | | |
+| 21 Jun | Rome → Naples | 🇮🇹 Italy | Flixbus | Napolitano Rooms (AirBNB) |
+| 22 Jun | Naples | 🇮🇹 Italy | | |
+| 23 Jun | Naples | 🇮🇹 Italy | | |
+| 24 Jun | Naples | 🇮🇹 Italy | | |
+| 25 Jun | Naples → Ancona | 🇮🇹 Italy | | Palazzo Torriglioni (AirBNB) |
 
 ---
 
