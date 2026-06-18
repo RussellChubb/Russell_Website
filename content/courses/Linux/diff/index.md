@@ -1,11 +1,11 @@
 ---
 title: "diff"
-description: ""
+description: "Introduction to the diff Command in Linux"
 summary: "Introduction to the diff Command in Linux"
 showAuthor: true
 date: 2026-05-09
 featureimage: "featured.jpg"
 tags: ["Linux"]
 series: ["Learn Linux"]
-series_order: 1
+series_order: 20
 ---

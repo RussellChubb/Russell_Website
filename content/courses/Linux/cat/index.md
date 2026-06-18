@@ -7,7 +7,7 @@ date: 2026-05-09
 featureimage: "featured.jpg"
 tags: ["Linux"]
 series: ["Learn Linux"]
-series_order: 3
+series_order: 14
 ---
 
 The 'cat' command, short for 'concatenate', is a versatile tool that reads files sequentially, writing them to standard output. This makes it ideal for viewing and concatenating files.

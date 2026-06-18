@@ -13,30 +13,35 @@
 # Blog link — points to content/posts/
 [[main]]
 name = "Blog"
+pre = "comment"
 pageRef = "posts"
 weight = 10       # First item in the menu
 
 # Resume link — points to content/resume/
 [[main]]
 name = "Resume"
+pre = "file-lines"
 pageRef = "resume"
 weight = 20        # Second item in the menu
 
 # About link — points to content/about/
 [[main]]
 name = "About"
+pre = "circle-info"
 pageRef = "about"
 weight = 30       # Third item in the menu
 
 # Projects link — points to content/projects/
 [[main]]
 name = "Projects"
+pre = "github"
 pageRef = "projects"
 weight = 40          # Fourth item in the menu
 
 # Courses link — points to content/courses/
 [[main]]
 name = "Courses"
+pre = "graduation-cap"
 pageRef = "courses"
 weight = 50          # Fifth item in the menu
 
@@ -62,7 +67,7 @@ weight = 50          # Fifth item in the menu
 
 # [[subnavigation]]
 #  name = "My Awesome Category"
-#  pre = "github"             # Displays a GitHub icon before the name
+#  pre = "github" # Displays a GitHub icon before the name
 #  pageRef = "categories/awesome"
 #  weight = 20
 

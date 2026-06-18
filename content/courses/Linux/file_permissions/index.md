@@ -7,7 +7,7 @@ date: 2026-05-09
 featureimage: "featured.jpg"
 tags: ["Linux"]
 series: ["Learn Linux"]
-series_order: 4
+series_order: 42
 ---
 
 You've likely clicked this video for two reasons:

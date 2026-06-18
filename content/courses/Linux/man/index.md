@@ -7,7 +7,8 @@ date: 2026-05-09
 featureimage: "featured.jpg"
 tags: ["Linux"]
 series: ["Learn Linux"]
-series_order: 5
+series_order: 1
+weight: 1
 ---
 
 The 'man' command, short for 'manual', is a powerful tool that provides detailed documentation for various commands and utilities in Linux.

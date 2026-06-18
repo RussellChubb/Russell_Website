@@ -3,11 +3,12 @@ title: "ls command"
 description: "Introduction to the ls command in Linux"
 summary: "Introduction to the ls command in Linux"
 showAuthor: true
-date: 2026-05-09
+date: 2026-05-10
 featureimage: "featured.jpg"
 tags: ["Linux"]
 series: ["Learn Linux"]
 series_order: 2
+weight: 2
 ---
 
 The “ls” command, (short for list) is used to list the contents of a directory.
