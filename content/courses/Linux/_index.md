@@ -4,7 +4,8 @@ description: "Russell's Linux Course"
 summary: "Russell's Linux Course"
 draft: true
 showAuthor: true
-date: 2026-05-09
+showTableOfContents: true
+showdate: false
 featureimage: "featured.jpg"
 tags: ["Linux"]
 ---
@@ -22,44 +23,87 @@ tags: ["Linux"]
 
 ---
 
-## Introduction to Linux - Video
+## Overview 📌
+
+### Introduction to Linux - Video 📹
+
+Feel free to watch this video if you don't feel like reading through this page!
 
 <!-- Link to Video -->
 {{< youtubeLite id="1b3PYXsHw9U" label="Video - Introduction to Linux" >}}
 
-### Introduction to Linux - Content
+### So what actually is "Linux"? 🐧
 
 Linux is an operating system, like macOS or Windows.
 
 It is also the most popular Open Source and free, (*as in freedom*), operating system.
 
-It powers the vast majority of the servers that compose the Internet. It's the base upon which everything is built upon.
+<!-- Freedom Image -->
+When I first made my YouTube video, I decided to use a GIF of America to represent "*freedom*".
+
+Since then, I no longer have anything "*postive*" to say about America (*Specifically their Government*), and thus I'll say nothing at all.
+
+As such, here's a satrical video instead.
+
+<!-- Democracy -->
+{{< youtubeLite id="vm7dIAq7QwM" label="Democracy" >}}
+
+Linux powers the vast majority of the servers that compose the Internet. It's the base upon which everything is built upon.
 
 But not just that. Android is based on (*a modified version of*) Linux.
 
-The Linux "core" (*called kernel*) was born in 1991 in Finland, and it went a really long way from its humble beginnings. It went on to be the kernel of the GNU Operating System, creating the duo GNU/Linux.
+<!-- Android Gang Image -->
+![Abble hehehehe](https://media.tenor.com/kwjdxUiw1JgAAAAe/android-meme.png)
+
+### Quick History Lesson 📜
+
+The Linux "core" (*called kernel*) was born in 1991 in Finland, at the hands of the GOAT, Linus Tovards. It went on to be the kernel of the GNU Operating System, creating the duo GNU/Linux.
+
+Since then, it's come a long way from it's humble beginnings.
+
+<!-- Photo of Linus -->
+![Linus == "The Goat"](https://i.redd.it/wpvtr5pmskfc1.png)
+
+### Why use Linux? 🛒
 
 There's one thing about Linux that corporations like Microsoft and Apple, or Google, will never be able to offer:
 
 * The freedom to do whatever you want with your computer.
 
-They're actually going in the opposite direction, building walled gardens, especially on the mobile side.
+<!-- Freedom Image -->
+![Freeeedom](https://preview.redd.it/saw-this-meme-here-and-simply-had-to-fix-it-v0-r052s5kj921g1.png?width=640&crop=smart&auto=webp&s=1f93d065e1c80d2e2d3b13527baa98894fad35c3)
 
-Linux is the ultimate freedom.
+(*^ really contemplated whether or not I add this meme*)
 
-It is developed by volunteers, some paid by companies that rely on it, some independently, but there's no single commercial company that can dictate what goes into Linux, or the project priorities.
+They're actually going in the opposite direction, building walled gardens, leaning far to heavily into silly AI features designed to spy on you, and generally degrading the operating system.
 
-Linux can also be used as your day to day computer. I use macOS because I really enjoy the applications, the design and I also used to be an iOS and Mac apps developer, but before using it I used Linux as my main computer Operating System.
+<!-- Windows Spyware Image -->
+![Terrible Company](https://preview.redd.it/no-windows-11-spying-on-my-computer-is-not-cute-and-funny-v0-70fk7fbumctd1.jpeg?auto=webp&s=bb889b55206c5a723108434cf068c1dafe20c215)
+
+Linux is  developed by volunteers, some paid by companies that rely on it, some independently, but there's no single commercial company that can dictate what goes into Linux, or the project priorities.
+
+![Yeah pal](https://i.redd.it/tqwi9egypjzg1.jpeg)
+
+Linux can also be used as your day to day computer. I use macOS because I really enjoy the applications, the design, but before using it, I used Linux as my main computer Operating System.
 
 No one can dictate which apps you can run, or "*call home*" with apps that track you, and more.
 
+### Distributions ⚙️
+
 Linux is also special because there's not just "*one Linux*", like it happens on Windows or macOS. Instead, we have distributions.
 
-A "*distro*" is made by a company or organization and packages the Linux core with additional programs and tooling. For example you have:
+A "*distro*" is made by a company or organization and packages the Linux core with additional programs and tooling.
+
+For example you have:
 
 * Debian
 * Red Hat
 * Ubuntu (*probably the most popular.*)
+
+<!-- Distro Meme -->
+![Painnnn](https://preview.redd.it/btw-i-use-arch-v0-g6d9hhz9rrx11.png?width=1080&crop=smart&auto=webp&s=7ebf666504a2a830024b011ca8ffdc256a570068)
+
+(*When you get around to looking at other Distro's, this meme ^, will make more sense.*)
 
 <!-- Estimated Market Share Graph -->
 {{< chart >}}
@@ -79,7 +123,7 @@ data: {
       'rgba(255, 99, 255, 0.8)'
     ],
     borderColor: '#14191f',
-    borderWidth: 3
+    borderWidth: 0
   }]
 },
 options: {
@@ -118,9 +162,13 @@ options: {
 }
 {{< /chart >}}
 
-Many, many more exist. You can create your own distribution, too. But most likely you'll use a popular one, one that has lots of users and a community of people around it, so you can do what you need to do without losing too much time reinventing the wheel and figuring out answers to common problems.
+Many, many more exist. You can create your own distribution, too.
+
+But most likely you'll use a popular one, one that has lots of users and a community of people around it, so you can do what you need to do without losing too much time reinventing the wheel and figuring out answers to common problems.
 
 Some desktop computers and laptops ship with Linux preinstalled. Or you can install it on your Windows-based computer, or on a Mac. But you don't need to disrupt your existing computer just to get an idea of how Linux works.
+
+### Using Linux on a Mac / Windows / Generally 💻
 
 I personally don't (*currently*) have a Linux computer.
 
@@ -138,6 +186,8 @@ If you use a Mac you need to know that under the hood macOS is a UNIX Operating 
 Microsoft has an official Windows Subsystem for Linux which you can (*and should!*) install on Windows. This will give you the ability to run Linux in a very easy way on your PC.
 
 But the vast majority of the time you will run a Linux computer in the cloud via a VPS (*Virtual Private Server*) like DigitalOcean.
+
+### What's a Shell? 🐚
 
 A shell is a command interpreter that exposes to the user an interface to work with the underlying operating system.
 
@@ -164,10 +214,61 @@ Bash means Bourne-again shell. sh was proprietary and not open source, and Bash 
 
 Since projects had to pay to use the Bourne shell, Bash became very popular.
 
-If you use a Mac, try opening your Mac terminal. Which, by default is running ZSH. (*or, pre-Catalina, Bash*)
+If you use a Mac, try opening your Mac terminal. Which, by default is running ZSH (*or, pre-Catalina, Bash*).
 
 You can set up your system to run any kind of shell, for example I used to use the Fish shell on my Windows PC.
 
 Each single shell has its own unique features and advanced usage, but they all share a common functionality: they can let you execute programs, and they can be programmed.
+
+### Linux Course - Progress Overview
+
+Creating a graph to track my progress on this course, i.e. 100% complete indicates that the course is fully finished, anything else implies we're still in progress.
+
+{{< chart >}}
+type: 'bar',
+options: {
+  indexAxis: 'y',
+  scales: {
+    x: {
+      stacked: true,
+      min: 0,
+      max: 100,
+      ticks: {
+        callback: (value) => value + '%'
+      }
+    },
+    y: {
+      stacked: true
+    }
+  },
+  plugins: {
+    legend: {
+      position: 'bottom'
+    }
+  }
+},
+data: {
+  labels: ['Linux Course Completion'],
+  datasets: [
+    {
+      label: 'Finished',
+      data: [35],
+      backgroundColor: '#22C55E'
+    },
+    {
+      label: 'In Progress',
+      data: [10],
+      backgroundColor: '#EAB308'
+    },
+    {
+      label: 'Remaining',
+      data: [55],
+      backgroundColor: '#374151'
+    }
+  ]
+}
+{{< /chart >}}
+
+## Course Content 🔗
 
 In the course content below, we'll learn in detail the most common (*and useful*) commands.

@@ -28,3 +28,13 @@ draft: true
 In this blog post, I'd love to talk about how I went about the process for how I created this portfolio website, how I tried other options such as Jekyll, but found that the out of the box selection for themes couldn't keep pace with newer, more modern static site generators.
 
 I'd also like to touch on why I did it, how it's changed my life in interesting ways, and how it provides a new outlet for creating content on the internet touching on how it's managed to tie together a bunch of loose ends.
+
+## Great Personal Websites
+
+### Adam Green
+
+[Adam Green](https://adgefficiency.com/)
+
+### Flavio Copes
+
+[Flavio Copes](https://flaviocopes.com/)

@@ -8,6 +8,7 @@ featureimage: "featured.jpg"
 tags: ["Linux"]
 series: ["Learn Linux"]
 series_order: 42
+weight: -42
 ---
 
 You've likely clicked this video for two reasons:

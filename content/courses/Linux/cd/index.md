@@ -8,5 +8,5 @@ featureimage: "featured.jpg"
 tags: ["Linux"]
 series: ["Learn Linux"]
 series_order: 3
-weight: 3
+weight: -3
 ---

@@ -79,7 +79,7 @@ When I graduated university with a Marketing and Management degree, I expected t
 
 Little did I know, but it's not enough (*any more*) to **just** have that degree anymore.
 
-While I imagine that not everyone goes out into the real world and has this issue, it made me realise the necessity of adding an extra couple of "*arrows*" to my quiver.
+While I imagine that not everyone goes out into the real world and has this issue, it made me realise the necessity of adding a extra couple of "*arrows*" to my quiver.
 
 <!-- Just Optimize Bro -->
 ![What tha dawg doing](https://i.redd.it/6us6d33g7ate1.png)
@@ -126,7 +126,7 @@ As well as this, one thing I found about a lot of technical courses is that ther
 
 1) Already know certain things... i.e. assumptions are made about your technical ability.
 
-2) You already know how to solve your own issues. This is actually a bigger problem that some people struggle with, but I'll show you how to debug issues (*which is a skill that helps in more than just "technical" work.)
+2) You already know how to solve your own issues. This is actually a bigger problem that some people struggle with, but I'll show you how to debug* issues (*which is a skill that helps in more than just "technical" work.*)
 
 ### What do I want people to get out of these courses? 🌅
 

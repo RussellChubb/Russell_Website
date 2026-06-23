@@ -8,7 +8,7 @@ featureimage: "featured.jpg"
 tags: ["Linux"]
 series: ["Learn Linux"]
 series_order: 2
-weight: 2
+weight: -2
 ---
 
 The “ls” command, (short for list) is used to list the contents of a directory.
