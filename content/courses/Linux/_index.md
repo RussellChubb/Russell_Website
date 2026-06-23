@@ -2,6 +2,7 @@
 title: "Linux"
 description: "Russell's Linux Course"
 summary: "Russell's Linux Course"
+draft: true
 showAuthor: true
 date: 2026-05-09
 featureimage: "featured.jpg"

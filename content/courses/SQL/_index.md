@@ -1,6 +1,7 @@
 ---
 title: "SQL"
 description: "Russell's SQL Course"
+draft: true
 ---
 
 <!-- Shout out to all my Tik Tok Hustlers who think they're going to escape a permanent underclass by selling courses lol -->

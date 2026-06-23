@@ -1,6 +1,7 @@
 ---
 title: "Python"
 description: "Russell's Python Course"
+draft: true
 ---
 
 <!-- Guidoooooooo -->
