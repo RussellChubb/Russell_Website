@@ -84,6 +84,24 @@ This is our actual route — where we've been and where we're headed + how we're
 | 23 Jun | Naples | 🇮🇹 Italy | | |
 | 24 Jun | Naples | 🇮🇹 Italy | | |
 | 25 Jun | Naples → Ancona | 🇮🇹 Italy | | Palazzo Torriglioni (AirBNB) |
+| 26 Jun | Ancona → Dubrovnik | 🇭🇷 Croatia | | |
+| 27 Jun | | 🇭🇷 Croatia | | |
+| 28 Jun | | 🇭🇷 Croatia | | |
+| 29 Jun | | 🇭🇷 Croatia | | |
+| 30 Jun | | 🇭🇷 Croatia | | |
+| 1 Jul | | 🇭🇷 Croatia | | |
+| 2 Jul | | 🇭🇷 Croatia | | |
+| 3 Jul | | 🇭🇷 Croatia | | **Need to book Dubrovnik Accomodation for a night - Waiting for Kayleigh** |
+| 4 Jul | Dubrovnik → Athens | 🇬🇷 Greece | Flight (17:30 - 20:00) | Yellow Square Hostel (Hostel) |
+| 5 Jul | Athens → Santorini | 🇬🇷 Greece | Ferry at 9:30AM | Caveland (Hostel) |
+| 6 Jul | Santorini | 🇬🇷 Greece | | |
+| 7 Jul | Santorini | 🇬🇷 Greece | | |
+| 8 Jul | Santorini | 🇬🇷 Greece | | |
+| 9 Jul | Santorini → Paros | 🇬🇷 Greece | Ferry at 9:50AM | **Waiting for Charlotte's friend to respond** |
+| 10 Jul | Paros | 🇬🇷 Greece | | |
+| 11 Jul | Paros | 🇬🇷 Greece | | |
+| 12 Jul | Paros → Athens | 🇬🇷 Greece | Ferry at 10:45AM | **Need to book Athens Hostel for a night** |
+| 13 Jul | Athens → London → Edinbrugh | 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland | Athens → London (12:20PM - 14:10PM) , London → Edinbrugh (22:00 - 23:20) | Crashing on Kayleigh's couch |
 
 ---
 
@@ -105,7 +123,7 @@ Here's a list of the countries and cities that Olivia and I are keen to visit. <
 | 🇮🇹 **Italy** | Milan, Florence, Rome, Amalfi Coast |
 | 🇦🇹 **Austria** | Innsbruck, Salzburg, Vienna |
 | 🇭🇺 **Hungary** | Budapest |
-| 🇬🇷 **Greece** | Athens, Santorini, Mykonos, Corfu |
+| 🇬🇷 **Greece** | Athens, Santorini, Paros |
 
 ---
 

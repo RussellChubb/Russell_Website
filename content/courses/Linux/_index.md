@@ -41,9 +41,7 @@ It is also the most popular Open Source and free, (*as in freedom*), operating s
 <!-- Freedom Image -->
 When I first made my YouTube video, I decided to use a GIF of America to represent "*freedom*".
 
-Since then, I no longer have anything "*postive*" to say about America (*Specifically their Government*), and thus I'll say nothing at all.
-
-As such, here's a satrical video instead.
+Since then, I think differently, as such, here's a satrical video instead.
 
 <!-- Democracy -->
 {{< youtubeLite id="vm7dIAq7QwM" label="Democracy" >}}

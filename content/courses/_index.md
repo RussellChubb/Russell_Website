@@ -33,7 +33,7 @@ In this section of my Website, I'm publishing full courses (**for free**), on ho
 
 I've made a graph below which shows progress towards completion on the x-axis, and the specific courses I'm working on the y-axis.
 
-I'll this graph with each push to my Websites's [GitHub Repo](https://github.com/RussellChubb/Russell_Website).
+I'll update this graph with each push to my Websites's [GitHub Repo](https://github.com/RussellChubb/Russell_Website).
 
 <!-- Course Progress Chart -->
 {{< chart >}}
@@ -89,7 +89,7 @@ In my desperation, I tried to look forward to the future to understand what migh
 <!-- Pondering my orb Image -->
 ![How I felt tbh](https://images.steamusercontent.com/ugc/1832425236567210581/E42B98E54BE45DAF2688938E3AC1BDFC0AF33E8E/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false)
 
-Now, I know that data isn't for everyone, I know this for a fact as when you tell anyone that you work as a Data-Analyst, nobody asks any follow up questions.
+Now, I know that data-work isn't for everyone. (*I know this for a fact as whenever I tell anyone what I do for work, I never get asked any follow-up questions*).
 
 With this being said, if you've got an interest at all in the following areas:
 
@@ -126,7 +126,7 @@ As well as this, one thing I found about a lot of technical courses is that ther
 
 1) Already know certain things... i.e. assumptions are made about your technical ability.
 
-2) You already know how to solve your own issues. This is actually a bigger problem that some people struggle with, but I'll show you how to debug* issues (*which is a skill that helps in more than just "technical" work.*)
+2) You already know how to solve your own issues. This is actually a bigger problem that some people struggle with, but I'll show you how to debug issues (*which is a skill that helps in more than just "technical" work.*)
 
 ### What do I want people to get out of these courses? 🌅
 
