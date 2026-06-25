@@ -1,17 +1,15 @@
 ---
 title: "Projects"
-description: "Page to store information about projects that I've worked on throughout my career. **NOTE:** Includes both personal, and work (*with certain content abridged / removed.*)"
+description: "Page to store information about projects that I've worked on throughout my life."
+summary: "Projects I've worked on!"
 showViews: true
 showLikes: true
 showDate: false
+showTableOfContents: true
+featureimage: "featured.jpg"
 ---
 
-
-<!-- Letting people know about the personal / professional divide -->
-> [!NOTE]
-> Includes both personal, and work (*with certain content abridged / removed.*)
-
-<!-- Thanks Anthony for this Quote -->
+<!-- Thanks Lao for this Quote -->
 {{< typeit
   tag=h4
   speed=80
@@ -23,3 +21,15 @@ showDate: false
 {{< /typeit >}}
 
 ---
+
+<!-- ## Overview
+
+## What are you working on right now?
+
+## Why build projects?
+
+## Are you leaking company secrets by showing some of this? -->
+
+<!-- Letting people know about the personal / professional divide -->
+> [!NOTE]
+> Includes both personal, and work (*with certain content abridged / removed.*)

@@ -84,14 +84,14 @@ This is our actual route — where we've been and where we're headed + how we're
 | 23 Jun | Naples | 🇮🇹 Italy | | |
 | 24 Jun | Naples | 🇮🇹 Italy | | |
 | 25 Jun | Naples → Ancona | 🇮🇹 Italy | | Palazzo Torriglioni (AirBNB) |
-| 26 Jun | Ancona → Dubrovnik | 🇭🇷 Croatia | | |
-| 27 Jun | | 🇭🇷 Croatia | | |
-| 28 Jun | | 🇭🇷 Croatia | | |
-| 29 Jun | | 🇭🇷 Croatia | | |
-| 30 Jun | | 🇭🇷 Croatia | | |
-| 1 Jul | | 🇭🇷 Croatia | | |
-| 2 Jul | | 🇭🇷 Croatia | | |
-| 3 Jul | | 🇭🇷 Croatia | | **Need to book Dubrovnik Accomodation for a night - Waiting for Kayleigh** |
+| 26 Jun | Ancona → Dubrovnik | 🇭🇷 Croatia | Overnight Ferry | Zoom Zoom (Apartment) |
+| 27 Jun | Dubrovnik | 🇭🇷 Croatia | | |
+| 28 Jun | Dubrovnik | 🇭🇷 Croatia | | |
+| 29 Jun | Dubrovnik | 🇭🇷 Croatia | | |
+| 30 Jun | Dubvronik → Hvar | 🇭🇷 Croatia | | Villa Vera |
+| 1 Jul | Hvar | 🇭🇷 Croatia | | |
+| 2 Jul | Hvar | 🇭🇷 Croatia | | |
+| 3 Jul | Hvar → Dubrovnik | 🇭🇷 Croatia | | **Need to book Dubrovnik Accomodation for a night - Waiting for Kayleigh** |
 | 4 Jul | Dubrovnik → Athens | 🇬🇷 Greece | Flight (17:30 - 20:00) | Yellow Square Hostel (Hostel) |
 | 5 Jul | Athens → Santorini | 🇬🇷 Greece | Ferry at 9:30AM | Caveland (Hostel) |
 | 6 Jul | Santorini | 🇬🇷 Greece | | |
@@ -134,7 +134,7 @@ Here's a bit of information about what I've packed!
 ### Backpack 🎒
 
 * 38L Kathmandu Bag
-* 2x PadLock (*For bag*)
+* PadLock (*For bag*)
 
 ### Wetpack 👛
 
@@ -162,7 +162,7 @@ Here's a bit of information about what I've packed!
 
 * Facemask
 * Ear-Plugs
-* Quick Dry / Anti Sand Towel
+* Sand Towel
 * Cap
 * Laundry Bag
 * Documents (*in case of losing phone etc*)
@@ -181,7 +181,7 @@ Here's a bit of information about what I've packed!
 * Swimshorts
 * 3x Shorts
 * 1x Jeans
-* 7x Underwear
+* 14x Underwear
 * 7x Socks
 
 ---
