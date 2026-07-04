@@ -32,6 +32,271 @@ People ask Olivia and I for the details surrounding our travel plan. I've includ
 * Countries and cities we want to vist.
 * A packing list (*for what I'm bringing*).
 
+## Travel Journal
+
+### May
+
+#### 22nd - 🏴󠁧󠁢󠁥󠁮󠁧󠁿
+
+* Arrived in London.
+* Clearing customs was super easy.
+* Took the tube for the first time.
+* Went to a cool bar for pizza and a stout with Rian and Maria.
+
+#### 23rd -  🏴󠁧󠁢󠁥󠁮󠁧󠁿
+
+* Saw Big Ben, Westminster Abbey.
+* Went to an old pub for a cold Guiness.
+* Secret Garden Bar with Rian and Maria.
+* Met some people doing divining / witching.
+* Took a double decker red bus.
+* Went to a dirty spoon.
+* Went to a really nice park and used a soccer ball to get a frisbee out of a tree.
+
+#### 24th -  🏴󠁧󠁢󠁥󠁮󠁧󠁿
+
+* Went to Leeds vs West Ham, first ever Premier League Game.
+* Got to watch West Ham get relegated.
+* Went for a long walk home along the canals
+* Got some awesome Venezuelan food! (*Super great meal*)
+* Went to a really shitty Indian Restraunt
+* Super crammed overground train.
+
+#### 26th - 🇪🇸
+
+* Took multiple trains
+* Ryanair Flight
+* Met up with parents for dinner (*tapas and beers*) - Olivia still talks about these even a month later lol.
+
+#### 27th - 🇪🇸
+
+* Suit Fitting
+* Purchased postcards and patch + fridge magnet
+* Visited La Sagrada Família
+* Spanish Haircut and Nails for Olivia
+* Tapas for lunch, Olivia enjoyed the Padron Peppers
+* Gaudi Building
+* Shopping, Olivia bought shoes for wedding, I bought running shoes.
+
+#### 28th - 🇪🇸
+
+* Run to beach
+* Old quarter shopping
+* Couldn’t find Olivia’s skort lol
+
+#### 29th - 🇪🇸
+
+* Rooftop bar
+* Split the G and a guy from new Jersey got me a Jager Bomb lol
+* Markets
+* Old quarter shopping
+* Barcelona markets
+* Gift for Mum and Dad
+* Aperol Sprits in a plastic cup
+* Found jorts
+* Found olivia skort
+
+#### 30th - 🇪🇸
+
+* Rian and Maria Wedding
+* Sumo Suits
+* Hungover, then hit a second wind
+* Beautiful venue
+* Hotdogs at 11:30pm
+* Speech in the Church + ring bearer
+
+#### 31st - 🇪🇸
+
+* Met up with Hayden
+* Aperol Spritz in Plaça De Catalunya
+* * * Planned our Italy Leg of the OE
+* Packed up
+
+### June
+
+#### 1st - 🇫🇷
+
+* 10 Hour Bus Ride to Nice (Not bad)
+* Booked in trips on the Bus
+* First ever Git Commit on a moving Vehicle.
+* Horror show AirBNB
+
+#### 2nd - 🇫🇷
+
+* 10KM run up the castle, along the promenade and around to the port
+* Geordie Shore marathon lol
+* Korean BBQ for dinner
+
+#### 3rd - 🇫🇷
+
+* Beach Day
+* Olivia burnt AF
+* Chinese takeaway for fins
+
+#### 4th - 🇮🇹
+
+* travel to Milan
+* 5 hour bus
+* Expensive outdoor Plaza Restraunt for Tapas and then went to Turkish
+
+#### 5th - 🇮🇹
+
+* Primark for undies
+* Olivia got a Matcha Mango (Yum)
+* Dumplings and Sandwhich for lunch
+* Walked to Cathedral
+* Then walked to the Willy Wonka place + saw the big ass church
+* Walked to a park, saw turtles, got Aperol Spritzes
+* Told Olivia ducks have corkscrew penises
+* Walked to Canal
+* Bought some no THC weed
+* Ate all you can eat buffet for dinner
+* Hit a local spot for a beer, it was busy!
+* Got ice cream, met English uni students, invited them back for a joint
+
+#### 6th - 🇮🇹
+
+* Train to Bellano
+* Russell had a sore tummy
+* Big ass walk up the hill to Accom, Olivia said it was super close.
+* Watched movies and blobbed
+
+#### 7th - 🇮🇹
+
+* 6KM run
+* Lunch at a spot by the water
+* Sleep in!
+* Supermarket to pick up stuff for dinner
+* Evening by the pool
+* Home cooked meal + movie
+* Popped a Prosecco Bottle using two lighters
+
+#### 8th - 🇮🇹
+
+* travel day from lake Como to Milan to Venice
+* First night in hostel
+* Went out for ramen with bunk buddies
+* Watched mortal kombat 2
+
+#### 9th - 🇮🇹
+
+* caught train to Venice island and explored
+* Went to Leonardo di Vinci museum
+* Got aperol and pizza for lunch
+* Walked to basiclilla and the bridge russell wanted to go to (bridge of sighs)
+* St marks plaza and doge palace and bridge of sighs
+* Me up with Danielle (American from HostelWorld) at Irish pub
+* Met Alex and some other people who all came to Irish pup
+* Late night (home at 2:30am)
+
+#### 10th - 🇮🇹
+
+* sleep in then breakfast and back to sleep
+* Watched a movie
+* Went to Venice island again and got absolutely drenched in the rain and hail
+* Got burger and pasta for dinner and some gelato
+* Went back to hostel and watched project Hail Mary
+
+#### 11th - 🇮🇹
+
+* check out of hostel and have breakfast
+* Bus was delayed cos of train strikes
+* Watched the Grey man
+* Got bus from Venice to Bologna
+* Check in at combo hostel
+* Watch first fifa game with hostel dudes
+
+#### 12th - 🇮🇹
+
+* Pasta + Tiramasu cooking class
+
+#### 13th - 🇮🇹
+
+* Pride parade
+* Guided by a homeless man to the pride parade
+* Met up with Rhiannon and Eva + Chase,  Jack and Harrison and watched the Brazil vs Morocco game
+
+#### 14th - 🇮🇹
+
+* Travel day from Bologna to Florence
+* Train strikes meant we were standing on a platform and then finally sardines on a tram.
+* Swim at Plus Florence Pool
+* Early night
+
+#### 15th - 🇮🇹
+
+* Met kiwi (Tom) and Rhiannon (from Bologna, chance meeting)
+* Hyrox session in the morning
+* Olivia threw up after having chewing tobacco
+* Walked around Florence
+* Wine wall
+* Lindor Store
+* Walked around Florence Duomo
+* Took a look at Ponte Vecchio
+
+#### 16th - 🇮🇹
+
+* Travel day from Florence to Sienna
+* Saw the kiwi dudes again (Tarquin + unknown)
+* Walked around Sienna, saw Piazza del Campo for the first time.
+* Accomodation was nice
+
+#### 17th  - 🇮🇹
+
+* Quiet day, Olivia slept for maybe 12+ hours lol
+* Worked on the website, then went to the Duomo in the afternoon, and had some deep conversations about life, and the meaning of it
+* Sat in the Piazza del Campo and had a beer and chips
+
+#### 18th  - 🇮🇹
+
+* Travel day from Sienna to Rome
+* Coloseum
+* Roman Forum
+* Palantine Hill
+* Trevi Fountain (First Visit)
+
+#### 19th - 🇮🇹/🇻🇦
+
+* Vatican
+* Trevi Fountain (Second Visit)
+* Pantheon
+* Piazza Navona
+* Beer at the base of Castel Sant'Angelo
+* Don’t walk down this dodgy street that I need to find the name
+
+#### 20th - 🇮🇹
+
+* Tour of the Oblisks, learnt that the Romans just stole a bunch of them from the Egyptians.
+* Mexican for Dinner (Yum)
+* 2 Irish Pubs (The first we couldn’t move in because Holland was playing in the World Cup and it was packed), second was to have a drink and smoke.
+
+#### 21st - 🇮🇹
+
+* Travel day from Rome to Naples
+* Cafe and learning Spanish and Italian in a random cafe on the outskirts of Rome.
+* Met up with Eva and Rhi for a drink at beer bar.
+* Super cheap drinks and snacks. Met some other people and played Yahtzee and ended up going home at 1am
+
+#### 22nd - 🇮🇹
+
+* Slept in
+* Went to gym downstairs (5 euro each)
+* Was a full weights gym so got a good pump
+* UK SIM cards having issues in Naples so no data so just explored around Naples and tried to find our way home
+* Pizza and pasta for dinner and met NZ bloke who said we have to do the balkans.
+
+#### 23rd - 🇮🇹
+
+* Still no data so don’t want to catch a ferry over to Sorrento in case we can’t get home so might go to Pompei
+* Tried to catch a bus to Pompei, but we couldn’t find the platform and missed it. Such a confusing station.
+* Kinda gave up after this as we didn’t want to see anything in the city (cuz it sucks a bit lol) and had a rest day instead.
+
+#### 24th - 🇮🇹
+
+* Planned our Greece trip, smashed the bank account.
+* Holy fuck, there isn’t anything to do in central Naples, I’d really recommend not going to central Naples, it’s like a 1 1/2 hour walk to get to a shitty beach.
+* It’s pretty dirty, it’s fucking boring, and you aren’t close to any beaches or clubs.
+
 ## Travel Overview ✈️
 
 This is high-level information about how Olivia and I are travelling!
@@ -41,8 +306,6 @@ This is high-level information about how Olivia and I are travelling!
 * **End goal:** {{< badge >}} Move to Edinburgh, Scotland (to work + live) {{< /badge >}}
 * **Travel Style:** {{< badge >}} Cheap-ish (trains & buses over flights, hostels / budget stays, slower pace etc)  {{< /badge >}}
 * **Budget:** {{< badge >}} ~NZD $30k each {{< /badge >}}
-
----
 
 ## Travel Plan 🗺️
 
@@ -88,22 +351,20 @@ This is our actual route — where we've been and where we're headed + how we're
 | 27 Jun | Dubrovnik | 🇭🇷 Croatia | | |
 | 28 Jun | Dubrovnik | 🇭🇷 Croatia | | |
 | 29 Jun | Dubrovnik | 🇭🇷 Croatia | | |
-| 30 Jun | Dubvronik → Hvar | 🇭🇷 Croatia | | Villa Vera |
+| 30 Jun | Dubvronik → Hvar | 🇭🇷 Croatia | | Villa Vera (Apartment) |
 | 1 Jul | Hvar | 🇭🇷 Croatia | | |
 | 2 Jul | Hvar | 🇭🇷 Croatia | | |
-| 3 Jul | Hvar → Dubrovnik | 🇭🇷 Croatia | | **Need to book Dubrovnik Accomodation for a night - Waiting for Kayleigh** |
+| 3 Jul | Hvar → Dubrovnik | 🇭🇷 Croatia | | Ulica Vicka Lovrina 8 (Apartment) |
 | 4 Jul | Dubrovnik → Athens | 🇬🇷 Greece | Flight (17:30 - 20:00) | Yellow Square Hostel (Hostel) |
 | 5 Jul | Athens → Santorini | 🇬🇷 Greece | Ferry at 9:30AM | Caveland (Hostel) |
 | 6 Jul | Santorini | 🇬🇷 Greece | | |
 | 7 Jul | Santorini | 🇬🇷 Greece | | |
 | 8 Jul | Santorini | 🇬🇷 Greece | | |
-| 9 Jul | Santorini → Paros | 🇬🇷 Greece | Ferry at 9:50AM | **Waiting for Charlotte's friend to respond** |
+| 9 Jul | Santorini → Paros | 🇬🇷 Greece | Ferry at 9:50AM | Amaryllis Beach Hotel |
 | 10 Jul | Paros | 🇬🇷 Greece | | |
 | 11 Jul | Paros | 🇬🇷 Greece | | |
 | 12 Jul | Paros → Athens | 🇬🇷 Greece | Ferry at 10:45AM | **Need to book Athens Hostel for a night** |
 | 13 Jul | Athens → London → Edinbrugh | 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland | Athens → London (12:20PM - 14:10PM) , London → Edinbrugh (22:00 - 23:20) | Crashing on Kayleigh's couch |
-
----
 
 ## Locations 📍
 
@@ -124,8 +385,6 @@ Here's a list of the countries and cities that Olivia and I are keen to visit. <
 | 🇦🇹 **Austria** | Innsbruck, Salzburg, Vienna |
 | 🇭🇺 **Hungary** | Budapest |
 | 🇬🇷 **Greece** | Athens, Santorini, Paros |
-
----
 
 ## Packing List 🧳
 
@@ -183,5 +442,3 @@ Here's a bit of information about what I've packed!
 * 1x Jeans
 * 14x Underwear
 * 7x Socks
-
----
