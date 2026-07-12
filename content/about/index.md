@@ -200,7 +200,7 @@ Since that pivotal moment, I've been completely enthralled in them. It's hard to
 ![Bro said how many hours!?](https://images.steamusercontent.com/ugc/2204010189983913838/E0E0AE30F1C491ABD8D962B74BD56BC9D4933524/)
 
 <!-- Hacked CSGO Clients -->
-I guess you could say that I first started "*programming*" circa 2016, when I was playing around with CS:GO Hacked Clients and Scripts, I remember following a YouTube video for how I can download Visual Studio, pasting some code C++ (*which would have essentially been straight jibberish to me*), and then injecting code into the CSGO run-time, just to bunny-hop around servers. (*good fun would recommend it*).
+I guess you could say that I first started "*programming*" circa 2016, when I was playing around with CS:GO Hacked Clients and Scripts, I remember following a YouTube video for how I can download Visual Studio, pasting some C++ code (*which would have essentially been straight jibberish to me*), and then injecting code into the CSGO run-time, just to bunny-hop around servers. (*good fun would recommend it*).
 
 <!-- Adding this in to let people know that crime doesn't pay -->
 > [!WARNING]

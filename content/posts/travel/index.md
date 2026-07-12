@@ -32,7 +32,7 @@ People ask Olivia and I for the details surrounding our travel plan. I've includ
 * Countries and cities we want to vist.
 * A packing list (*for what I'm bringing*).
 
-## Travel Journal
+<!-- ## Travel Journal
 
 ### May
 
@@ -295,7 +295,7 @@ People ask Olivia and I for the details surrounding our travel plan. I've includ
 
 * Planned our Greece trip, smashed the bank account.
 * Holy fuck, there isn’t anything to do in central Naples, I’d really recommend not going to central Naples, it’s like a 1 1/2 hour walk to get to a shitty beach.
-* It’s pretty dirty, it’s fucking boring, and you aren’t close to any beaches or clubs.
+* It’s pretty dirty, it’s fucking boring, and you aren’t close to any beaches or clubs. -->
 
 ## Travel Overview ✈️
 
@@ -355,7 +355,7 @@ This is our actual route — where we've been and where we're headed + how we're
 | 1 Jul | Hvar | 🇭🇷 Croatia | | |
 | 2 Jul | Hvar | 🇭🇷 Croatia | | |
 | 3 Jul | Hvar → Dubrovnik | 🇭🇷 Croatia | | Ulica Vicka Lovrina 8 (Apartment) |
-| 4 Jul | Dubrovnik → Athens | 🇬🇷 Greece | Flight (17:30 - 20:00) | Yellow Square Hostel (Hostel) |
+| 4 Jul | Dubrovnik → Athens | 🇬🇷 Greece | Flight (17:30 - 20:00) | Yellow Square (Hostel) |
 | 5 Jul | Athens → Santorini | 🇬🇷 Greece | Ferry at 9:30AM | Caveland (Hostel) |
 | 6 Jul | Santorini | 🇬🇷 Greece | | |
 | 7 Jul | Santorini | 🇬🇷 Greece | | |
@@ -363,28 +363,36 @@ This is our actual route — where we've been and where we're headed + how we're
 | 9 Jul | Santorini → Paros | 🇬🇷 Greece | Ferry at 9:50AM | Amaryllis Beach Hotel |
 | 10 Jul | Paros | 🇬🇷 Greece | | |
 | 11 Jul | Paros | 🇬🇷 Greece | | |
-| 12 Jul | Paros → Athens | 🇬🇷 Greece | Ferry at 10:45AM | **Need to book Athens Hostel for a night** |
-| 13 Jul | Athens → London → Edinbrugh | 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland | Athens → London (12:20PM - 14:10PM) , London → Edinbrugh (22:00 - 23:20) | Crashing on Kayleigh's couch |
+| 12 Jul | Paros → Athens | 🇬🇷 Greece | Ferry at 10:45AM | Yellow Square (Hostel) |
+| 13 Jul | Athens → London → Edinbrugh | 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland | Athens → London (12:20PM - 14:10PM) , London → Edinbrugh (22:00 - 23:20) | Kayleigh's |
+| 14 Jul | Edinbrugh | 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland | | **(I assume Kayleigh's)** |
+| 15 Jul | Edinbrugh → Aberdeen | 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland | (**Van?**) | **(Ask Tim where we're staying)** |
+| 16 Jul | Aberdeen → Inverness | 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland | (**Van?**) | One the Loan **(Hotel?)** |
+| 17 Jul | Inverness | 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland | (**Van?**) | |
+| 18 Jul | Inverness → Wick | 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland | (**Van?**) | GWR Dickson House **(Hotel?)** |
+| 19 Jul | Wick → Gairloch | 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland | (**Van?**) | Gairlock Hotel (Hotel) |
+| 20 Jul | Gairloch → Oban | 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland | (**Van?**) | Kings Arm (Apartment) |
+| 21 Jul | Oban → Stirling | 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland | (**Van?**) | Golden Lion Hotel (Hotel) |
 
 ## Locations 📍
 
 Here's a list of the countries and cities that Olivia and I are keen to visit. <!-- **NOTE:** not necessairly reflective of where we actually end-up going. -->
 
-| Country | Cities / Regions |
-| --------- | ------------------- |
-| 🇬🇧 **England** | London |
-| 🇪🇸 **Spain** | Barcelona |
-| 🇫🇷 **France** | Nice, Paris |
-| 🇵🇹 **Portugal** | Lisbon, Porto, Lagos |
-| 🇭🇷 **Croatia** | Split + Dalmatian Coast |
-| 🏴󠁧󠁢󠁳󠁣󠁴󠁿 **Scotland** | Edinburgh |
-| 🇧🇪 **Belgium** | Brussels, Antwerp, Bruges |
-| 🇳🇱 **Netherlands** | Amsterdam, Rotterdam |
-| 🇩🇪 **Germany** | Berlin, Hamburg, Munich |
-| 🇮🇹 **Italy** | Milan, Florence, Rome, Amalfi Coast |
-| 🇦🇹 **Austria** | Innsbruck, Salzburg, Vienna |
-| 🇭🇺 **Hungary** | Budapest |
-| 🇬🇷 **Greece** | Athens, Santorini, Paros |
+| Country | Cities / Regions | Visited? |
+| --------- | ------------------- | ----- |
+| 🇬🇧 **England** | London | ✅ |
+| 🇪🇸 **Spain** | Barcelona | ✅ |
+| 🇫🇷 **France** | Nice, Paris | |
+| 🇵🇹 **Portugal** | Lisbon, Porto, Lagos | |
+| 🇭🇷 **Croatia** | Split, Hvar | ✅ |
+| 🏴󠁧󠁢󠁳󠁣󠁴󠁿 **Scotland** | Edinburgh | |
+| 🇧🇪 **Belgium** | Brussels, Antwerp, Bruges | |
+| 🇳🇱 **Netherlands** | Amsterdam, Rotterdam | |
+| 🇩🇪 **Germany** | Berlin, Hamburg, Munich | |
+| 🇮🇹 **Italy** | Milan, Florence, Rome, Amalfi Coast | ✅ |
+| 🇦🇹 **Austria** | Innsbruck, Salzburg, Vienna | |
+| 🇭🇺 **Hungary** | Budapest | |
+| 🇬🇷 **Greece** | Athens, Santorini, Paros | ✅ |
 
 ## Packing List 🧳
 
@@ -414,6 +422,9 @@ Here's a bit of information about what I've packed!
 
 * Plasters
 * Ibuprofen
+* Panadol
+* Throat Losanges
+* Sinus Medication
 * Wet Wipes
 * Antihistamines
 

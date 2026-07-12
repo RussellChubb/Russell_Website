@@ -12,8 +12,8 @@ tags: ["PowerApps", "PowerBI", "Power-Automate", "Professional"]
 ---
 
 <!-- Adding this in to let people know that this page is WIP -->
-> [!NOTE]
-> As with other pages on the russellchubb.com , this page is a work in progress.
+<!-- > [!NOTE]
+> As with other pages on the russellchubb.com , this page is a work in progress. -->
 
 <!-- Toastmasters Man -->
 {{< typeit
@@ -28,7 +28,7 @@ tags: ["PowerApps", "PowerBI", "Power-Automate", "Professional"]
 
 ---
 
-## Suggestion Box 💡
+## Overview 📌
 
 ### Meta Information 🧠
 
@@ -45,18 +45,20 @@ tags: ["PowerApps", "PowerBI", "Power-Automate", "Professional"]
 
 ### What's the Suggestion Box's purpose? 🎯
 
-Good exceutives and senior managers know that the best business decisions come from people on the ground, but for Meridian there is generally a large seperation between those in Manangement, and the people that are out on site. As such, the objective of the Suggestion Box was to make a low-friction way for site staff (*also including those in offices*), to create and submit a suggestion, such that these ideas would be able to be triaged, and some surfaced up to management to then spin-off projects.
+Good Executives and Senior Managers know that the best business decisions come from people on the ground, however, there can sometimes be seperation between those "*doing the do*", and those "*planning the do*".
+
+As such, the objective of the Suggestion Box was to make a low-friction way for site staff (*also including those in offices*), to create and submit a suggestion, such that these ideas would be able to be triaged, and some surfaced up to management to then spin-off projects, based on these initial ideas.
 
 <!-- TODO: Possibly add a custom colour and Icon to this (*to make it a bit more fancy*) -->
 <!-- Anti AI Slop Sentiment -->
-> [!IMPORTANT]
+<!-- > [!IMPORTANT]
 > Every line on this page is written by me. I do use AI assistance for the following:
 >
 > * Ideation
 > * Code Generation
 > * Spelling / Grammar
 >
-> But the words, opinions, and bad jokes are mine.
+> But the words, opinions, and bad jokes are mine. -->
 
 <!-- TODO Section -->
 <!-- Context / History -->

@@ -12,8 +12,8 @@ tags: ["PowerApps", "PowerBI", "Power-Automate", "Professional"]
 ---
 
 <!-- Adding this in to let people know that this page is WIP -->
-> [!NOTE]
-> As with other pages on the russellchubb.com , this page is a work in progress.
+<!-- > [!NOTE]
+> As with other pages on the russellchubb.com , this page is a work in progress. -->
 
 <!-- Found this when searching for Organizational Memory -->
 {{< typeit
@@ -54,14 +54,14 @@ The biggest thing sitting behind both of those bullet-points though is the abili
 
 <!-- TODO: Possibly add a custom colour and Icon to this (*to make it a bit more fancy*) -->
 <!-- Anti AI Slop Sentiment -->
-> [!IMPORTANT]
+<!-- > [!IMPORTANT]
 > Every line on this page is written by me. I do use AI assistance for the following:
 >
 > * Ideation
 > * Code Generation
 > * Spelling / Grammar
 >
-> But the words, opinions, and bad jokes are mine.
+> But the words, opinions, and bad jokes are mine. -->
 
 <!-- TODO Section -->
 <!-- Context / History -->
