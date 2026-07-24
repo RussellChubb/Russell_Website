@@ -307,7 +307,7 @@ This is high-level information about how Olivia and I are travelling!
 * **Travel Style:** {{< badge >}} Cheap-ish (trains & buses over flights, hostels / budget stays, slower pace etc)  {{< /badge >}}
 * **Budget:** {{< badge >}} ~NZD $30k each {{< /badge >}}
 
-## Travel Plan 🗺️
+## Route 🗺️
 
 This is our actual route — where we've been and where we're headed + how we're getting there! (**NOTE:** - Not everything on here has been booked, as we want to give ourselves flexibility when travelling. )
 
@@ -364,15 +364,56 @@ This is our actual route — where we've been and where we're headed + how we're
 | 10 Jul | Paros | 🇬🇷 Greece | | |
 | 11 Jul | Paros | 🇬🇷 Greece | | |
 | 12 Jul | Paros → Athens | 🇬🇷 Greece | Ferry at 10:45AM | Yellow Square (Hostel) |
-| 13 Jul | Athens → London → Edinbrugh | 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland | Athens → London (12:20PM - 14:10PM) , London → Edinbrugh (22:00 - 23:20) | Kayleigh's |
-| 14 Jul | Edinbrugh | 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland | | **(I assume Kayleigh's)** |
-| 15 Jul | Edinbrugh → Aberdeen | 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland | (**Van?**) | **(Ask Tim where we're staying)** |
-| 16 Jul | Aberdeen → Inverness | 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland | (**Van?**) | One the Loan **(Hotel?)** |
-| 17 Jul | Inverness | 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland | (**Van?**) | |
-| 18 Jul | Inverness → Wick | 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland | (**Van?**) | GWR Dickson House **(Hotel?)** |
-| 19 Jul | Wick → Gairloch | 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland | (**Van?**) | Gairlock Hotel (Hotel) |
-| 20 Jul | Gairloch → Oban | 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland | (**Van?**) | Kings Arm (Apartment) |
-| 21 Jul | Oban → Stirling | 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland | (**Van?**) | Golden Lion Hotel (Hotel) |
+| 13 Jul | Athens → London → Edinbrugh | 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland | Flight Athens → London (12:20PM - 14:10PM) , London → Edinbrugh (22:00 - 23:20) | Kayleigh's |
+| 14 Jul | Edinbrugh | 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland | | |
+| 15 Jul | Edinbrugh → Aberdeen | 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland | Car | Black Bull (Hotel) |
+| 16 Jul | Aberdeen → Inverness | 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland | Car | One the Loan (AirBNB) |
+| 17 Jul | Inverness | 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland | Car | |
+| 18 Jul | Inverness → Wick | 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland | Car | GWR Dickson House (AirBNB) |
+| 19 Jul | Wick → Gairloch | 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland | Car | Gairlock Hotel (Hotel) |
+| 20 Jul | Gairloch → Oban | 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland | Car | Kings Arm (Apartment) |
+| 21 Jul | Oban → Stirling | 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland | Car | Golden Lion Hotel (Hotel) |
+| 22 Jul | Stirling → Edinbrugh | 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland | Car | |
+| 23 Jul | Edinbrugh | 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland | | |
+| 24 Jul | Edinbrugh | 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland | | |
+| 25 Jul | Edinbrugh | 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland | | |
+| 26 Jul | Edinbrugh → Budapest | 🇭🇺 Hungary | Flight | |
+| 27 Jul | Budapest | 🇭🇺 Hungary | | |
+| 28 Jul | Budapest | 🇭🇺 Hungary | | |
+| 29 Jul | Budapest → Vienna | 🇦🇹 Austria | | |
+| 30 Jul | Vienna | 🇦🇹 Austria | | |
+| 31 Jul | Vienna | 🇦🇹 Austria | | |
+| 1 Aug | Vienna → Prague | 🇨🇿 Czechia | | |
+| 2 Aug | Prague | 🇨🇿 Czechia | | |
+| 3 Aug | Prague | 🇨🇿 Czechia | | |
+| 4 Aug | Prague | 🇨🇿 Czechia | | |
+| 5 Aug | Prague | 🇨🇿 Czechia | | |
+| 6 Aug | Prague → Munich | 🇩🇪 Germany | | |
+| 7 Aug | Munich | 🇩🇪 Germany | | |
+| 8 Aug | Munich | 🇩🇪 Germany | | |
+| 9 Aug | Munich | 🇩🇪 Germany | | |
+| 10 Aug | Munich | 🇩🇪 Germany | | |
+| 11 Aug | Munich → Luxembourg City | 🇱🇺 Luxembourg | | |
+| 12 Aug | Luxembourg City | 🇱🇺 Luxembourg | | |
+| 13 Aug | Luxembourg City | 🇱🇺 Luxembourg | | |
+| 14 Aug | Luxembourg City → Rotterdam | 🇳🇱 Netherlands | | |
+| 15 Aug | Rotterdam | 🇳🇱 Netherlands | | |
+| 16 Aug | Rotterdam | 🇳🇱 Netherlands | | |
+| 17 Aug | Rotterdam → Amsterdam | 🇳🇱 Netherlands | | |
+| 18 Aug | Amersterdam | 🇳🇱 Netherlands | | |
+| 19 Aug | Amersterdam | 🇳🇱 Netherlands | | |
+| 20 Aug | Amersterdam → Brussels | 🇧🇪 Belgium | | |
+| 21 Aug | Brussels | 🇧🇪 Belgium | | |
+| 22 Aug | Brussels | 🇧🇪 Belgium | | |
+| 23 Aug | Brussels | 🇧🇪 Belgium | | |
+| 24 Aug | Brussels → Paris | 🇫🇷 France | | |
+| 25 Aug | Paris | 🇫🇷 France | | |
+| 26 Aug | Paris | 🇫🇷 France | | |
+| 27 Aug | Paris → London | 🏴󠁧󠁢󠁥󠁮󠁧󠁿 England | | |
+| 28 Aug | London | 🏴󠁧󠁢󠁥󠁮󠁧󠁿 England | | |
+| 29 Aug | London | 🏴󠁧󠁢󠁥󠁮󠁧󠁿 England | | |
+| 30 Aug | London | 🏴󠁧󠁢󠁥󠁮󠁧󠁿 England | | |
+| 31 Aug | London → Edinbrugh | 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland | | |
 
 ## Locations 📍
 
@@ -382,16 +423,18 @@ Here's a list of the countries and cities that Olivia and I are keen to visit. <
 | --------- | ------------------- | ----- |
 | 🇬🇧 **England** | London | ✅ |
 | 🇪🇸 **Spain** | Barcelona | ✅ |
-| 🇫🇷 **France** | Nice, Paris | |
-| 🇵🇹 **Portugal** | Lisbon, Porto, Lagos | |
+| 🇫🇷 **France** | Nice, Paris | ½ |
+| 🇵🇹 **Portugal** | Lisbon, Porto | |
 | 🇭🇷 **Croatia** | Split, Hvar | ✅ |
-| 🏴󠁧󠁢󠁳󠁣󠁴󠁿 **Scotland** | Edinburgh | |
-| 🇧🇪 **Belgium** | Brussels, Antwerp, Bruges | |
+| 🏴󠁧󠁢󠁳󠁣󠁴󠁿 **Scotland** | Edinburgh, Stirling, Inverness | ✅ |
+| 🇧🇪 **Belgium** | Brussels | |
 | 🇳🇱 **Netherlands** | Amsterdam, Rotterdam | |
-| 🇩🇪 **Germany** | Berlin, Hamburg, Munich | |
+| 🇩🇪 **Germany** | Munich | |
 | 🇮🇹 **Italy** | Milan, Florence, Rome, Amalfi Coast | ✅ |
 | 🇦🇹 **Austria** | Innsbruck, Salzburg, Vienna | |
 | 🇭🇺 **Hungary** | Budapest | |
+| 🇨🇿 **Czechia** | Prague | |
+| 🇱🇺 **Luxembourg** | Luxembourg City | |
 | 🇬🇷 **Greece** | Athens, Santorini, Paros | ✅ |
 
 ## Packing List 🧳
