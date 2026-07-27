@@ -2,7 +2,7 @@
 title: "2026 OE/Travel"
 description: "Overview of Russell & Olivia's Travel Plan for 2026"
 showAuthor: true
-date: 2026-04-16
+date: 2026-07-27
 summary: "Take a look at our plan for how I plan to travel through Europe in 2026!"
 featureimage: "featured.jpg"
 tags: ["Personal"]
@@ -377,23 +377,23 @@ This is our actual route — where we've been and where we're headed + how we're
 | 23 Jul | Edinbrugh | 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland | | |
 | 24 Jul | Edinbrugh | 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland | | |
 | 25 Jul | Edinbrugh | 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland | | |
-| 26 Jul | Edinbrugh → Budapest | 🇭🇺 Hungary | Flight | |
+| 26 Jul | Edinbrugh → Budapest | 🇭🇺 Hungary | Flight (5:45 AM) | Maverick (Hostel) |
 | 27 Jul | Budapest | 🇭🇺 Hungary | | |
 | 28 Jul | Budapest | 🇭🇺 Hungary | | |
-| 29 Jul | Budapest → Vienna | 🇦🇹 Austria | | |
+| 29 Jul | Budapest → Vienna | 🇦🇹 Austria | Flixbus | Wombat's (Hostel) |
 | 30 Jul | Vienna | 🇦🇹 Austria | | |
 | 31 Jul | Vienna | 🇦🇹 Austria | | |
-| 1 Aug | Vienna → Prague | 🇨🇿 Czechia | | |
+| 1 Aug | Vienna → Prague | 🇨🇿 Czechia | Flixbus | Old Town Green Room (AirBNB) |
 | 2 Aug | Prague | 🇨🇿 Czechia | | |
 | 3 Aug | Prague | 🇨🇿 Czechia | | |
-| 4 Aug | Prague | 🇨🇿 Czechia | | |
-| 5 Aug | Prague | 🇨🇿 Czechia | | |
-| 6 Aug | Prague → Munich | 🇩🇪 Germany | | |
-| 7 Aug | Munich | 🇩🇪 Germany | | |
-| 8 Aug | Munich | 🇩🇪 Germany | | |
-| 9 Aug | Munich | 🇩🇪 Germany | | |
-| 10 Aug | Munich | 🇩🇪 Germany | | |
-| 11 Aug | Munich → Luxembourg City | 🇱🇺 Luxembourg | | |
+| 4 Aug | Prague → Munich | 🇩🇪 Germany | | |
+| 5 Aug | Munich | 🇩🇪 Germany | | |
+| 6 Aug | Munich | 🇩🇪 Germany | | |
+| 7 Aug | Munich → Mannheim | 🇩🇪 Germany | | |
+| 8 Aug | Mannheim | 🇩🇪 Germany | | |
+| 9 Aug | Mannheim | 🇩🇪 Germany | | |
+| 10 Aug | Mannheim | 🇩🇪 Germany | | |
+| 11 Aug | Mannheim → Luxembourg City | 🇱🇺 Luxembourg | | |
 | 12 Aug | Luxembourg City | 🇱🇺 Luxembourg | | |
 | 13 Aug | Luxembourg City | 🇱🇺 Luxembourg | | |
 | 14 Aug | Luxembourg City → Rotterdam | 🇳🇱 Netherlands | | |
@@ -424,15 +424,15 @@ Here's a list of the countries and cities that Olivia and I are keen to visit. <
 | 🇬🇧 **England** | London | ✅ |
 | 🇪🇸 **Spain** | Barcelona | ✅ |
 | 🇫🇷 **France** | Nice, Paris | ½ |
-| 🇵🇹 **Portugal** | Lisbon, Porto | |
+<!-- | 🇵🇹 **Portugal** | Lisbon, Porto | | -->
 | 🇭🇷 **Croatia** | Split, Hvar | ✅ |
 | 🏴󠁧󠁢󠁳󠁣󠁴󠁿 **Scotland** | Edinburgh, Stirling, Inverness | ✅ |
 | 🇧🇪 **Belgium** | Brussels | |
 | 🇳🇱 **Netherlands** | Amsterdam, Rotterdam | |
-| 🇩🇪 **Germany** | Munich | |
+| 🇩🇪 **Germany** | Munich, Frankfurt | |
 | 🇮🇹 **Italy** | Milan, Florence, Rome, Amalfi Coast | ✅ |
 | 🇦🇹 **Austria** | Innsbruck, Salzburg, Vienna | |
-| 🇭🇺 **Hungary** | Budapest | |
+| 🇭🇺 **Hungary** | Budapest | ✅ |
 | 🇨🇿 **Czechia** | Prague | |
 | 🇱🇺 **Luxembourg** | Luxembourg City | |
 | 🇬🇷 **Greece** | Athens, Santorini, Paros | ✅ |

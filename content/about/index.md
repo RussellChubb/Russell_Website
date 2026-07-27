@@ -25,7 +25,7 @@ Master: Go has always existed.
 
 ## TL;DR 👋
 
-I'm a Data-Analyst living (*as of 12/04/26*) in New Zealand (*although moving to Scotland in 2026!*).
+I'm a Data-Analyst from New Zealand living in Edinbrugh, Scotland.
 
 I've been doing ***Data Stuff*** (*including but not limited to Software Engineering, UX/UI Design and Development, Video and Graphics Editing, Project Implementation*) for ~ 3 years at this point, with a key area that I enjoy being the dissemination of complex and or technical information to a large audience, emphasising design and purpose that fits the need of an end user.
 
@@ -362,26 +362,15 @@ As such, as large portion of my work when I first started at Meridian -->
 
 <!-- Software Development -->
 
-### The Future! 🔮
+<!-- ### The Future! 🔮
 
 I'm unsure of what the future holds, I know a few things for certain:
 
 1) I finish up with Meridian on the 8th of May 2026
 2) My flight leaves New Zealand on the 21st of May 2026
 
-Other than that, I'm playing the world by ear right now, taking it one step at a time. I'm looking forward to taking some time away from work, meeting new people and seeing (*and eating*) all that Europe has to offer!
+Other than that, I'm playing the world by ear right now, taking it one step at a time. I'm looking forward to taking some time away from work, meeting new people and seeing (*and eating*) all that Europe has to offer! -->
 
-Thank you for reading,
+Well, that concludes my "about" page! - Thank you so much for reading!
 
 Cheers!
-
-<!-- TODO: Possibly add a custom colour and Icon to this (*to make it a bit more fancy*) -->
-<!-- Anti AI Slop Sentiment -->
-> [!IMPORTANT]
-> Every line on this page is written by me. I do use AI assistance for the following:
->
-> * Ideation
-> * Code Generation
-> * Spelling / Grammar
->
-> But the words, opinions, and bad jokes are mine.
