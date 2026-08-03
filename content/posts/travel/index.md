@@ -386,14 +386,14 @@ This is our actual route — where we've been and where we're headed + how we're
 | 1 Aug | Vienna → Prague | 🇨🇿 Czechia | Flixbus | Old Town Green Room (AirBNB) |
 | 2 Aug | Prague | 🇨🇿 Czechia | | |
 | 3 Aug | Prague | 🇨🇿 Czechia | | |
-| 4 Aug | Prague → Munich | 🇩🇪 Germany | | |
+| 4 Aug | Prague → Munich | 🇩🇪 Germany | Flixbus | Hotel Miano (AirBNB) |
 | 5 Aug | Munich | 🇩🇪 Germany | | |
 | 6 Aug | Munich | 🇩🇪 Germany | | |
-| 7 Aug | Munich → Mannheim | 🇩🇪 Germany | | |
-| 8 Aug | Mannheim | 🇩🇪 Germany | | |
-| 9 Aug | Mannheim | 🇩🇪 Germany | | |
-| 10 Aug | Mannheim | 🇩🇪 Germany | | |
-| 11 Aug | Mannheim → Luxembourg City | 🇱🇺 Luxembourg | | |
+| 7 Aug | Munich → Frankfurt | 🇩🇪 Germany | | |
+| 8 Aug | Frankfurt | 🇩🇪 Germany | | |
+| 9 Aug | Frankfurt | 🇩🇪 Germany | | |
+| 10 Aug | Frankfurt | 🇩🇪 Germany | | |
+| 11 Aug | Frankfurt → Luxembourg City | 🇱🇺 Luxembourg | | |
 | 12 Aug | Luxembourg City | 🇱🇺 Luxembourg | | |
 | 13 Aug | Luxembourg City | 🇱🇺 Luxembourg | | |
 | 14 Aug | Luxembourg City → Rotterdam | 🇳🇱 Netherlands | | |
@@ -424,18 +424,21 @@ Here's a list of the countries and cities that Olivia and I are keen to visit. <
 | 🇬🇧 **England** | London | ✅ |
 | 🇪🇸 **Spain** | Barcelona | ✅ |
 | 🇫🇷 **France** | Nice, Paris | ½ |
-<!-- | 🇵🇹 **Portugal** | Lisbon, Porto | | -->
 | 🇭🇷 **Croatia** | Split, Hvar | ✅ |
 | 🏴󠁧󠁢󠁳󠁣󠁴󠁿 **Scotland** | Edinburgh, Stirling, Inverness | ✅ |
 | 🇧🇪 **Belgium** | Brussels | |
 | 🇳🇱 **Netherlands** | Amsterdam, Rotterdam | |
 | 🇩🇪 **Germany** | Munich, Frankfurt | |
 | 🇮🇹 **Italy** | Milan, Florence, Rome, Amalfi Coast | ✅ |
-| 🇦🇹 **Austria** | Innsbruck, Salzburg, Vienna | |
+| 🇦🇹 **Austria** | Vienna | ✅ |
 | 🇭🇺 **Hungary** | Budapest | ✅ |
-| 🇨🇿 **Czechia** | Prague | |
+| 🇨🇿 **Czechia** | Prague | ✅ |
 | 🇱🇺 **Luxembourg** | Luxembourg City | |
 | 🇬🇷 **Greece** | Athens, Santorini, Paros | ✅ |
+
+<!-- The One Day List -->
+<!-- | 🇵🇹 **Portugal** | Lisbon, Porto | | -->
+<!-- | 🇮🇪 **Ireland** | Dublin | | -->
 
 ## Packing List 🧳
 
@@ -496,3 +499,6 @@ Here's a bit of information about what I've packed!
 * 1x Jeans
 * 14x Underwear
 * 7x Socks
+
+<!-- Subscribe Button -->
+{{< subscribe >}}
