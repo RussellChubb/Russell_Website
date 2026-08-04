@@ -1,6 +1,6 @@
 cv:
   name: Russell Chubb
-  location: Wellington, New Zealand
+  location: Edinburgh, Scotland, United Kingdom
   email: russell.d.chubb@gmail.com
   website: https://russellchubb.com
   social_networks:
@@ -28,10 +28,10 @@ cv:
           - Built a Power BI P&L Overheads Dashboard enabling budget-holders to analyse
             overhead spend in detail — directly identifying unnecessary spending and
             saving ~$500K
-          - Built and delivered Power BI dashboards and reports for stakeholders ranging
+          - Built and delivered Power-BI dashboards and reports for stakeholders ranging
             from engineers and analysts through to executives and board-level audiences
           - Built a full stakeholder **CRM** from scratch in Power Apps — replacing a
-            manual Loop-based process, with SharePoint-backed document uploads via Power
+            manual Excel-based process, with SharePoint-backed document uploads via Power
             Automate, role-based access control, an audit logging system, and an embedded
             Power BI analytics layer; onboarded 50+ users across the Generation Business Unit
           - Designed and delivered a full-stack **Suggestion Box** platform in Power Apps
