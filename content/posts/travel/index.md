@@ -389,27 +389,27 @@ This is our actual route — where we've been and where we're headed + how we're
 | 4 Aug | Prague → Munich | 🇩🇪 Germany | Flixbus | Hotel Miano (AirBNB) |
 | 5 Aug | Munich | 🇩🇪 Germany | | |
 | 6 Aug | Munich | 🇩🇪 Germany | | |
-| 7 Aug | Munich → Frankfurt | 🇩🇪 Germany | | |
+| 7 Aug | Munich → Frankfurt | 🇩🇪 Germany | Flixbus | Hotel Mercure (AirBNB) |
 | 8 Aug | Frankfurt | 🇩🇪 Germany | | |
-| 9 Aug | Frankfurt | 🇩🇪 Germany | | |
-| 10 Aug | Frankfurt | 🇩🇪 Germany | | |
-| 11 Aug | Frankfurt → Luxembourg City | 🇱🇺 Luxembourg | | |
-| 12 Aug | Luxembourg City | 🇱🇺 Luxembourg | | |
-| 13 Aug | Luxembourg City | 🇱🇺 Luxembourg | | |
-| 14 Aug | Luxembourg City → Rotterdam | 🇳🇱 Netherlands | | |
-| 15 Aug | Rotterdam | 🇳🇱 Netherlands | | |
-| 16 Aug | Rotterdam | 🇳🇱 Netherlands | | |
-| 17 Aug | Rotterdam → Amsterdam | 🇳🇱 Netherlands | | |
-| 18 Aug | Amersterdam | 🇳🇱 Netherlands | | |
-| 19 Aug | Amersterdam | 🇳🇱 Netherlands | | |
-| 20 Aug | Amersterdam → Brussels | 🇧🇪 Belgium | | |
+| 9 Aug | Frankfurt → Luxembourg City | 🇱🇺 Luxembourg | Flixbus | [No Name] (AirBNB) |
+| 10 Aug | Luxembourg City | 🇱🇺 Luxembourg | | |
+| 11 Aug | Luxembourg City | 🇱🇺 Luxembourg | | |
+| 12 Aug | Luxembourg City → Rotterdam | 🇳🇱 Netherlands | | |
+| 13 Aug | Rotterdam | 🇳🇱 Netherlands | | |
+| 14 Aug | Rotterdam | 🇳🇱 Netherlands | | |
+| 15 Aug | Rotterdam → Amsterdam | 🇳🇱 Netherlands | | |
+| 16 Aug | Amsterdam | 🇳🇱 Netherlands | | |
+| 17 Aug | Amsterdam | 🇳🇱 Netherlands | | |
+| 18 Aug | Amersterdam → Brussels | 🇧🇪 Belgium | | |
+| 19 Aug | Brussels | 🇧🇪 Belgium | | |
+| 20 Aug | Brussels | 🇧🇪 Belgium | | |
 | 21 Aug | Brussels | 🇧🇪 Belgium | | |
-| 22 Aug | Brussels | 🇧🇪 Belgium | | |
-| 23 Aug | Brussels | 🇧🇪 Belgium | | |
-| 24 Aug | Brussels → Paris | 🇫🇷 France | | |
+| 22 Aug | Brussels → Paris | 🇫🇷 France | | |
+| 23 Aug | Paris | 🇫🇷 France | | |
+| 24 Aug | Paris | 🇫🇷 France | | |
 | 25 Aug | Paris | 🇫🇷 France | | |
-| 26 Aug | Paris | 🇫🇷 France | | |
-| 27 Aug | Paris → London | 🏴󠁧󠁢󠁥󠁮󠁧󠁿 England | | |
+| 26 Aug | Paris → London | 🏴󠁧󠁢󠁥󠁮󠁧󠁿 England | | |
+| 27 Aug | London | 🏴󠁧󠁢󠁥󠁮󠁧󠁿 England | | |
 | 28 Aug | London | 🏴󠁧󠁢󠁥󠁮󠁧󠁿 England | | |
 | 29 Aug | London | 🏴󠁧󠁢󠁥󠁮󠁧󠁿 England | | |
 | 30 Aug | London | 🏴󠁧󠁢󠁥󠁮󠁧󠁿 England | | |
