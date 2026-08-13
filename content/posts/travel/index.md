@@ -2,8 +2,8 @@
 title: "2026 OE/Travel"
 description: "Overview of Russell & Olivia's Travel Plan for 2026"
 showAuthor: true
-date: 2026-07-27
-summary: "Take a look at our plan for how I plan to travel through Europe in 2026!"
+date: 2026-08-10
+summary: "Take a look at how Olivia and I plan to travel through Europe in 2026!"
 featureimage: "featured.jpg"
 tags: ["Personal"]
 ---
@@ -91,11 +91,11 @@ This is our actual route — where we've been and where we're headed + how we're
 | 2 Jul | Hvar | 🇭🇷 Croatia | | |
 | 3 Jul | Hvar → Dubrovnik | 🇭🇷 Croatia | | Ulica Vicka Lovrina 8 (Apartment) |
 | 4 Jul | Dubrovnik → Athens | 🇬🇷 Greece | Flight (17:30 - 20:00) | Yellow Square (Hostel) |
-| 5 Jul | Athens → Santorini | 🇬🇷 Greece | Ferry at 9:30AM | Caveland (Hostel) |
+| 5 Jul | Athens → Santorini | 🇬🇷 Greece | Ferry (9:30AM) | Caveland (Hostel) |
 | 6 Jul | Santorini | 🇬🇷 Greece | | |
 | 7 Jul | Santorini | 🇬🇷 Greece | | |
 | 8 Jul | Santorini | 🇬🇷 Greece | | |
-| 9 Jul | Santorini → Paros | 🇬🇷 Greece | Ferry at 9:50AM | Amaryllis Beach Hotel |
+| 9 Jul | Santorini → Paros | 🇬🇷 Greece | Ferry (9:50AM) | Amaryllis Beach Hotel |
 | 10 Jul | Paros | 🇬🇷 Greece | | |
 | 11 Jul | Paros | 🇬🇷 Greece | | |
 | 12 Jul | Paros → Athens | 🇬🇷 Greece | Ferry at 10:45AM | Yellow Square (Hostel) |
@@ -129,30 +129,30 @@ This is our actual route — where we've been and where we're headed + how we're
 | 9 Aug | Frankfurt → Luxembourg City | 🇱🇺 Luxembourg | Flixbus | Danish's House (AirBNB) |
 | 10 Aug | Luxembourg City | 🇱🇺 Luxembourg | | |
 | 11 Aug | Luxembourg City | 🇱🇺 Luxembourg | | |
-| 12 Aug | Luxembourg City → Rotterdam | 🇳🇱 Netherlands | | |
-| 13 Aug | Rotterdam | 🇳🇱 Netherlands | | |
-| 14 Aug | Rotterdam | 🇳🇱 Netherlands | | |
-| 15 Aug | Rotterdam → Amsterdam | 🇳🇱 Netherlands | | |
-| 16 Aug | Amsterdam | 🇳🇱 Netherlands | | |
+| 12 Aug | Luxembourg City → Brussels | 🇧🇪 Belgium | Flixbus | Sint-Lambrechts-Woluwe (AirBNB) |
+| 13 Aug | Brussels | 🇧🇪 Belgium | | |
+| 14 Aug | Brussels | 🇧🇪 Belgium | | |
+| 15 Aug | Brussels | 🇧🇪 Belgium | | |
+| 16 Aug | Brussels → Amsterdam | 🇳🇱 Netherlands | Flixbus | Generator (Hostel) |
 | 17 Aug | Amsterdam | 🇳🇱 Netherlands | | |
-| 18 Aug | Amersterdam → Brussels | 🇧🇪 Belgium | | |
-| 19 Aug | Brussels | 🇧🇪 Belgium | | |
-| 20 Aug | Brussels | 🇧🇪 Belgium | | |
-| 21 Aug | Brussels | 🇧🇪 Belgium | | |
-| 22 Aug | Brussels → Paris | 🇫🇷 France | | |
+| 18 Aug | Amsterdam | 🇳🇱 Netherlands | | |
+| 19 Aug | Amsterdam | 🇳🇱 Netherlands | | |
+| 20 Aug | Amersterdam → Paris | 🇫🇷 France | Flixbus | ? |
+| 21 Aug | Paris | 🇫🇷 France | | |
+| 22 Aug | Paris | 🇫🇷 France | | |
 | 23 Aug | Paris | 🇫🇷 France | | |
 | 24 Aug | Paris | 🇫🇷 France | | |
-| 25 Aug | Paris | 🇫🇷 France | | |
-| 26 Aug | Paris → London | 🏴󠁧󠁢󠁥󠁮󠁧󠁿 England | | |
+| 25 Aug | Paris → London | 🏴󠁧󠁢󠁥󠁮󠁧󠁿 England | | Holly's Couch (Hopefully!) |
+| 26 Aug | London | 🏴󠁧󠁢󠁥󠁮󠁧󠁿 England | | |
 | 27 Aug | London | 🏴󠁧󠁢󠁥󠁮󠁧󠁿 England | | |
 | 28 Aug | London | 🏴󠁧󠁢󠁥󠁮󠁧󠁿 England | | |
 | 29 Aug | London | 🏴󠁧󠁢󠁥󠁮󠁧󠁿 England | | |
 | 30 Aug | London | 🏴󠁧󠁢󠁥󠁮󠁧󠁿 England | | |
-| 31 Aug | London → Edinbrugh | 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland | | |
+| 31 Aug | London → Edinbrugh | 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland | | Jeanie's |
 
 ## Locations 📍
 
-Here's a list of the countries and cities that Olivia and I are keen to visit. <!-- **NOTE:** not necessairly reflective of where we actually end-up going. -->
+Here's a list of the countries and cities that Olivia and I are keen to visit.
 
 | Country | Cities / Regions | Visited? |
 | --------- | ------------------- | ----- |
@@ -161,8 +161,8 @@ Here's a list of the countries and cities that Olivia and I are keen to visit. <
 | 🇫🇷 **France** | Nice, Paris | ½ |
 | 🇭🇷 **Croatia** | Split, Hvar | ✅ |
 | 🏴󠁧󠁢󠁳󠁣󠁴󠁿 **Scotland** | Edinburgh, Stirling, Inverness | ✅ |
-| 🇧🇪 **Belgium** | Brussels | |
-| 🇳🇱 **Netherlands** | Amsterdam, Rotterdam | |
+| 🇧🇪 **Belgium** | Brussels | ✅ |
+| 🇳🇱 **Netherlands** | Amsterdam | |
 | 🇩🇪 **Germany** | Munich, Frankfurt | ✅ |
 | 🇮🇹 **Italy** | Milan, Florence, Rome, Amalfi Coast | ✅ |
 | 🇦🇹 **Austria** | Vienna | ✅ |

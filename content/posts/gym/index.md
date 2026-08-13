@@ -125,3 +125,6 @@ I've got this page set-up on my website, as prior to this, I actually just used 
 | Garland (Deep Squat Hold) | Ankles, Hips | Sit deep, chest up |
 | Arm Pulses | Shoulders | High reps, light burn |
 | Hands Behind Back (Both Sides) | Shoulders, Chest | Focus on range, not force |
+
+<!-- Subscribe Button -->
+{{< subscribe >}}

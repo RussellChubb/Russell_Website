@@ -25,7 +25,7 @@ Master: Go has always existed.
 
 ## TL;DR 👋
 
-I'm a Data-Analyst from New Zealand living in Edinbrugh, Scotland.
+I'm a Data-Analyst from New Zealand living in Edinburgh, Scotland.
 
 I've been doing ***Data Stuff*** (*including but not limited to Software Engineering, UX/UI Design and Development, Video and Graphics Editing, Project Implementation*) for ~ 3 years at this point, with a key area that I enjoy being the dissemination of complex and or technical information to a large audience, emphasising design and purpose that fits the need of an end user.
 

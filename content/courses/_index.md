@@ -59,7 +59,7 @@ data: {
   labels: ['Python', 'Git', 'SQL', 'Bash', 'Power BI'],
   datasets: [{
     label: 'Course Completion',
-    data: [25, 5, 25, 25, 5],
+    data: [5, 0, 2, 5, 0],
     backgroundColor: [
       '#EAB308',
       '#EF4444',
