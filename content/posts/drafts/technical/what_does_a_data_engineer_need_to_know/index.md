@@ -1,9 +1,9 @@
 ---
-title: "What does a Data-Engineer need to Know in 2026?"
+title: "2026 Data-Engineering Roadmap"
 draft: true
-description: "In the year, 2026, what are the fundamentals that our Data-Engineers need to know?"
-summary: "In the year, 2026, what are the fundamentals that our Data-Engineers need to know?"
-date: 2026-08-13
+description: "In the year, 2026, what are the fundamentals that Data-Engineers need to know?"
+summary: "In the year, 2026, what are the fundamentals that Data-Engineers need to know?"
+date: 2026-08-14
 featureimage: "featured.jpg"
 tags: ["Data Engineering", "Technical"]
 ---
@@ -20,7 +20,7 @@ tags: ["Data Engineering", "Technical"]
 
 ---
 
-## Overview 🎯
+## Introduction 🎯
 
 One of the first things I did when I started studying to become a Data Analyst was try to answer a deceptively simple question:
 
@@ -55,7 +55,9 @@ As such, the path I've chosen is that of the Data-Engineer, and therefore, I nee
 <!-- Matrix Meme -->
 ![Plumber hehe](https://karimjedda.com/content/images/2023/07/Screenshot-2023-07-15-at-16.01.04-2.png)
 
-## My Data Engineering Roadmap 🗺️
+## 2026 Data Engineering Roadmap 🗺️
+
+### Preface
 
 Before I start, state three things:
 
@@ -139,8 +141,6 @@ Firstly, I'm going to be completing the [CS-50 Introduction to Computer Science]
 
 (*Which I actually made a start on a long time ago, but never finished...*).
 
-The purpose of completing the CS-50 is that you're able to come out the other side with a introductory...
-
 #### Grokking Algorithims
 
 <!-- Notes -->
@@ -149,30 +149,44 @@ The purpose of completing the CS-50 is that you're able to come out the other si
 <!-- Grokking Algo's Image -->
 ![Grokking Algorithims](https://m.media-amazon.com/images/I/81BdMC18EUL._AC_UF1000,1000_QL80_.jpg)
 
-I've consistenly seen aditya bhargava's book, [Grokking Algorithims](https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fwww.amazon.com.be%2F-%2Fen%2FGrokking-Algorithms-illustrated-programmers-curious%2Fdp%2F1617292230&opi=89978449) reccomended for Data Structures and Algorithim Theory.
-
-<!-- WHY? -->
+I've consistenly seen aditya bhargava's book, [Grokking Algorithims](https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fwww.amazon.com.be%2F-%2Fen%2FGrokking-Algorithms-illustrated-programmers-curious%2Fdp%2F1617292230&opi=89978449) reccomended for Data Structures and Algorithim Theory. With this being said, discussion online does seem to reflect that this is very much intended for beginners.
 
 <!-- Algorithms Theory and Practice Thomas -->
 ![Algorithims - Theory and Practice](https://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/fRQAAeSwnxZpvBXS/$_57.PNG?set_id=880000500F)
 
-However, I've also found that if you're slightly better than a complete beginner regarding Data Structures and Algorithims (*not me*), Thomas Cormen's book, [Algorithms - Theory and Practice](https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fwww.amazon.com%2FIntroduction-Algorithms-Thomas-H-Cormen%2Fdp%2F0070131430&opi=89978449) may be a much better use of your time.
+Thus, if you're slightly better than a complete beginner (*regarding Data Structures and Algorithims*) i.e., not me! - Thomas Cormen's book, [Algorithms - Theory and Practice](https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fwww.amazon.com%2FIntroduction-Algorithms-Thomas-H-Cormen%2Fdp%2F0070131430&opi=89978449) may be a much better use of your time.
 
 #### LeetCode
 
 <!-- LeetCode Image -->
 ![LeetCode](https://trypear.ai/images/leetcode.png)
 
-<!-- Note -->
-<!-- This needs to be re-written, the sentiment is correct, but the language needs tweaking -->
-
 Welcome to the most controversial section of this article, where I recommend using LeetCode as a way to test whether you're actually understanding and retaining the concepts you're learning around Data Structures and Algorithms.
 
-I'll note that I really don't think that LeetCode should be the way you learn DSA — it's much more useful as a place to apply and test what you've learned.
+> [!NOTE]
+> I really don't think that LeetCode should be the way you learn DSA — it's much more useful as a place to apply and test what you've learned.
 
-You can solve these problems in pretty much any language. I'll probably use Python, as it's the language I'm most comfortable with and lets me focus on the algorithm rather than the syntax.
+<!-- Which Language for LeetCode Disclaimer -->
+{{< accordion mode="false" separated=true >}}
+  {{< accordionItem title="Interesting Programming Language Sidenote" icon="code" open=false >}}
+You could solve these coding problems in pretty much any language. I'll probably use Python, as it's the language I'm most comfortable with and lets me focus on the algorithm rather than the syntax.
 
-It could be interesting to implement some of these structures and algorithms in a lower-level language such as C or C++. The reason for this is that submitting solutions in C or C++ exposes concepts that higher-level languages like Python tend to abstract away (*via a bunch of boilerplate*), particularly around memory and data representation.
+However... It could be interesting to implement some of these structures and algorithms in a lower-level language such as C or C++.
+
+The reason for this is that submitting solutions in C or C++ exposes concepts that higher-level languages like Python tend to abstract away (*via a bunch of boilerplate*), particularly around memory and data representation.
+  {{< /accordionItem >}}
+{{< /accordion >}}
+
+I'd also like to be specific about what I'm going to be attempting, specifically, Navdeep Singh's [NeetCode 150](https://neetcode.io/practice/practice/coreSkills).
+
+<!-- NeetCode 150 Image -->
+![NeetCode150](https://miro.medium.com/v2/resize:fit:1400/1*MFPFgvCBftU2heYerQL9eQ.png)
+
+The NeetCode 150 centers on a curated list of 150 LeetCode-style problems that target common coding interview patterns and data structures encountered in technical interviews.
+
+The benefit to this approach is that rather than grinding through thousands of LeetCode problems without direction, you're able to work through this carefully selected subset, organized by difficulty.
+
+Also, I like this list because I think that Navdeep passes the ["Would I have a beer with you" test](https://en.wikipedia.org/wiki/Beer_question).
 
 <!-- Move this around somewhere else -->
 <!-- Leet Code Meme -->
@@ -200,14 +214,14 @@ Off-topic, but I also enjoyed Remzi Arpaci-Dusseau's article on [why text-books 
 
 [Networking: Computer Networking A Top-Down Approach](https://www.amazon.com/Computer-Networking-Top-Down-Approach-7th/dp/0133594149) by Jim Kurose and Keith W. Ross is another seminal text in the field of Computer Science, and is [widely reccomended](https://www.reddit.com/r/computerscience/comments/1iijm8a/computer_netwroks_a_top_down_approach/) read for Computer Science students.
 
-Also, if you don't feel like reading the book, the author Jim Kurose, has actually [published videos onto YouTube](https://www.youtube.com/watch?v=74sEFYBBRAY), where he explains these concepts!
+Also, if you don't feel like reading the book, the author Jim Kurose, has actually [published videos onto YouTube](https://www.youtube.com/watch?v=74sEFYBBRAY&list=PL1ya5dD_M8uX-BLUF1FEvUNsYWQL5_l0O), where he explains these concepts!
 
-**NOTE:** I saw that one person in the comments of this video that Jim actually responded to him by email, replying to one of his questions. Which I personally think is really cool.
+> [!NOTE]
+> I saw that one person in the comments of this video that Jim actually responded to him by email, replying to one of his questions.
+> Which I personally think is really cool.
 
 <!-- Jim Kurose Video -->
 {{< youtubeLite id="74sEFYBBRAY" label="Jim the GOAT" >}}
-
-<!-- WHY THE TOPDOWN -->
 
 ### Databases
 
@@ -233,29 +247,103 @@ and begin to understand what happens after I press enter, for example:
 * How does a database store data on disk?
 * What happens when the database crashes?
 
+Now, as far as the "*how am I going to learn about Databases*", I'm going to reccomend the following resources below:
+
+#### Use the Index Luke
+
+<!-- Use the Index Luke -->
+![Use the Index Luke](https://use-the-index-luke.com/static/shop-sticker.HtqZbaZO.jpg)
+
+Use The Index, Luke is the free web-edition of Markus Winand's book [SQL Performance Explained](https://sql-performance-explained.com/), with the biggest strength of the website being that it teaches you to think about SQL as something executed by a database engine, rather than just a language you use to retrieve data.
+
+> [!TIP]
+> From the discourse I see online about the book, I gather that Winand has a **very** strong developer-centric perspective, and the book occasionally presents concepts in a deliberately simplified or provocative way.
+> Given I haven't actually read the book, I can't weigh in on this further, and while this critiscm may prove true, the content of the book is still too valuable to not include.
+
+#### Database Internals
+
+<!-- Database Internals -->
+![Database Internals](https://images.openai.com/static-rsc-4/KoBMLjZyflHz7eP_YWCwHuyzA_YAbmYqQChDiTU0PrYSY5Npaa9s_ydlHimqvSptP4fA-F2Qwbwn3MOqWMK4zSiSm9PWG1vh8ZFy1WqVoIx2K3WemAseulljS2-JuBAO3WzH2_sctrMeJFVcscWw-HMOMhthoG9ZHV21NRr7NiGKOCl9h9kQcvz_dckNG8zZ?purpose=fullsize) by Alex Petrov, is widely reccomended in Data-Engineering circles, however, the book is fairly dense, a couple of dudes on Reddit reccomended taking like 6 months to read it, first give it a skim, then come back at it with a fine tooth comb.
+
+While researching, I also found a great series of lectures on Database Internals on YouTube from a bloke named Professor [Andy Pavlo](https://www.youtube.com/watch?v=LWS8LEQAUVc&list=PLSE8ODhjZXjYzlLMbX3cR0sxWnRM7CLFn&index=1).
+
+<!-- Andy Pavlo Video -->
+{{< youtubeLite id="LWS8LEQAUVc" label="Anduxxx" >}}
+
+#### Designing Data Intesive Applications
+
+<!-- Managed to find one with both! -->
+![DDIA](https://pbs.twimg.com/media/HG8iMwha8AA7Pzl.jpg)
+
+[Designing Data Intensive Applications](https://0-lucas.github.io/digital-garden/99.-Books/Martin-Kleppmann---Designing-Data-Intensive-Applications_-O%E2%80%99Reilly-Media-(2017).pdf) by Martin Kleppmann is another one of these "*dense*" books, that is almost a right-of-passage in the Data-Engineering community. Once again, a couple blokes on Reddit just reccomended taking your time with the book and being methodical.
+
+<!-- Build things Admonition -->
+> [!TIP]
+> **Build things and / or mess around with concepts!**
+> Now is a good time to remind everyone that we aren't just reading these books! - We need to apply what we've actually learned!
+
 ### Data Modelling
 
-Once I understand the systems storing the data, I want to understand how we should structure the data itself. This is where the following concepts come into play:
+Once I understand the systems storing the data, I want to understand how the data itself should be structured.
+
+This is where data modelling comes into play. The goal isn't just to know what a fact table or dimension table is, but to be able to look at a messy collection of source tables and reason about what the resulting model should look like.
+
+Some of the concepts I'll cover include:
 
 * Fact tables
 * Dimension tables
 * Star schemas
 * Snowflake schemas
-* Normalisation
-* Denormalisation
+* Normalisation & Denormalisation
 * Slowly Changing Dimensions
 * Aggregate tables
 
-I've encountered many of these concepts already, but there's a difference between recognising the terminology and being able to confidently design a model from scratch.
+If you've worked as a Data Analyst, or in some kind of BI-adjacent role, you've probably encountered some of these concepts already.
 
-I'd like to get to the point where I can look at a messy collection of source tables and reason about:
+Ultimately, I'd like to be able to look at a collection of source tables and answer questions like:
 
-* What should the model look like?
-* Who is going to consume it?
-* What should the grain be?
-* What should be calculated upstream?
-* What should be calculated downstream?
-* How will this behave as the data grows?
+What should the model look like?
+Who is going to consume it?
+What should the grain be?
+What should be calculated upstream?
+What should be calculated downstream?
+How will the model behave as the data grows?
+How should changes to the underlying data be handled over time?
+Start With the Business
+
+#### Business Analysis for Data-Engineers
+
+Before deciding whether something should be a fact table, dimension, aggregate, or something else, we first need to understand what the data is supposed to represent.
+
+This is where Data Engineering overlaps with Business Analysis. You don't need to become a Business Analyst, but you do need to be able to translate business requirements into data requirements.
+
+When presented with a messy collection of source tables, we should be able to ask:
+
+* Who will consume this data?
+* What decisions are they trying to make?
+* What questions does the data need to answer?
+* What are the important business processes and events?
+* What do important business terms actually mean?
+* What does a "customer", "order", "sale", or "active user" actually represent?
+* What level of freshness is required?
+* How much historical data needs to be retained?
+* What does "correct" data look like?
+* What edge cases or business rules need to be accounted for?
+
+These questions come before designing the model.
+
+For example, being told "*we need a sales dataset*" isn't enough to design a model. The consumer might want to analyse individual transactions, daily store performance, customer behaviour, sales targets, or some combination of these.
+
+Those requirements ultimately determine things like the grain, entities, relationships, metrics, history, and transformations in the resulting data model.
+
+So, how are we going to learn all of this?
+
+#### Fundamentals of Data Engineering
+
+<!-- Fundamentals of Data Engineering Image -->
+![Fundamentals of Data Engineering](https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1654271050i/61218623.jpg)
+
+[Fundamentals of Data Engineering](https://www.amazon.com/Fundamentals-Data-Engineering-Robust-Systems/dp/1098108302/)
 
 ### Distributed Systems
 
@@ -365,37 +453,131 @@ Building something that works is one thing. Building something that **continues 
 * Security
 * Cost
 
-## How do I plan to study all of these concepts?
+<!-- Removed the section where I talk about the fact that there is no set paths -->
+<!-- No paths Image -->
+<!-- ![No Paths...](https://pbs.twimg.com/media/EcZrpA6XsAIFTcG.jpg) -->
 
-It's all good and well for me to tell you what I'm going to study, but if you're in a similar situation to me, then you'll want to know where to go to study this kind of stuff, as well as what kind of stuff to study.
-
-To answer the above simply, there is no one path that you need to follow to begin to learn. With this being said, I'll link to a few resources that I'll be using to up-skill.
-
-<!-- No paths -->
-![No Paths...](https://pbs.twimg.com/media/EcZrpA6XsAIFTcG.jpg)
+## Other useful Data-Engineering Resources
 
 ### Data Engineer Zoomcamp
 
-<!-- Notes -->
-* Working my way through (*is his name Alexi?*)'s course right now.
+<!-- Alexi's Zoomcamp Repo -->
+{{< github repo="ziritrion/dataeng-zoomcamp" showThumbnail=true >}}
 
-### Creating and Sharing Content about my learning
+### Data Engineer Wiki
+
+[Data Engineering Wiki](https://dataengineering.wiki/Guides/Getting+Started+With+Data+Engineering)
+
+### Data Engineering Cookbook
+
+<!-- Data Engineering Cookbook -->
+{{< github repo="andkret/Cookbook" showThumbnail=true >}}
+
+### Data Engineer Handbook
+
+<!-- Data Engineering Handbook -->
+{{< github repo="DataExpert-io/data-engineer-handbook" showThumbnail=true >}}
+
+### Data Engineering for Begineers
+
+[Data Engineering for Beginners](https://de101.startdataengineering.com/)
+
+### Missing Semester
+
+[Missing Semester](https://missing.csail.mit.edu/) - I love this website, it doesn't really fit in anywhere super well, but I thought it needed a reference as Anish, Jon, and Jose have put in a lot of effort into the website, and learning content.
+
+<!-- Removing this section, might add it back -->
+<!-- ### Creating and Sharing Content about my learning -->
 
 <!-- Notes  -->
-* Creating Videos, Articles
+<!-- * Creating Videos, Articles
 * Sharing content on Reddit, YouTube etc
-* How the socratic method is particularly useful
-* Being able to simplify concepts
+* How the socratic method is particularly useful (*What I mean by this, is that you need to be able to talk about something in order to prove understanding*)
+* Being able to simplify concepts (*The ability to simplify a complex concept demonstrates deep understanding of topics*) -->
 
-### Certifications?
+## Data Engineering Certifications
+
+![Databricks Data Engineering](https://www.flexera.com/blog/wp-content/uploads/chaosgenius/images/2024/04/Databricks-Certification-11.png)
+
+The only Data-Engineering Certificate's I'm going to go after are as follows:
+
+* Databricks - Data Engineer Associate
+* Databricks - Data Engineer Professional
+
+The reason for this is that I've already worked with Databricks and had exposure to some Data-Engineering on the Azure Databricks platform.
+
+> [!NOTE]
+> At $200 NZD a pop for each of these two certifications, Databricks (*Microslop*) sure know's how to pull money from wallets.
+
+With this being said, there are also the following *other* options for certification, and feel free to choose one that works best for you:
+
+* Databricks - Certified Associate Developer for Apache Spark
+* Google Cloud Certified - Professional Data Engineer
+* Microsoft DP-600: Fabric Analytics Engineer Associate
+* Microsoft DP-700: Fabric Data Engineer Associate
+* AWS Certified Data Engineer - Associate
+
+## Useful Media Personalities in the Data-Engineering Space
+
+### Benjamin Rogojan (Seattle Data Guy)
+
+<!-- Ben R Image -->
+![Ben R](https://image-cdn-fa.spotifycdn.com/image/ab6772ab000016927c11db3b538733ea19221131)
+
+[Benjamin Rogojan (*Seattle Data Guy*)](https://www.youtube.com/c/SeattleDataGuy)
+
+### Alexey Grigorev (DataTalksClub)
+
+<!-- Alexey Image -->
+![Alexey](https://zdpdvwhvukelzzbzbjvh.supabase.co/storage/v1/object/public/imported-images/1769001998128-2ef08000-fe57-41e8-b401-7123e45bddf3-klj3bt.webp)
+
+[Alexey Grigorev](https://www.youtube.com/@DataTalksClub)
+
+### Ben Dickens
+
+<!-- Benny D Image -->
+![Benny D](https://benjdd.com/assets/ben-pfp-2025.jpg.jpg)
+
+[Ben Dickens](https://benjdd.com/)
+
+#### Joseph Machado (Start Data Engineering)
+
+<!-- Start Data Engineering Image -->
+![Joseph](https://pbs.twimg.com/profile_images/1552078944941342720/ni4XppfU_400x400.jpg)
+
+Joseph is a veteran of the industry with 15 + YOE (*Years of Experience*) and frequently writes, posts, and comments on different facets of the Data-Engineering eco-system!
+
+This, and the fact that I like his website, and writing style, meant that this he was always getting a mention in this article. Also, from his Reddit AMA, he seems like a really chill guy!
+
+[Start Data Engineering](https://www.startdataengineering.com/?utm_source=chatgpt.com) is a super dope resource for any apsiring, or current data-engineers.
+
+### Data with Zach
+
+<!-- Big man Zach -->
+![Zach](https://yt3.googleusercontent.com/DYDO-RWcu7qVkpokWkBe6-yTuY-F2sz7-ParNy5iH1SJRTLNFY36eZOiKjtOp1qoYUPXMIrWFg=s900-c-k-c0x00ffffff-no-rj)
+
+[Data with Zach](https://www.youtube.com/c/datawithzach)
+
+<!-- Data with Zach Disclaimer -->
+{{< accordion mode="false" separated=true >}}
+  {{< accordionItem title="Data with Zach Disclaimer" icon="code" open=false >}}
+  You can't fault Zach on his technical knowledge, but I wouldn't necessarily take his broader opinions as gospel.
+
+  Zach is an incredibly frequent poster, and his content can sometimes veer into what I'd consider classic LinkedIn cringe culture. He also frequently talks about his earnings and makes some fairly strong non-technical claims that I don't necessarily agree with.
+
+  That said, his technical material is often genuinely excellent, and that's the reason I've included some of it here.
+  {{< /accordionItem >}}
+{{< /accordion >}}
 
 ## Conclusion 🏁
 
-<!-- Notes -->
-* Taking my time, enjoying myself and not feeling rushed
-* Learning in public
-* Creating content to show-case my learning
-* This article neglects the benefits of Soft-Skills, Presentation, Business Acumen / Context, but they are still as relevant as ever.
+If you've made it this far, you'll probably have noticed that this isn't really a roadmap for learning a bunch of technologies. I'm much more interested in developing a **mental model for how data systems work**, and then using that understanding to decide which tools are appropriate for a particular problem.
+
+I'm also not in any rush. I'll be learning, building things, writing about what I learn, and inevitably discovering things I've got wrong along the way.
+
+And while this roadmap focuses heavily on the technical side of Data Engineering, being a good Data Engineer isn't just about technical knowledge. **Communication, presentation, business context, and domain knowledge are just as important.**
+
+For now, I'm going to take my time, enjoy the process, and see where it takes me. I suspect I'll be updating this roadmap for quite some time.
 
 <!-- Subscribe Button -->
 {{< subscribe >}}
