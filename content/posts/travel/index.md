@@ -162,7 +162,7 @@ Here's a list of the countries and cities that Olivia and I are keen to visit.
 | 🇭🇷 **Croatia** | Split, Hvar | ✅ |
 | 🏴󠁧󠁢󠁳󠁣󠁴󠁿 **Scotland** | Edinburgh, Stirling, Inverness | ✅ |
 | 🇧🇪 **Belgium** | Brussels | ✅ |
-| 🇳🇱 **Netherlands** | Amsterdam | |
+| 🇳🇱 **Netherlands** | Amsterdam | ✅ |
 | 🇩🇪 **Germany** | Munich, Frankfurt | ✅ |
 | 🇮🇹 **Italy** | Milan, Florence, Rome, Amalfi Coast | ✅ |
 | 🇦🇹 **Austria** | Vienna | ✅ |

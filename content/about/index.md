@@ -306,9 +306,9 @@ Now, I'd say that the chips are stacked against you when you're trying to get yo
 
 I say this because of my first experience trying to land a data-role.
 
-To put it bluntly, I struggled. I found that I wasn't getting much traction with recruiters, and as such wasn't getting job-offers.
+To put it bluntly, I struggled. I found that I wasn't getting much traction with recruiters, or hiring managers, and thus wasn't getting any job-offers.
 
-This was during a particularly difficult period in my life, as I had just been made redundant from my previous job, and as such, needed to "*clutch up*", or else I faced some fairly negative prospects.
+This was during a particularly difficult period in my life, as I had just been made redundant from my previous job, and as such, needed to "*clutch up*", or else face some fairly negative prospects.
 
 However, this is where that old phrase "*pressure makes diamonds*" really shines through, as I began thinking about how I could "*stand out*" from other applicants (*and thus increase my chances of landing a role.*)
 

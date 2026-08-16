@@ -34,7 +34,7 @@ I've created this page to act as a space to glue together all of the Projects th
 
 ### What are you working on right now?  🛠️
 
-In order to not have this sub-section age badly / require constant updates, if you want to know what I'm actively working on, I'd just check what repositories I've been comitting to on [my GitHub](https://github.com/RussellChubb).
+In order to not have this sub-section age badly / require constant updates, if you want to know what I'm actively working on, I'd just check what repositories I've been committing to on [my GitHub](https://github.com/RussellChubb).
 
 ### Why build projects? ❓
 
