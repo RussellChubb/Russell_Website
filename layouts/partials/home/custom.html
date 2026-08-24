@@ -5,11 +5,17 @@
 <!-- Foreground hero image -->
  <!-- This is a Hero Image of me with the text "Russ (The Muss) on it, designed to be slightly humorous and immediately draw the viewers eyes to me" -->
 <div class="relative px-8 py-0 flex flex-col items-center justify-center text-center" style="margin-top: -100px;">
-  <picture>
-    <source srcset="{{ "img/Russell_Website_V4.webp" | relURL }}" type="image/webp">
-    <source srcset="{{ "img/Russell_Website_V3.png" | relURL }}" type="image/png">
-    <img src="{{ "img/Russell_Website_V3.webp" | relURL }}" class="nozoom" style="max-width: 900px; width: 100%;" loading="eager" decoding="async" alt="Russell Chubb" />
-  </picture>
+<picture>
+  <source type="image/avif"
+          srcset="{{ "img/Russell_Website_v4-1600.avif" | relURL }} 1x, {{ "img/Russell_Website_v4-3200.avif" | relURL }} 2x">
+  <source type="image/webp"
+          srcset="{{ "img/Russell_Website_v4-1600.webp" | relURL }} 1x, {{ "img/Russell_Website_v4-3200.webp" | relURL }} 2x">
+  <img src="{{ "img/Russell_Website_v4-1600.webp" | relURL }}"
+       srcset="{{ "img/Russell_Website_v4-3200.webp" | relURL }} 2x"
+       class="nozoom"
+       style="max-width: 1600px; width: 100%;"
+       loading="eager" decoding="async" alt="Russell Chubb" />
+</picture>
 </div>
 
 <!-- Background image (fixed, full screen) -->

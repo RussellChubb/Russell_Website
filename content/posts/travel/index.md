@@ -158,7 +158,7 @@ Here's a list of the countries and cities that Olivia and I are keen to visit.
 | --------- | ------------------- | ----- |
 | 🇬🇧 **England** | London | ✅ |
 | 🇪🇸 **Spain** | Barcelona | ✅ |
-| 🇫🇷 **France** | Nice, Paris | ½ |
+| 🇫🇷 **France** | Nice, Paris | ✅ |
 | 🇭🇷 **Croatia** | Split, Hvar | ✅ |
 | 🏴󠁧󠁢󠁳󠁣󠁴󠁿 **Scotland** | Edinburgh, Stirling, Inverness | ✅ |
 | 🇧🇪 **Belgium** | Brussels | ✅ |
