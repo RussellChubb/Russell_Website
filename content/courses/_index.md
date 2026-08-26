@@ -5,7 +5,7 @@ summary: "Turning normal people into weird tech folks, one step at a time..."
 showTableOfContents: true # I love that this works
 ---
 
-<!-- Shout out to all my Tik Tok Hustlers who think theyr'e going to escape a permanent underclass by selling courses lol -->
+<!-- Shout out to all my Tik Tok Hustlers who think they're going to escape a permanent underclass by selling courses lol -->
 {{< typeit
   tag=h4
   speed=80
@@ -31,9 +31,9 @@ In this section of my Website, I'm publishing full courses (**for free**), on ho
 
 ### Which courses are you working on right now? 🛠️
 
-I've made a graph below which shows progress towards completion on the x-axis, and the specific courses I'm working on the y-axis.
+The graph below shows my progress towards completing the course content on the x-axis, and the specific courses I'm working on the y-axis.
 
-I'll update this graph with each push to my Websites's [GitHub Repo](https://github.com/RussellChubb/Russell_Website).
+I'll update this graph (*where relevant*) with each push to my Websites's [GitHub Repo](https://github.com/RussellChubb/Russell_Website).
 
 <!-- Course Progress Chart -->
 {{< chart >}}
@@ -77,7 +77,7 @@ data: {
 
 When I graduated university with a Marketing and Management degree, I expected the world to open up for me.
 
-Little did I know, but it's not enough (*any more*) to **just** have that degree anymore.
+Little did I know, but it's not enough (*any more*) to **just** have that degree.
 
 While I imagine that not everyone goes out into the real world and has this issue, it made me realise the necessity of adding a extra couple of "*arrows*" to my quiver.
 
@@ -85,6 +85,8 @@ While I imagine that not everyone goes out into the real world and has this issu
 ![What tha dawg doing](https://i.redd.it/6us6d33g7ate1.png)
 
 In my desperation, I tried to look forward to the future to understand what might be a future-proof industry to get into, as such, [Data came up as a solid option to look into.](https://ec.europa.eu/commission/presscorner/api/files/document/print/en/speech_11_872/SPEECH_11_872_EN.pdf)
+
+(*I'm not really sure if this is still true now, but it was back when I first started*)
 
 <!-- Pondering my orb Image -->
 ![How I felt tbh](https://images.steamusercontent.com/ugc/1832425236567210581/E42B98E54BE45DAF2688938E3AC1BDFC0AF33E8E/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false)
@@ -140,7 +142,9 @@ Because here's the thing, you're not going to find much success just learning Py
 
 You'll probably want to learn about the Shell / Bash, or how to use Git to push your code somewhere, as well as how to do some basic CI / CD.
 
-Or, if you want a job to do with Data (*Analytics, Science, Engineering*), you might want to learn how to use SQL to query Data-Warehouses (*Supppppppper useful skill that will never go away btw*).
+Or, if you want a job to do with Data (*Analytics, Science, Engineering*), you might want to learn how to use SQL to query Data-Warehouses.
+
+(*SQL is, and will always be a Supppppppper useful skill btw*).
 
 Regardless, these skills work in synergy together, which is why I'd recommend that you learn (*atleast a little*) about each of these skills, and how they work together.
 

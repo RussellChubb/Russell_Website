@@ -37,10 +37,12 @@ People ask Olivia and I for the details surrounding our travel plan. I've includ
 This is high-level information about how Olivia and I are travelling!
 
 * **Arrival Date:** {{< badge >}} 22 May 2026 - Arriving in London {{< /badge >}}
-* **Duration:** {{< badge >}} ~ 4.5 months {{< /badge >}}
-* **End goal:** {{< badge >}} Move to Edinburgh, Scotland (to work + live) {{< /badge >}}
+* **End Date:** {{< badge >}} 25 Aug 2026 {{< /badge >}}
+* **Duration:** {{< badge >}} 3 Months {{< /badge >}}
+* **End Goal:** {{< badge >}} Move to Edinburgh, Scotland (to work + live) {{< /badge >}}
 * **Travel Style:** {{< badge >}} Cheap-ish (trains & buses over flights, hostels / budget stays, slower pace etc)  {{< /badge >}}
-* **Budget:** {{< badge >}} ~NZD $30k each {{< /badge >}}
+* **Budgeted:** {{< badge >}} ~NZD $30k each {{< /badge >}}
+* **Spent:** {{< badge >}} ~NZD $20k each {{< /badge >}}
 
 ## Route 🗺️
 
@@ -137,18 +139,18 @@ This is our actual route — where we've been and where we're headed + how we're
 | 17 Aug | Amsterdam | 🇳🇱 Netherlands | | |
 | 18 Aug | Amsterdam | 🇳🇱 Netherlands | | |
 | 19 Aug | Amsterdam | 🇳🇱 Netherlands | | |
-| 20 Aug | Amersterdam → Paris | 🇫🇷 France | Flixbus | ? |
+| 20 Aug | Amersterdam → Paris | 🇫🇷 France | Flixbus | The People Belleville (Hostel) |
 | 21 Aug | Paris | 🇫🇷 France | | |
 | 22 Aug | Paris | 🇫🇷 France | | |
 | 23 Aug | Paris | 🇫🇷 France | | |
 | 24 Aug | Paris | 🇫🇷 France | | |
-| 25 Aug | Paris → London | 🏴󠁧󠁢󠁥󠁮󠁧󠁿 England | | Holly's Couch (Hopefully!) |
+| 25 Aug | Paris → London | 🏴󠁧󠁢󠁥󠁮󠁧󠁿 England | Flixbus | Rian's Couch |
 | 26 Aug | London | 🏴󠁧󠁢󠁥󠁮󠁧󠁿 England | | |
 | 27 Aug | London | 🏴󠁧󠁢󠁥󠁮󠁧󠁿 England | | |
 | 28 Aug | London | 🏴󠁧󠁢󠁥󠁮󠁧󠁿 England | | |
 | 29 Aug | London | 🏴󠁧󠁢󠁥󠁮󠁧󠁿 England | | |
 | 30 Aug | London | 🏴󠁧󠁢󠁥󠁮󠁧󠁿 England | | |
-| 31 Aug | London → Edinbrugh | 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland | | Jeanie's |
+| 31 Aug | London → Edinbrugh | 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland | ? | Jeanie's |
 
 ## Locations 📍
 
@@ -173,7 +175,12 @@ Here's a list of the countries and cities that Olivia and I are keen to visit.
 
 <!-- The One Day List -->
 <!-- | 🇵🇹 **Portugal** | Lisbon, Porto | | -->
-<!-- | 🇮🇪 **Ireland** | Dublin | | -->
+<!-- | 🇮🇪 **Ireland** | | | -->
+<!-- |  **Switzerland** | | | -->
+<!-- |  **Finland** | | | -->
+<!-- |  **Sweden** | | | -->
+<!-- |  **Denmark** | | | -->
+<!-- |  **Norway** | | | -->
 
 ## Packing List 🧳
 
@@ -232,8 +239,8 @@ Here's a bit of information about what I've packed!
 * Swimshorts
 * 3x Shorts
 * 1x Jeans
-* 14x Underwear
-* 7x Socks
+* 7x Underwear (*I ended up buying 5 more pairs*)
+* 7x Socks (*I ended up buying 4 more pairs*)
 
 <!-- Subscribe Button -->
 {{< subscribe >}}

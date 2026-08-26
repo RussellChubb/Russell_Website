@@ -80,6 +80,10 @@
       decoding="async"
       alt="Personal Statement Image..." />
 
+<!-- Commented out for now as I need to both change the colour property of the elements, and change the content to not be weird -->
+<!-- Feature Grid -->
+<!-- {{ $statsMD := `{{< stats >}} {{< stat value="6" label="Tools taught" >}}Python, SQL, Power BI, Git, Bash & Linux.{{< /stat >}} {{< stat value="100%" label="Open source" >}}Every course and script lives on GitHub, free to use.{{< /stat >}} {{< stat value="0" label="Boring tutorials" >}}Data, explained the way it should be the first time.{{< /stat >}} {{< /stats >}}` }} {{ .RenderString $statsMD }} {{ $featuresMD := `{{< feature-grid >}} {{< feature icon="magnifying-glass" title="grep --the-signal" url="/posts/" label="Read the posts" >}} I dig through messy spreadsheets, half-finished pipelines and knotty business logic until the actual question underneath is visible. {{< /feature >}} {{< feature icon="bolt" title="build --automate" url="/courses/" label="See the courses" >}} Power Apps, Power Automate and a bit of Python turn a one-off fix into something that quietly runs itself from now on. {{< /feature >}} {{< feature icon="chat-bubble-left-right" title="explain --like-im-five" url="https://www.youtube.com/@Russell_Chubb" label="Watch on YouTube" >}} Dashboards, docs, and the odd YouTube video — so the answer makes sense to whoever actually asked the question. {{< /feature >}} {{< /feature-grid >}}` }} {{ .RenderString $featuresMD }}  -->
+
 <!-- Socials -->
  <!-- Adding some buffer space -->
  <br>
@@ -152,7 +156,7 @@
 
 <!-- Recent Posts -->
 <!-- This is a section displaying my recent articles -->
-<div class="relative px-8 py-8">
+<!-- <div class="relative px-8 py-8">
 
   <div class="mb-8 text-center">
     <h2 class="text-2xl md:text-3xl font-semibold tracking-tight text-neutral-800 dark:text-neutral-100">
@@ -166,4 +170,4 @@
 
   {{ partial "recent-articles/main.html" . }}
 
-</div>
+</div> -->

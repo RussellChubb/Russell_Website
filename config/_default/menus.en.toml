@@ -45,38 +45,139 @@ pre = "graduation-cap"
 pageRef = "courses"
 weight = 50          # Fifth item in the menu
 
+# Courses
+# SQL
+# [[main]]
+#   name = "SQL"
+#   pre = "database"
+#   parent = "Courses"
+#   pageRef = "courses/sql"
+#   weight = 20
+
+# # Python
+# [[main]]
+#   name = "Python"
+#   pre = "python"
+#   parent = "Courses"
+#   pageRef = "courses/python"
+#   weight = 10
+
+# # Courses
+# [[main]]
+#   name = "Linux"
+#   pre = "tux"
+#   parent = "Courses"
+#   pageRef = "courses/Linux"
+#   weight = 30
+
+# Top-level "Social" menu item (acts as the dropdown trigger)
+[[main]]
+name = "Social"
+pre = "heart"   # any Font Awesome icon name works here
+pageRef = "#"         # dummy target since this is just a dropdown parent
+weight = 60
+
+# Sub-items nested under "Social"
+[[main]]
+name = "Email"
+parent = "Social"
+pre = "envelope"
+url = "mailto:Russell.d.Chubb@gmail.com"
+weight = 10
+
+[[main]]
+name = "GitHub"
+parent = "Social"
+pre = "github"
+url = "https://github.com/RussellChubb"
+weight = 20
+
+[[main]]
+name = "Instagram"
+parent = "Social"
+pre = "instagram"
+url = "https://www.instagram.com/russell.chubb/"
+weight = 30
+
+[[main]]
+name = "LinkedIn"
+parent = "Social"
+pre = "linkedin"
+url = "https://www.linkedin.com/in/russell-chubb-323a1821b/"
+weight = 40
+
+[[main]]
+name = "Pinterest"
+parent = "Social"
+pre = "pinterest"
+url = "https://pin.it/130Y0XqQf"
+weight = 50
+
+[[main]]
+name = "SoundCloud"
+parent = "Social"
+pre = "soundcloud"
+url = "https://soundcloud.com/ogrussellc"
+weight = 60
+
+[[main]]
+name = "Spotify"
+parent = "Social"
+pre = "spotify"
+url = "https://open.spotify.com/user/12165084687"
+weight = 70
+
+[[main]]
+name = "YouTube"
+parent = "Social"
+pre = "youtube"
+url = "https://www.youtube.com/@Russell_Chubb"
+weight = 80
+
+# Commented out until I've got content ready in Recipes
 # # Recipes link — points to content/recipes/
 # [[main]]
 # name = "Recipes"
 # pre = "food"
 # pageRef = "recipes"
-# weight = 60          # Sixth item in the menu
+# weight = 10
 
-# Example of a dropdown sub-item under Projects
-# Uncomment to add individual project links nested under the Projects menu item
-# [[main]]
-#   name = "Golfah"
-#   parent = "Projects"       # Nests this item under the Projects menu entry
-#   pageRef = "projects/golfah"
-#   weight = 10
+# Projects
+[[main]]
+  name = "Golfah"
+  pre = "golf-ball-tee"
+  parent = "Projects"
+  pageRef = "projects/golfah"
+  weight = 30
 
-# [[main]]
-#   name = "Russell Math Game"
-#   parent = "Projects"
-#   pageRef = "projects/math-game"
-#   weight = 20
+[[main]]
+  name = "OptiX"
+  pre = "bolt"
+  parent = "Projects"
+  pageRef = "projects/OptiX"
+  weight = 20
 
-# Sub-navigation items — displayed separately from the main nav (e.g. below the header)
-# [[subnavigation]]
-#  name = "An interesting topic"
-#  pageRef = "tags/interesting-topic"
-#  weight = 10
+[[main]]
+  name = "CRM"
+  pre = "hand-shake"
+  parent = "Projects"
+  pageRef = "projects/CRM"
+  weight = 10
 
-# [[subnavigation]]
-#  name = "My Awesome Category"
-#  pre = "github" # Displays a GitHub icon before the name
-#  pageRef = "categories/awesome"
-#  weight = 20
+[[main]]
+  name = "Suggestion Box"
+  pre = "box"
+  parent = "Projects"
+  pageRef = "projects/Suggestion_Box"
+  weight = 30
+
+[[main]]
+  name = "Russell's Math Game"
+  pre = "math"
+  parent = "Projects"
+  pageRef = "projects/rmg"
+  weight = 40
+
 
 # Example of adding taxonomy pages to the main menu (currently disabled)
 # [[main]]

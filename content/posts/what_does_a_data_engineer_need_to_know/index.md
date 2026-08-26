@@ -1,6 +1,7 @@
 ---
 title: "2026 Data Engineering Roadmap"
-draft: true
+draft: false
+showReadingProgress: true
 description: "In the year, 2026, what are the fundamentals that Data Engineers need to know?"
 summary: "In the year, 2026, what are the fundamentals that Data Engineers need to know?"
 date: 2026-08-24
@@ -17,6 +18,10 @@ tags: ["Data Engineering", "Technical"]
 >}}
 "It ain't what you don't know that gets you into trouble. It's what you know for sure that just ain't so." - Mark Twain
 {{< /typeit >}}
+
+<!-- TODO -->
+<!-- I think most sections would benefit from a little bit of "what is x" -->
+<!-- Some things need to be linked to their relevant website or book etc -->
 
 ## Introduction 🎯
 
@@ -59,7 +64,7 @@ As such, the path I've chosen is that of the "*Data Engineer*"! Therefore, I nee
 
 ## TLDR 📋
 
-If you really don't want to read the article, and instead just want to see the resources I've recomended, here's the condensed version:
+If you really don't want to read the article, and instead just want to see the resources I've recommended, here's the condensed version:
 
 Task Status Key:
 
@@ -87,7 +92,6 @@ Task Status Key:
 | --- | --- | --- |
 | CS50: Introduction to Computer Science | Harvard | ❌ |
 | Data Engineering Zoomcamp | DataTalksClub | 🚧 |
-| AWS Well-Architected Framework | AWS | ❌ |
 | Blind 75 | NeetCode | ❌ |
 | Data Engineer Associate | Databricks | ❌ |
 | Data Engineer Professional | Databricks | ❌ |
@@ -115,21 +119,6 @@ So what do I mean when I say a "*blended*" approach? Well, instead of just watch
 ### How this road-map might differ to other courses? 🆚
 
 From my research, I see quite a few Data Engineering courses that approach learning Data Engineering as a list of technologies to learn, (*which might look like something like the below*):
-
-<!-- Turn this into a Mermaid Chart -->
-<!-- ```text
-Python
-SQL
-AWS
-Docker
-Kubernetes
-Spark
-Kafka
-Airflow
-Snowflake
-dbt
-Terraform
-``` -->
 
 <!-- Mermaid Chart for Technology Stack -->
 {{< mermaid >}}
@@ -187,6 +176,9 @@ Although I've spent time "*programming*", I've mostly learned by building things
 
 This has worked reasonably well so far, but I increasingly want to understand *why* the things I'm building work. As such, I need to fill in some of those foundational gaps.
 
+<!-- Uni Comp Sci Course -->
+![Course Overview](https://www.millersville.edu/computerscience/prereq/2020.05-csci.png)
+
 Now, while I'm not trying to become a Comp Sci Graduate, I'll be utilizing a few *classic* University resources to learn about Computer Science Foundations, while utilizing programming as a thread to apply these learnings.
 
 <!-- Removed this as I had too many images already -->
@@ -204,6 +196,8 @@ The resources that I've linked below will allow us to learn about concepts like:
 - Concurrency
 - Networking
 - Operating systems
+
+and how these concepts combine together to form the entire digital eco-system we know and enjoy today!
 
 <!-- Computer Science Learning Map -->
 {{< mermaid >}}
@@ -230,9 +224,6 @@ graph TD
     CO --> OS
     N --> OS
 {{< /mermaid >}}
-
-<!-- Uni Comp Sci Course -->
-![Course Overview](https://www.millersville.edu/computerscience/prereq/2020.05-csci.png)
 
 ### Harvard CS50
 
@@ -263,11 +254,9 @@ If you've already read Grokking Algorithms and/or are slightly more competent wi
 <!-- LeetCode Image -->
 ![LeetCode](https://trypear.ai/images/leetcode.png)
 
-Welcome to the most controversial section of this article, where I recommend using LeetCode as a way to test whether you're actually understanding and retaining the concepts you're learning around Data Structures and Algorithms.
+I recommend using LeetCode as a way to test whether you're actually understanding and retaining the concepts you're learning around Data Structures and Algorithms.
 
 Now, if you've never heard of LeetCode (*or NeetCode*) it's a platform for practising programming problems, particularly algorithms and data structures, commonly used in **software engineering interviews**.
-
-These problems range from simple exercises to extremely difficult problems and is primarily useful for developing problem-solving skills and **interview readiness**.
 
 > [!NOTE]
 > I really don't think that LeetCode should be the way you learn DSA — it's much more useful as a place to apply and test what you've learned.
@@ -279,14 +268,14 @@ You could solve these coding problems in pretty much any language. I'll probably
 
 However... It could be interesting to implement some of these structures and algorithms in a lower-level language such as C or C++.
 
-The reason for this is that submitting solutions in C or C++ exposes concepts that higher-level languages like Python tend to abstract away (*via a bunch of boilerplate*), particularly around memory and data representation.
+Submitting solutions in C or C++ exposes concepts that higher-level languages like Python tend to abstract away (*via a bunch of boilerplate*), particularly around memory and data representation.
   {{< /accordionItem >}}
 {{< /accordion >}}
 
 <!-- NeetCode Blind 75 Image -->
 ![NeetCodeBlind75](https://miro.medium.com/v2/resize:fit:1400/1*MFPFgvCBftU2heYerQL9eQ.png)
 
-I'd also like to be specific about what I'm going to be attempting, specifically, Navdeep Singh's [NeetCode Blind 75](https://neetcode.io/practice/practice/coreSkills).
+I'm specifically going to be completing the [NeetCode Blind 75](https://neetcode.io/practice/practice/coreSkills).
 
 The NeetCode Blind 75 centers on a curated list of 75 LeetCode-style problems that target common coding interview patterns and data structures encountered in technical interviews.
 
@@ -318,7 +307,7 @@ Off-topic, but I also enjoyed Remzi Arpaci-Dusseau's article on [why textbooks s
 <!-- Sloppy Toppy Approach -->
 ![Top Down](https://m.media-amazon.com/images/I/71sqPf9w2hL._UF1000,1000_QL80_.jpg)
 
-[Networking: Computer Networking A Top-Down Approach](https://www.amazon.com/Computer-Networking-Top-Down-Approach-7th/dp/0133594149) by Jim Kurose and Keith W. Ross is another seminal text in the field of Computer Science, and is a [widely recommended](https://www.reddit.com/r/computerscience/comments/1iijm8a/computer_netwroks_a_top_down_approach/) read for Computer Science students.
+[Computer Networking A Top-Down Approach](https://www.amazon.com/Computer-Networking-Top-Down-Approach-7th/dp/0133594149) by Jim Kurose and Keith W. Ross is another seminal text in the field of Computer Science, and is a [widely recommended](https://www.reddit.com/r/computerscience/comments/1iijm8a/computer_netwroks_a_top_down_approach/) read for Computer Science students.
 
 Also, if you don't feel like reading the book, Jim has actually [published videos onto YouTube](https://www.youtube.com/watch?v=74sEFYBBRAY&list=PL1ya5dD_M8uX-BLUF1FEvUNsYWQL5_l0O), where he explains these concepts, through a series of free lectures!
 
@@ -331,17 +320,11 @@ Also, if you don't feel like reading the book, Jim has actually [published video
 
 ## Databases
 
-Why do we need to know about Databases? Well, even though this is my msot common SQL Query:
+Knowing SQL and understanding databases are two **very** different things.
 
-```sql
-SELECT *
-FROM table
-WHERE ...
-```
+I want to move beyond the basics and begin to understand what happens under the hood when I press enter on a SQL Query + answer some of the following questions (*as a way to demonstrate understanding*).
 
-Knowing SQL and understanding databases are two very different things. What I mean by this is that I want to move beyond the basics and begin to understand what happens under the hood, after I press enter.
-
-<!-- - How is the query parsed?
+- How is the query parsed?
 - How does the database decide how to execute it?
 - What is an execution plan?
 - How do indexes work?
@@ -351,7 +334,14 @@ Knowing SQL and understanding databases are two very different things. What I me
 - How does concurrency work?
 - What is MVCC?
 - How does a database store data on disk?
-- What happens when the database crashes? -->
+- What happens when the database crashes?
+
+<!-- Squiqqle Meme -->
+![Squiqqle](https://i.redd.it/266xy4z1s7q01.jpg)
+
+While I don't know what many of the terms in this mermaid chart mean, I was informed enough to put it together!
+
+(*However, if you asked me about each of these, I wouldn't be able to give you a full answer*)
 
 <!-- Database Action Flow Mermaid -->
 {{< mermaid >}}
@@ -390,7 +380,7 @@ O --> N
 
 {{< /mermaid >}}
 
-Now, as far as the "*how am I going to learn about Databases*", I'm going to recommend the following resources below:
+We're going to use the resources below to learn more about each of these steps!
 
 ### Use the Index Luke
 
@@ -410,7 +400,7 @@ The websites biggest strength is that it teaches you to think about SQL as somet
 <!-- Database Internals -->
 ![Database Internals](https://images.openai.com/static-rsc-4/KoBMLjZyflHz7eP_YWCwHuyzA_YAbmYqQChDiTU0PrYSY5Npaa9s_ydlHimqvSptP4fA-F2Qwbwn3MOqWMK4zSiSm9PWG1vh8ZFy1WqVoIx2K3WemAseulljS2-JuBAO3WzH2_sctrMeJFVcscWw-HMOMhthoG9ZHV21NRr7NiGKOCl9h9kQcvz_dckNG8zZ?purpose=fullsize)
 
-[Database Internals](https://www.databass.dev/) by Alex Petrov, is widely recommended in Data Engineering circles, however, the book is fairly dense, a couple of dudes on Reddit recommended taking like 6 months to read it, first giving it a skim, then coming back to it with a fine-tooth comb.
+[Database Internals](https://www.databass.dev/) by Alex Petrov, is widely recommended in Data Engineering circles, however, the book is fairly dense, a [couple of dudes on Reddit](https://www.reddit.com/r/dataengineering/comments/13foyk5/book_recommendation_on_database_internals/) recommended taking like 6 months to read it, first giving it a skim, then coming back to it with a fine-tooth comb.
 
 While researching, I also found a great series of lectures on Database Internals on YouTube from a bloke named Professor [Andy Pavlo](https://www.youtube.com/watch?v=LWS8LEQAUVc&list=PLSE8ODhjZXjYzlLMbX3cR0sxWnRM7CLFn&index=1).
 
@@ -422,7 +412,9 @@ While researching, I also found a great series of lectures on Database Internals
 <!-- Managed to find one with both! -->
 ![DDIA](https://pbs.twimg.com/media/HG8iMwha8AA7Pzl.jpg)
 
-[Designing Data Intensive Applications](https://0-lucas.github.io/digital-garden/99.-Books/Martin-Kleppmann---Designing-Data-Intensive-Applications_-O%E2%80%99Reilly-Media-(2017).pdf) by Martin Kleppmann is another one of these "*dense*" books, that is almost a rite of passage in the Data Engineering community. Once again, a couple blokes on Reddit just recommended taking your time with the book and being methodical.
+[Designing Data Intensive Applications](https://0-lucas.github.io/digital-garden/99.-Books/Martin-Kleppmann---Designing-Data-Intensive-Applications_-O%E2%80%99Reilly-Media-(2017).pdf) by Martin Kleppmann is another one of these "*dense*" books, that is almost a rite of passage in the Data Engineering community.
+
+Once again, [a couple blokes on Reddit](https://www.reddit.com/r/ExperiencedDevs/comments/1lxaulh/how_would_you_approach_reading_designing/) just recommended taking your time with the book and being methodical.
 
 <!-- Build things Admonition -->
 > [!TIP]
@@ -431,11 +423,14 @@ While researching, I also found a great series of lectures on Database Internals
 
 ## Data Modelling
 
-Once I understand the systems storing the data, I want to understand how the data itself should be structured.
+Databricks defines [Data Modelling](https://docs.databricks.com/aws/en/transform/data-modeling) as:
 
-This is where data modelling comes into play. The goal isn't just to know what a fact table or dimension table is, but to be able to look at a messy collection of source tables and reason about what the resulting model should look like.
+> "*The process of creating a visual blueprint or structure for how data is stored, organized, and related within an information system or database. It maps real-world objects—like customers, products, or orders—and defines how they connect to one another*".
 
-Some of the concepts I'll cover include:
+<!-- Data Modelling Meme -->
+![Data Modelling Meme](https://substackcdn.com/image/fetch/$s_!ThJb!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd9d4441f-65f1-495c-9536-06888692f379_675x499.jpeg)
+
+Some of the Data Modelling concepts I'm hoping to learn more about include:
 
 - Fact tables
 - Dimension tables
@@ -445,29 +440,28 @@ Some of the concepts I'll cover include:
 - Slowly Changing Dimensions
 - Aggregate tables
 
-If you've worked as a Data Analyst, or in some kind of BI-adjacent role, you've probably encountered some of these concepts already.
+> [!NOTE]
+> If you've worked as a Data Analyst, or in some kind of BI-adjacent role, you've probably encountered some of these concepts already.
 
-Ultimately, I'd like to be able to look at a collection of source tables and answer questions like:
+I'd also like to be able to look at a collection of source tables and answer questions like:
 
-What should the model look like?
-Who is going to consume it?
-What should the grain be?
-What should be calculated upstream?
-What should be calculated downstream?
-How will the model behave as the data grows?
-How should changes to the underlying data be handled over time?
-Start With the Business
+- What should the model look like?
+- Who is going to consume it?
+- What should the grain be?
+- What should be calculated / downstream?
+- How will the model behave as the data grows?
+- How should changes to the underlying data be handled over time?
 
-### Business Analysis for Data Engineers
+<!-- ### Business Analysis for Data Engineers
 
 Before deciding whether something should be a fact table, dimension, aggregate, or something else, we first need to understand what the data is supposed to represent.
 
-This is where Data Engineering overlaps with Business Analysis. You don't need to become a Business Analyst, but you do need to be able to translate business requirements into data requirements.
+This is where Data Engineering overlaps with Business Analysis. We don't need to become Business Analysts, but you do need to be able to translate business requirements into data requirements.
 
 <!-- Business Analysis Meme -->
-![Business Analysis Meme](https://www.modernanalyst.com/Portals/0/Public%20Uploads/Fin608-Abducted-Business-Analyst.jpg)
+<!-- ![Business Analysis Meme](https://www.modernanalyst.com/Portals/0/Public%20Uploads/Fin608-Abducted-Business-Analyst.jpg) -->
 
-When presented with a messy collection of source tables, we should be able to ask:
+<!-- When presented with a messy collection of source tables, we should be able to ask:
 
 - Who will consume this data?
 - What decisions are they trying to make?
@@ -484,7 +478,7 @@ These questions come before designing the model.
 
 For example, being told "*we need a sales dataset*" isn't enough to design a model. The consumer might want to analyse individual transactions, daily store performance, customer behaviour, sales targets, or some combination of these.
 
-Those requirements ultimately determine things like the grain, entities, relationships, metrics, history, and transformations in the resulting data model.
+Those requirements ultimately determine things like the grain, entities, relationships, metrics, history, and transformations in the resulting data model. -->
 
 So, how are we going to learn all of this?
 
@@ -493,19 +487,19 @@ So, how are we going to learn all of this?
 <!-- Fundamentals of Data Engineering Image -->
 ![Fundamentals of Data Engineering](https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1654271050i/61218623.jpg)
 
-[Fundamentals of Data Engineering](https://www.amazon.com/Fundamentals-Data-Engineering-Robust-Systems/dp/1098108302/)
+The general consensus on [Fundamentals of Data Engineering](https://www.amazon.com/Fundamentals-Data-Engineering-Robust-Systems/dp/1098108302/) is that the book is exceptionally useful at providing a high level generalized overview of the current state of Data Engineering.
 
-The general consensus on FDE is that the book is exceptionally useful at providing a high level generalized overview of the current state of Data Engineering.
+[One bloke](https://www.reddit.com/r/dataengineering/comments/18ydlv0/what_do_you_guys_think_of_fundamentals_of_data/) notes that it's:
 
-One bloke notes that it's:
+> "*Not going to make you better at your job but will be extremely helpful for interviews and being able to speak about the data engineering landscape and key concepts at a high/medium level*."
 
-"*Not going to make you better at your job but will be extremely helpful for interviews and being able to speak about the data engineering landscape and key concepts at a high/medium level*."
-
-With this being said, a few people (*in the reddit threads I read*) mention that the book is a bit of a slog, so we've got that to look forward to.
+With this being said, a few people ([in the reddit threads I read](https://www.reddit.com/r/dataengineering/comments/18ydlv0/what_do_you_guys_think_of_fundamentals_of_data/)) mention that the book is a bit of a slog, so we've got that to look forward to.
 
 ### LLM-Based Modelling Practice
 
-As I mention throughout this article, I don't want this roadmap to be all theory. As such, I'd like to get to working with a few LLM based prompts along the lines of:
+As I mention throughout this article, I don't want this roadmap to be all theory.
+
+As such, I'd like to get to working with a few LLM based prompts along the lines of:
 
 <!-- ChatGPT Prompt -->
 ```text
@@ -535,8 +529,6 @@ Context:
 This task will be beneficial as we're actually beginning to get experience solving (*potentially*) real Data-Modelling business problems!
 
 ## Distributed Systems
-
-<!-- NOTE: Consider adding a small practical exercise here. You do not necessarily need a full distributed-systems implementation; a small experiment involving partitioning, replication, failure, or message ordering could make the theory much more tangible. -->
 
 A lot of the problems in modern Data Engineering exist because **one computer isn't enough**.
 
@@ -570,8 +562,6 @@ These problems inevitably lead into concepts like:
 - Distributed transactions
 - Eventual consistency
 
-These are concepts that sit underneath a huge amount of modern Data Engineering infrastructure. Understanding them should make technologies like Spark, Kafka and distributed databases feel much less magical.
-
 So, how are we learning about Distributed Systems? - Well, to be honest, we've got a couple of options here, as [Designing Data-Intensive Applications](https://0-lucas.github.io/digital-garden/99.-Books/Martin-Kleppmann---Designing-Data-Intensive-Applications_-O%E2%80%99Reilly-Media-(2017).pdf) already does a fairly good job with Distributed systems, however, if you really wanted to punish yourself...
 
 ### MIT 6.5840 — Distributed Systems
@@ -587,9 +577,14 @@ With this being said, I don't think that I'll be completing it in the near futur
 
 ## Data Systems
 
-We've spent the first part of this roadmap building the foundations.
+The first part of this roadmap has been spent building out foundations.
 
-We've learned how computers work, how databases store and retrieve data, how data should be modelled, and what happens when our systems grow beyond a single machine.
+We're now in a position where we understand:
+
+- how computers work
+- how databases store and retrieve data
+- how data should be modelled
+- what happens when our systems grow beyond a single machine.
 
 <!-- Data Organisation Meme -->
 ![Data Organisation](https://i.programmerhumor.io/2025/06/18631647a46eb5586f4fdb9ab0f483528f554fdb8e5f3a4a53514c75766e4946.jpeg)
@@ -599,10 +594,8 @@ At this point, I don't think reading another ten books is going to make us bette
 So, I proclaim to the world:
 
 {{< lead >}}
-> **Lay them books down!**
+> **Lay them books down! - It's time to start building.**
 {{< /lead >}}
-
-It's time to start building.
 
 The goal of this section is to take everything we've learned so far and start putting the pieces together into actual data systems.
 
@@ -626,26 +619,22 @@ Analytics / ML
 Application
 ```
 
-On a whiteboard, this looks relatively straightforward.
-
-In reality, this is where things get interesting.
+On a whiteboard, this looks relatively straightforward, however in reality, this is where things get interesting.
 
 - What happens when the API goes down?
 - What happens when we receive the same record twice?
 - What happens when yesterday's data arrives tomorrow?
-- What happens when the source changes its schema?
+<!-- - What happens when the source changes its schema?
 - What happens when a transformation fails halfway through?
 - Can we safely rerun the pipeline?
 - How do we backfill three years of historical data?
-- How do we know whether the pipeline is actually working?
+- How do we know whether the pipeline is actually working? -->
 
 And perhaps most importantly:
 
 > How do we know whether the data we're producing is actually correct?
 
-These are the kinds of problems that start separating writing data pipelines from engineering data systems.
-
-This is where concepts (*such as the following*) start becoming much more than just theoretical concepts:
+These are the kinds of problems that start separating writing data pipelines from engineering data systems. This is where concepts (*such as the following*) start becoming much more than just theoretical concepts:
 
 - Idempotency
 - Retries
@@ -653,21 +642,19 @@ This is where concepts (*such as the following*) start becoming much more than j
 - Data quality
 - Data contracts
 - Schema evolution
-- Data lineage
+<!-- - Data lineage
 - Observability
-- SLAs
+- SLAs -->
 
-So, how are we going to learn this? At this point, I don't think another purely theoretical course is the answer.
+As I said before, I don't think another purely theoretical course is going to help us learn about Data Systems, so instead we need something that forces us to build.
 
-We've already covered the theory through resources such as Designing Data-Intensive Applications and Fundamentals of Data Engineering. Now we need something that forces us to build.
-
-This is where DataTalksClub's Data Engineering Zoomcamp comes in.
+This is where DataTalksClub's [Data Engineering Zoomcamp](https://datatalks.club/blog/data-engineering-zoomcamp.html) comes in.
 
 ### Data Engineering Zoomcamp
 
 {{< github repo="ziritrion/dataeng-zoomcamp" showThumbnail=true >}}
 
-The Data Engineering Zoomcamp is a practical, project-oriented course covering many of the technologies and workflows that show up in modern Data Engineering.
+The [Data Engineering Zoomcamp](https://datatalks.club/blog/data-engineering-zoomcamp.html) is a practical, project-oriented course covering many of the technologies and workflows that show up in modern Data Engineering.
 
 More importantly, it gives us something we've been missing so far:
 
@@ -675,20 +662,11 @@ More importantly, it gives us something we've been missing so far:
 
 Rather than studying each technology in isolation, we'll start building pipelines that have to deal with ingestion, storage, transformation, orchestration, infrastructure and deployment.
 
-And that's exactly what I want at this stage of the roadmap. The objective isn't to simply complete the Zoomcamp, instead, it's to use it as a sandbox for applying everything we've learned so far. i.e. :
-
-- If we learn about Docker, we'll containerise something.
-- If we learn about orchestration, we'll orchestrate a pipeline.
-- If we learn about data modelling, we'll model the data properly rather than dumping everything into one table.
-- If we learn about cloud infrastructure, we'll deploy something.
-
-And when something inevitably breaks, we'll investigate why it broke rather than immediately reaching for a tutorial.
-
-## Cloud and Infrastructure
+<!-- ## Cloud and Infrastructure
 
 <!-- NOTE: This is currently the least concrete section. Consider explaining how you will actually encounter Docker, Airflow, Terraform, CI/CD, networking, secrets, permissions, and orchestration through progressively more complex projects rather than learning each technology in isolation. -->
 
-Modern data systems rarely live on a laptop, so eventually I need to understand the infrastructure they run on. This is where the following things come into the picture like:
+<!-- Modern data systems rarely live on a laptop, so eventually I need to understand the infrastructure they run on. This is where the following things come into the picture like:
 
 - Cloud storage
 - Compute
@@ -699,30 +677,30 @@ Modern data systems rarely live on a laptop, so eventually I need to understand 
 - CI/CD
 - Secrets
 - Permissions
-- Orchestration
+- Orchestration -->
 
 <!-- This meme has a fucking grammar issue... -->
-![Cloud Computing Meme](https://i.programmerhumor.io/2026/08/5a5aecac6562044e5b09681c5452ceaadc1de97a864437a7402d6a2f1cb80243.png)
+<!-- ![Cloud Computing Meme](https://i.programmerhumor.io/2026/08/5a5aecac6562044e5b09681c5452ceaadc1de97a864437a7402d6a2f1cb80243.png) -->
 
-Say it with me people "*So how are we going to be learning about Cloud...*"
+<!-- Say it with me people "*So how are we going to be learning about Cloud...*" -->
 
-### AWS: Well Architected Framework
+<!-- ### AWS: Well Architected Framework -->
 
 <!-- Well Architected Framework Image -->
-![Well Architected Framework](https://media.geeksforgeeks.org/wp-content/uploads/20240428202058/logoo.jpg)
+<!-- ![Well Architected Framework](https://media.geeksforgeeks.org/wp-content/uploads/20240428202058/logoo.jpg) -->
 
-The [AWS Well-Architected Framework](https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html) is useful here, even though I'm primarily interested in Azure.
+<!-- The [AWS Well-Architected Framework](https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html) is useful here, even though I'm primarily interested in Azure. -->
 
-The reason I don't mind, is because I want us to view the resource through an architectural lens rather than a resource for learning AWS itself. This is because it can help us evaluate:
+<!-- The reason I don't mind, is because I want us to view the resource through an architectural lens rather than a resource for learning AWS itself. This is because it can help us evaluate: -->
 
-- reliability
+<!-- - reliability
 - security
 - cost
 - performance
 - operational excellence
 - sustainability
 
-after we understand the underlying cloud building blocks.
+after we understand the underlying cloud building blocks. -->
 
 ## Production Engineering
 
@@ -741,7 +719,6 @@ Production Engineering is where I want to learn about:
 - Testing
 - Deployment
 - Rollbacks
-- Capacity planning
 - Performance
 - Security
 - Cost
@@ -757,13 +734,20 @@ I've heard the following books from Google recommended as resources for learning
 - [The Site Reliability Workbook (2018)](https://sre.google/books/)
 - [Building Secure & Reliable Systems (2020)](https://sre.google/books/)
 
-<!-- Why these books? -->
+I'm only going to read [The Site Reliability Workbook](https://sre.google/books/), because I'm more interested in learning how to apply SRE principles than reading three books covering largely overlapping ideas.
 
 <!-- Removed the section where I talk about the fact that there is no set paths -->
 <!-- No paths Image -->
 <!-- ![No Paths...](https://pbs.twimg.com/media/EcZrpA6XsAIFTcG.jpg) -->
 
 ## Other useful Data Engineering Resources
+
+Well, well well! You've now reached the end of the road-map, congratulations!
+
+<!-- Pat Bev Celebration -->
+![Pat Bev Cele](https://media3.giphy.com/media/v1.Y2lkPTZjMDliOTUyZXJjZjhmem1jdXBuMDM4M3QzazJwbmNwdDliNGIxeWk0dGI1bXk2MyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/pK0T7vyx3SqdfmxewA/giphy.gif)
+
+Now, before I leave you to your lonesome, I thought I'd drop off a few more useful resources that you can consume and research at your own pace:
 
 ### Data Engineer Wiki
 
@@ -785,7 +769,10 @@ I've heard the following books from Google recommended as resources for learning
 
 ### Missing Semester
 
-[Missing Semester](https://missing.csail.mit.edu/) - I love this website, it doesn't really fit in anywhere super well, but I thought it needed a reference as Anish, Jon, and Jose have put in a lot of effort into the website, and learning content.
+[Missing Semester](https://missing.csail.mit.edu/)
+
+<!-- Commented this out for styling reasons, but I still wanted to reference these lads. -->
+<!-- I love this website, it doesn't really fit in anywhere super well, but I thought it needed a reference as Anish, Jon, and Jose have put in a lot of effort into the website, and learning content. -->
 
 <!-- Removing this section, might add it back -->
 <!-- ### Creating and Sharing Content about my learning -->
@@ -874,13 +861,13 @@ This, and the fact that I like his website, and writing style, meant that he was
 
 ## Conclusion 🏁
 
-If you've made it this far, you'll probably have noticed that this isn't really a roadmap for learning a bunch of technologies. I'm much more interested in developing a **mental model for how data systems work**, and then using that understanding to decide which tools are appropriate for a particular problem.
+If you've made it this far, you'll probably have noticed that this isn't really a roadmap for learning a bunch of technologies.
+
+I'm much more interested in developing a **mental model for how data systems work**, and then using that understanding to decide which tools are appropriate for a particular problem.
 
 I'm also not in any rush. I'll be learning, building things, writing about what I learn, and inevitably discovering things I've got wrong along the way.
 
 And while this roadmap focuses heavily on the technical side of Data Engineering, being a good Data Engineer isn't just about technical knowledge. **Communication, presentation, business context, and domain knowledge are just as important.**
-
-For now, I'm going to take my time, enjoy the process, and see where it takes me. I suspect I'll be updating this roadmap for quite some time.
 
 Cheers!
 
