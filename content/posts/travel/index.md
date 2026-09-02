@@ -1,15 +1,13 @@
 ---
 title: "2026 OE/Travel"
 description: "Overview of Russell & Olivia's Travel Plan for 2026"
+showReadingProgress: true
 showAuthor: true
-date: 2026-08-10
+date: 2026-09-02
 summary: "Take a look at how Olivia and I plan to travel through Europe in 2026!"
 featureimage: "featured.jpg"
 tags: ["Personal"]
 ---
-
-> [!NOTE]
-> This is a living document, as such, expect it to change as time progresses!
 
 <!-- Thanks Anthony for this Quote -->
 {{< typeit

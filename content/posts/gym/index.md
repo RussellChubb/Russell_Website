@@ -2,6 +2,7 @@
 title: "My Gym Split"
 description: "I've been working out and training since I was roughly 18 years old. I wouldn't say I'm a decent athlete, but I certainly like to get amongst it."
 summary: "Want to learn how I've grown my mid-physique? - Check out this post..."
+showReadingProgress: true
 showAuthor: true
 date: 2026-05-11
 featureimage: "featured.png"
