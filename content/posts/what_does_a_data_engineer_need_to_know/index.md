@@ -4,7 +4,7 @@ draft: false
 showReadingProgress: true
 description: "In the year, 2026, what are the fundamentals that Data Engineers need to know?"
 summary: "In the year, 2026, what are the fundamentals that Data Engineers need to know?"
-date: 2026-08-24
+date: 2026-09-11
 featureimage: "featured.jpg"
 tags: ["Data Engineering", "Technical"]
 ---

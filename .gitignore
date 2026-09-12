@@ -32,6 +32,7 @@ node_modules/
 
 # This is for ignoring the rendercv outputs
 /static/rendercv_output/*.html
+/static/rendercv_output/*.txt
 /static/rendercv_output/*.md
 /static/rendercv_output/*.typ
 /static/rendercv_output/*.png

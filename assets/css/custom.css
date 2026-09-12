@@ -4,6 +4,23 @@
     body, h1, h2, h3, h4, h5, h6, p, a, li, span, code, pre {
         font-family: 'JetBrains Mono', monospace;
     }
+
+    body {
+        background-color: rgb(21, 25, 30);
+        background-image:
+            linear-gradient(to bottom, rgba(21, 25, 30, 0.88), rgba(21, 25, 30, 0.96)),
+            url('/img/BG_Fix.webp');
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+    }
+
+    html.dark body {
+        background-color: rgb(21, 25, 30);
+        background-image:
+            linear-gradient(to bottom, rgba(21, 25, 30, 0.88), rgba(21, 25, 30, 0.96)),
+            url('/img/BG_Fix.webp');
+    }
 }
 
 .subscribe-shortcode {

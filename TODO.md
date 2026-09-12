@@ -1,22 +1,20 @@
 # TODO
 
-1) ~~Create content for Blogs~~
+1) Add in the new features from Hugo, including the ability to create those cool hero screens + Remove the social media icons from the home-page and add a cleaner call to action + Fuck around with the recents partial, (*I feel like it can take further customisation*) + Add in perhaps a list of tools for recruiters, this is all this is to them, if say you've worked with a tool, they'll believe you.
 
-2) ~~Create content for Courses~~
+2) Clean up Repo
 
-3) Add in the new features from Hugo, including the ability to create those cool hero screens + Remove the social media icons from the home-page and add a cleaner call to action + Fuck around with the recents partial, (*I feel like it can take further customisation*)
+3) Create cool README
 
-4) Clean up Repo
+4) ~~Remove background from home-page / Fix pages not taking custom BG (*regenerate thumbnails with solid colour bg.*)~~
 
-5) Create cool README
+5) Fix Spider Chart in Light Mode Review
 
-6) ~~showReadingProgress (get this into blog pages)~~
+6) Learn if it's possible to group articles by something other than "Year"
 
-7) Remove background from home-page / Fix pages not taking custom BG (*regenerate thumbnails with solid colour bg.*)
+7) ~~Fix bug where custom project icons aren't showing on the website? - Specifically projects submenu pres~~
 
-8) Fix Spider Chart in Light Mode Review
-
-9) Learn if it's possible to group articles by something other than "Year"
+8) I'd love to add an element to the home-page to show "tools" I've worked with as a slider of small white icons that scroll across the screen to give the page a bit of movement. I'd like shit like ["Python", "SQL", "Excel", "Databricks", "Airflow", "DBT", "Spark", "Premiere Pro", "Photoshop", "After-Effects" etc etc to scroll]. How hard would this be to achieve?
 
 ## Content
 
@@ -147,6 +145,15 @@
 | Personal | Travel Journal: Luxembourg | ✅ | ❌ | ❌ | ❌ |
 | Personal | Travel Journal: Netherlands | ✅ | ❌ | ❌ | ❌ |
 | Personal | Travel Journal: Belgium | ✅ | ❌ | ❌ | ❌ |
+| Personal | Elite Overproduction | ✅ | ❌ | ❌ | ❌ |
+| Personal | Film and Capitalist Realism | ✅ | ❌ | ❌ | ❌ |
+| Personal | Imagining a Better World | ✅ | ❌ | ❌ | ❌ |
+| Personal | It's just Grass | ✅ | ❌ | ❌ | ❌ |
+| Personal | Overreliance on Government | ✅ | ❌ | ❌ | ❌ |
+| Personal | Surveilance | ✅ | ❌ | ❌ | ❌ |
+| Personal | Third Places | ✅ | ❌ | ❌ | ❌ |
+| Personal | Why don't we build cool stuff anymore? | ✅ | ❌ | ❌ | ❌ |
+
 | Technical | Blazing fast SQL | ✅ | ❌ | ❌ | ❌ |
 | Technical | Confronting my fear of LeetCode | ✅ | ❌ | ❌ | ❌ |
 | Technical | Creating a CV with Python | ✅ | ❌ | ❌ | ❌ |
@@ -170,3 +177,4 @@
 | Technical | Why Data Pipelines Need Idempotency | ✅ | ❌ | ❌ | ❌ |
 | Technical | Why do Databases exist? | ✅ | ❌ | ❌ | ❌ |
 | Technical | Converting a Python file to an Executable | ✅ | ❌ | ❌ | ✅ |
+| Technical | Data Lakes vs Data Lakehouses vs Data Warehouses | ✅ | ❌ | ❌ | ❌ |
