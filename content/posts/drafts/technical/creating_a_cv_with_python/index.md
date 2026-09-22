@@ -1,10 +1,10 @@
 ---
 title: "Creating a CV with Python"
 draft: true
-# description: ""
-# date: 2026-04-16
-# featureimage: "featured.jpg"
-# tags: ["Personal"]
+description: "Ever wanted to know a better way to create a Resume?"
+date: 2026-10-02
+featureimage: "featured.jpg"
+tags: ["Technical"]
 ---
 
 <!-- > [!NOTE]

@@ -3,6 +3,7 @@
   description: "List of Recipes I love to cook and eat!"
   showAuthor: true
   showDate: false
+  draft: true
 ---
 
   <!-- Space for some kind of celebrity chef quote -->

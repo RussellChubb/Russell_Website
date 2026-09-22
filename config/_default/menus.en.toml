@@ -38,12 +38,13 @@ pre = "github"
 pageRef = "projects"
 weight = 40          # Fourth item in the menu
 
+# HIDDEN UNTIL I HAVE CONTENT READY IN COURSES
 # Courses link — points to content/courses/
-[[main]]
-name = "Courses"
-pre = "graduation-cap"
-pageRef = "courses"
-weight = 50          # Fifth item in the menu
+# [[main]]
+# name = "Courses"
+# pre = "graduation-cap"
+# pageRef = "courses"
+# weight = 50          # Fifth item in the menu
 
 # Courses
 # SQL

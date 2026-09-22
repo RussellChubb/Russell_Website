@@ -1,5 +1,6 @@
 ---
 title: "Courses"
+draft: true
 description: "Turning normal people into weird tech folks, one step at a time..."
 summary: "Turning normal people into weird tech folks, one step at a time..."
 showTableOfContents: true # I love that this works
