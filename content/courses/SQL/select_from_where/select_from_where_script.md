@@ -24,6 +24,7 @@ FROM table_name;
 ```
 
 Not all SQL dialects require the use of the semicolon to end a query, however, it’s good practice to use semicolons, especially when writing multiple queries in a script.
+
 When writing queries, you may also want to filter records based on specific conditions, in these situations, we can use the WHERE clause.
 
 For example, if we wanted a query to select only the rows where age is greater than 30, we’d type:

@@ -1,10 +1,11 @@
 ---
 title: "Variables"
-description: ""
-summary: ""
+description: "Variables in Python"
+summary: "Variables in Python"
+draft: true
 showAuthor: true
 date: 2026-05-09
-featureimage: "featured.jpg"
+featureimage: "featured.png"
 tags: ["Python"]
 ---
 

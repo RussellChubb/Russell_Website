@@ -1,9 +1,10 @@
 ---
 title: "Strings"
-description: ""
-summary: ""
+description: "Strings in Python"
+summary: "Strings in Python"
+draft: true
 showAuthor: true
 date: 2026-05-09
-featureimage: "featured.jpg"
+featureimage: "featured.png"
 tags: ["Python"]
 ---

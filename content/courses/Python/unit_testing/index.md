@@ -1,9 +1,10 @@
 ---
 title: "Unit Testing"
-description: ""
-summary: ""
+description: "Unit Testing in Python"
+summary: "Unit Testing in Python"
 showAuthor: true
+draft: true
 date: 2026-05-09
-featureimage: "featured.jpg"
+featureimage: "featured.png"
 tags: ["Python"]
 ---

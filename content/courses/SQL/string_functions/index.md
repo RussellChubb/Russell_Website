@@ -1,11 +1,12 @@
 ---
-title: "Introduction to SQL"
-description: "Introduction to SQL"
-summary: "Introduction to SQL"
+title: "String Functions"
+description: "String Functions in SQL"
+summary: "String Functions in SQL"
+draft: true
 showAuthor: true
 date: 2026-05-09
-featureimage: "featured.jpg"
+featureimage: "featured.png"
 tags: ["SQL"]
 series: ["Learn SQL"]
-series_order: 1
+series_order: 7
 ---

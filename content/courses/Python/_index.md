@@ -1,6 +1,8 @@
 ---
 title: "Python"
 description: "Russell's Python Course"
+summary: "Russell's Python Course"
+showTableOfContents: true # I love that this works
 draft: true
 ---
 

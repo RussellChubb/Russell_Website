@@ -1,9 +1,9 @@
 ---
 title: "Project Structure"
-description: ""
-summary: ""
+description: "Project Structure in Python"
+summary: "Project Structure in Python"
 showAuthor: true
 date: 2026-05-09
-featureimage: "featured.jpg"
+featureimage: "featured.png"
 tags: ["Python"]
 ---

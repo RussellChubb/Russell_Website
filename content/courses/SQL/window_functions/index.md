@@ -1,11 +1,12 @@
 ---
-title: "Case Statements"
-description: "Introduction to Case Statements in SQL"
-summary: "Introduction to Case Statements in SQL"
+title: "Window Functions"
+description: "Window Functions in SQL"
+summary: "Window Functions in SQL"
+draft: true
 showAuthor: true
 date: 2026-05-09
-featureimage: "featured.jpg"
+featureimage: "featured.png"
 tags: ["SQL"]
 series: ["Learn SQL"]
-series_order: 5
+series_order: 10
 ---

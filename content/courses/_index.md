@@ -1,6 +1,6 @@
 ---
 title: "Courses"
-draft: true
+draft: false
 description: "Turning normal people into weird tech folks, one step at a time..."
 summary: "Turning normal people into weird tech folks, one step at a time..."
 showTableOfContents: true # I love that this works
@@ -60,7 +60,7 @@ data: {
   labels: ['Python', 'Git', 'SQL', 'Bash', 'Power BI'],
   datasets: [{
     label: 'Course Completion',
-    data: [5, 0, 2, 5, 0],
+    data: [0, 0, 2, 0, 0],
     backgroundColor: [
       '#EAB308',
       '#EF4444',
@@ -202,4 +202,4 @@ When I teach you how to "*Solve your own technical problems*", I'll show how I i
 
 ## Courses 🔗
 
-Without further ado, here are the courses... (**NOTE: Might be empty if / when you first see this...**)
+Without further ado, here are the courses... <!--(**NOTE: Might be empty if / when you first see this...**)-->

@@ -2,9 +2,10 @@
 title: "ls command"
 description: "Introduction to the ls command in Linux"
 summary: "Introduction to the ls command in Linux"
+draft: true
 showAuthor: true
 date: 2026-05-10
-featureimage: "featured.jpg"
+featureimage: "featured.png"
 tags: ["Linux"]
 series: ["Learn Linux"]
 series_order: 2

@@ -3,8 +3,9 @@ title: "Limit vs Aliasing"
 description: "Difference between Having vs Where in SQL"
 summary: "Difference between Having vs Where in SQL"
 showAuthor: true
+draft: true
 date: 2026-05-09
-featureimage: "featured.jpg"
+featureimage: "featured.png"
 tags: ["SQL"]
 series: ["Learn SQL"]
 series_order: 4

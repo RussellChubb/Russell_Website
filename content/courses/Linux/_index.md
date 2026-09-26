@@ -218,55 +218,6 @@ You can set up your system to run any kind of shell, for example I used to use t
 
 Each single shell has its own unique features and advanced usage, but they all share a common functionality: they can let you execute programs, and they can be programmed.
 
-### Linux Course - Progress Overview
-
-Creating a graph to track my progress on this course, i.e. 100% complete indicates that the course is fully finished, anything else implies we're still in progress.
-
-{{< chart >}}
-type: 'bar',
-options: {
-  indexAxis: 'y',
-  scales: {
-    x: {
-      stacked: true,
-      min: 0,
-      max: 100,
-      ticks: {
-        callback: (value) => value + '%'
-      }
-    },
-    y: {
-      stacked: true
-    }
-  },
-  plugins: {
-    legend: {
-      position: 'bottom'
-    }
-  }
-},
-data: {
-  labels: ['Linux Course Completion'],
-  datasets: [
-    {
-      label: 'Finished',
-      data: [35],
-      backgroundColor: '#22C55E'
-    },
-    {
-      label: 'In Progress',
-      data: [10],
-      backgroundColor: '#EAB308'
-    },
-    {
-      label: 'Remaining',
-      data: [55],
-      backgroundColor: '#374151'
-    }
-  ]
-}
-{{< /chart >}}
-
 ## Course Content 🔗
 
 In the course content below, we'll learn in detail the most common (*and useful*) commands.
