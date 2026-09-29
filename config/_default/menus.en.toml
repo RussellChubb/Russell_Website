@@ -54,13 +54,13 @@ weight = 50          # Fifth item in the menu
   pageRef = "courses/sql"
   weight = 20
 
-# # Python
-# [[main]]
-#   name = "Python"
-#   pre = "python"
-#   parent = "Courses"
-#   pageRef = "courses/python"
-#   weight = 10
+# Python
+[[main]]
+  name = "Python"
+  pre = "python"
+  parent = "Courses"
+  pageRef = "courses/python"
+  weight = 10
 
 # # Courses
 # [[main]]

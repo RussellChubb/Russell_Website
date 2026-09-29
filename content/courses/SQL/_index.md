@@ -8,6 +8,7 @@ showTableOfContents: true # I love that this works
 
 <!-- TODO -->
 <!-- This page has been put together pretty hastily, I might come back to it later and have another go at doing it. -->
+<!-- How to get a SQL environment setup on the computer -->
 {{< typeit
   tag=h4
   speed=80
@@ -35,7 +36,7 @@ showTableOfContents: true # I love that this works
 
 SQL, or Structured Query Language, is a powerful tool used for managing and manipulating databases. Whether you're pulling data for reports, analyzing trends, or just curious about your dataset, SQL is the go-to language.
 
-## History of SQL? 🧠
+### History of SQL? 🧠
 
 SQL was developed in the early 1970s at IBM by Donald D. Chamberlin and Raymond F. Boyce.
 
@@ -44,7 +45,7 @@ Originally called SEQUEL, or Structured English Query Language, it was designed 
 <!-- History of SQL Image -->
 ![History of SQL](https://clarusway.com/wp-content/uploads/2021/09/sql-history.png)
 
-## SQL Today
+### SQL Today 📍
 
 Today, SQL is essential across various relational database management systems like `MySQL`, `PostgreSQL`, `Microsoft SQL Server`, and `Google BigQuery`. However, with the advent of big data, NoSQL databases like `MongoDB` and `Cassandra` have gained traction, offering scalability and flexibility.
 
@@ -53,10 +54,11 @@ Today, SQL is essential across various relational database management systems li
 
 Despite this, SQL remains crucial for data professionals due to its standardized querying and manipulation capabilities across relational and non-relational databases.
 
-## How relational Databases work
+### How relational Databases work 🧮
 
 <!-- TODO -->
 <!-- Explain relational algebra -->
+<!-- This section just below would benefit from some excalidraw diagrams -->
 
 SQL operates on relational databases, which store data in tables composed of rows and columns. Columns represent the different attributes or fields of the data, while rows represent individual records.
 
@@ -75,7 +77,7 @@ FROM users
 WHERE country = 'United Kingdom';
 ```
 
-## The Flavors of SQL (Dialects) 🍦
+### The Flavors of SQL (Dialects) 🍦
 
 One of the first confusing things beginners encounter is that SQL isn't just *one* language—it has multiple **dialects**.
 
@@ -93,7 +95,7 @@ Think of SQL dialects like regional accents or localized slang. The core foundat
 > **Which flavor should you learn first?**
 > **It doesn't matter.** Standard syntax like `SELECT`, `FROM`, `WHERE`, `GROUP BY`, and `JOIN` works almost identically across 95% of database engines. Pick one, master the fundamentals, and switching later will take less than an hour.
 
-## Common SQL Traps & Gotchas ⚠️
+### Common SQL Traps & Gotchas ⚠️
 
 Learning SQL isn't just about syntax; it's about learning **how not to break things** or waste compute power. Now, you may not understand what each of these concepts below mean, but you should know that keep in your mind that with SQL, you do have the power to shoot yourself in the foot.
 
@@ -103,6 +105,6 @@ Learning SQL isn't just about syntax; it's about learning **how not to break thi
 
 3. **The `NULL` Trap:** `NULL` in SQL doesn't mean zero or empty text—it means *unknown*. Treating `NULL` like regular values leads to unexpected query results.
 
-## Course Content
+## Course Content 🔗
 
 Without further ado... Here's the course content!
