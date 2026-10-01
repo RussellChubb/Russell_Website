@@ -4,7 +4,7 @@ draft: true
 description: "Databases, Data-Lakes and Data-Warehouses all solve half the problem. Here's why the Data-Lakehouse exists to solve the other half."
 summary: "Databases, Data-Lakes and Data-Warehouses all solve half the problem. Here's why the Data-Lakehouse exists to solve the other half."
 date: 2026-09-22
-featureimage: "featured.jpg"
+featureimage: "featured.png"
 tags: ["Technical"]
 ---
 
@@ -24,30 +24,24 @@ u/[DELTETED]: That's the neat thing, they all become data swamps
 
 ## Introduction 🎯
 
-Data, Data, Data, business's and users have data coming out their ears, and with so much of it, teams keep reaching for a new system to store it in.
+Data, Data, Data, everyone has data coming out their ears, and with so much of it, users keep reaching for a new system to store it in.
 
-First it was the database. Then the warehouse. Then the lake. And now everyone's talking about the **lakehouse**.
+First it was the database. Then the warehouse. Then the lake. And now we're up to the **lakehouse**.
 
 <!-- Main Lead -->
 {{< lead >}}
-> **So why do we keep needing a new one?**
+> **So why do we keep needing a new system?**
 {{< /lead >}}
-
-That's the real question this post is trying to answer. Not "*what's the difference between these systems*", but "*what problem did each one fail to solve, badly enough that someone had to invent the next thing*?"
-
-Because that's exactly how we ended up at the Data-Lakehouse. It isn't a trend, it's a patch job for two systems that were each brilliant at one job and genuinely bad at the other.
 
 <!-- Pam what's the difference meme -->
 ![What's the difference?](https://i.postimg.cc/6QHbq89h/OLAP-vs-OLTP.png)
 
-To see why, we need to start with the two jobs data systems are actually asked to do.
+Well my dear user, before I answer this question, we first need to understand the two jobs data systems are actually asked to do on a day to day basis...
 
 ## OLTP vs OLAP ⚖️
 
 <!-- OLAP vs OLTP Image -->
 <!-- ![OLAP VS OLTP](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2VANwXN4EoFsdC8uEdoiQbN9iwK1f5dtF34o4VcwoJqbSqNG8UZGsq2s&s=10) -->
-
-<!-- *BTW: These acronyms sound much more complicated than they are.* -->
 
 ### OLTP (Online Transaction Processing)
 
@@ -86,18 +80,34 @@ OLAP has a completely different problem. Instead of asking "*Which widget did a 
 
 > "*What were our total widget sales by product, region and month over the last five years?*"
 
-That's a different animal. We could be scanning **millions or billions of records**, aggregating them, joining datasets together, calculating statistics.
+That's a [different animal, (*and the same beast*)](https://www.youtube.com/watch?v=2YgXOlH8Q2I).
 
+<!-- Different Animal and the Same Beast -->
+{{< youtubeLite id="2YgXOlH8Q2I" label="Two Very Problematic Dudes" >}}
+
+<!-- Removed this as I didn't think it fit. -->
 <!-- Unrelated Meme 0 -->
-![Unrelated Meme](https://imgs.xkcd.com/comics/heatmap_2x.png)
+<!-- ![Unrelated Meme](https://imgs.xkcd.com/comics/heatmap_2x.png) -->
 
-So instead of lots of tiny, protected transactions, we're interested in **large analytical queries**. OLTP runs the business. **OLAP is about analysing it.**
+So, instead of lots of tiny, protected transactions, we're interested in **large analytical queries**.
 
-And this mismatch — one system built for tiny fast writes, another needed for huge slow reads — is the root cause of everything that follows.
+OLTP runs the business, (*kind of like the workers of a business*), and **OLAP is about analysing it**, (*kind of like the C - Suite of the same business*)
+
+<!-- OLAP VS OLTP Video -->
+Now, if you didn't find my explanation fufilling, I've linked off to a video that helps to further explain the differences between the two systems, by [techTFQ](https://www.youtube.com/@techTFQ)
+
+(*btw @TechTFQ, your videos rock, but I don't like your new AI thumbnails*)
+
+{{< youtubeLite id="6-VVu68hbgw" label="TechTFQ" >}}
 
 ## Database's 🗄️
 
-Databases are fundamentally a system for storing and retrieving data, and when people say "*database*" in a Data Engineering context, they usually mean a relational one: PostgreSQL, MySQL, SQL Server, Oracle.
+Databases are fundamentally a system for storing and retrieving data, and when people say "*database*" in a Data Engineering context, they usually mean a relational one:
+
+* PostgreSQL
+* MySQL
+* SQL Server
+* Oracle (*yuck*)
 
 <!-- Not Excel Admonition -->
 > [!CAUTION]
@@ -106,7 +116,7 @@ Databases are fundamentally a system for storing and retrieving data, and when p
 <!-- Unrelated Meme I liked -->
 ![Unrelated Meme](https://i.programmerhumor.io/2024/05/programmerhumor-io-databases-memes-backend-memes-ec728de3b8df49b.jpg)
 
-These systems are great at OLTP workloads:
+These systems are great at OLTP workloads (*such as the example flow, I've featured below*):
 
 {{< mermaid >}}
 graph TD;
@@ -116,20 +126,25 @@ graph TD;
     B --> E["Products"];
 {{< /mermaid >}}
 
-The database is the **system of record**, it holds the data the application needs to actually function. And that's exactly why it starts to break when the CEO wanders over and asks:
+The database is the **system of record**, it holds the data the application needs to actually function. And that's exactly why it starts to "*break*" when the CEO wanders over and asks:
 
 > "Can you tell me how revenue has changed by customer segment over the last ten years?"
 
-We *could* run that query against production. But we shouldn't. Our poor PostgreSQL instance has enough problems without a ten-year analytical scan running while 10,000 customers are mid-checkout.
+We *could* run that query against production.
+
+But we probably shouldn't, as our poor PostgreSQL instance has enough problems without a ten-year analytical scan running while 10,000 customers are mid-checkout.
+
+<!-- Abuse Goblin PostGres SQL -->
+![I hate the abuse goblin memes, it makes me sad](Abuse_Goblin_Data.png)
 
 <!-- Real men test in production meme -->
-![Xbox Controller](https://preview.redd.it/productiontesting-v0-ynp50nf1339b1.png?auto=webp&s=5247856ff1a1f986415bf2be8c09c2e63aa774a6)
+<!-- ![Xbox Controller](https://preview.redd.it/productiontesting-v0-ynp50nf1339b1.png?auto=webp&s=5247856ff1a1f986415bf2be8c09c2e63aa774a6) -->
 
-So the database alone can't be the whole answer. We need somewhere else to send those questions.
+So the database alone can't be the whole answer, we instead need somewhere else to send those questions...
 
 ## Data Warehouses 🏢
 
-The Data Warehouse exists to answer one need the database can't: **analytical workloads, without wrecking the application.**
+The Data Warehouse exists to answer questions the database can't, which is running **analytical workloads, without wrecking the application.**
 
 <!-- Another unrelated meme -->
 ![Unrelated meme 2](https://preview.redd.it/who-can-explain-this-xkcd-comic-for-me-v0-t3i8v65wtkxe1.jpeg?auto=webp&s=3a9a0d7d49d1ce544dd8b8f6d4a4f6c64ff308cc)
@@ -145,7 +160,9 @@ graph TD;
     D --> E["BI / Analytics"];
 {{< /mermaid >}}
 
-Now the production database can concentrate on running the application, and the warehouse can concentrate on answering questions. Because analytical workloads have different needs from transactional ones, the warehouse reshapes the data for that job:
+Now the production database can concentrate on running the application, and the warehouse can concentrate on answering questions.
+
+Because analytical workloads have different needs from transactional ones, the warehouse reshapes the data for that job:
 
 {{< mermaid >}}
 graph TD;
@@ -163,21 +180,21 @@ But it only solves *half* of the original problem. It assumes the data already l
 Now imagine our company starts collecting data from:
 
 * APIs
-* Application databases
 * CSV files
 * JSON
 * Logs
 * IoT devices
 * Images
 * Videos
-* Event streams
 
-Forcing all of that into a tidy relational schema before we've even stored it is a losing game.
+Forcing all of that into a tidy relational schema before we've even stored it is a **losing game**.
 
 <!-- Cramming Gif -->
 ![Cramming](https://media1.tenor.com/m/EYfxDVbJtTwAAAAd/nos-fat-lois.gif)
 
-So the Data Lake solves a different problem than the warehouse does: not "*how do we analyse structured data*", but "*where do we even put everything else, cheaply, before we know what we'll do with it*?"
+So the Data Lake solves a different problem than the warehouse does: not "*how do we analyse structured data*", but "*where do we even put everything else, cheaply, before we know what we'll do with it*?".
+
+Below this text block is a Mermaid Chart Depicitng typical information flow from source systems, into a data-lake, and then out to analytics / ML.
 
 <!-- Data-sources Mermaid Chart -->
 {{< mermaid >}}
@@ -196,7 +213,7 @@ graph TD;
     F --> G["Analytics / ML"];
 {{< /mermaid >}}
 
-This is particularly useful when:
+So, why would we use this particular paradigm? Well, it's super useful when:
 
 * We don't know exactly how the data will be used yet
 * We have very large datasets
@@ -211,7 +228,18 @@ So now we've solved the flexibility problem the warehouse couldn't. Great. Excep
 <!-- Data-Swamp Meme -->
 ![Data Swamp](https://i.redd.it/lr1ohtueoje71.png)
 
-They weren't joking. Dump everything into object storage without organisation, metadata, governance, schemas, ownership or documentation, and you end up with:
+They weren't [capping](https://www.urbandictionary.com/define.php?term=cap), [fr fr](https://www.urbandictionary.com/define.php?term=fr).
+
+If you dump everything into object storage without:
+
+* organisation structure
+* metadata
+* governance systems
+* ownership or documentation
+
+you [lowkey](https://www.reddit.com/r/NoStupidQuestions/comments/1nocad4/does_the_modern_slang_use_of_lowkey_have_a/) end up with this:
+
+<!-- (*side-note, urban dictionary doesn't have the NZ slang meaning of lowkey correct.*): -->
 
 ```text
 data/
@@ -226,7 +254,9 @@ data/
 └── PLEASE_DO_NOT_DELETE/
 ```
 
-The lake's greatest strength — "*put anything here, we'll figure it out later*" — is also exactly what turns it into a swamp.
+**Scary stuff huh? ^ 🫣**
+
+So, the lake's greatest strength, the whole "*put anything here, we'll figure it out later*" is also exactly what turns it into a swamp.
 
 <!-- Data Swamp Meme -->
 ![Data Swamp 2](https://i.redd.it/n86id1wgssg91.png)
@@ -247,12 +277,26 @@ Look at where that leaves us:
 | Typical users   | Analysts / BI                  | Engineers / ML / analysts      |
 | Data state      | Curated                        | Often raw → curated            |
 
-Neither column is wrong. Neither is complete either. Plenty of teams end up running **both**: a lake for raw everything, a warehouse for trusted BI, and a pile of pipelines constantly copying data between them just to keep both sides happy. That's two systems to pay for, two systems to secure, and data duplicated (and drifting out of sync) between them.
+Neither column is wrong (*neither is complete either*)...
+
+Plenty of teams end up running **both**:
+
+* a lake for raw everything
+* a warehouse for trusted BI
+
+And a bunch of pipelines copying data between them just to keep both sides happy.
+
+However, that means there's two systems to pay for, two systems to secure, and data duplicated (*and drifting out of sync between them*).
+
+<!-- Oh No Gif -->
+![Kermit](https://storage.ghost.io/c/5d/65/5d65c639-c03a-49a0-968c-4c50eeefc4ba/content/images/2024/11/https-3a-2f-2fsubstack-post-media-s3-amazonaws-com-2fpublic-2fimages-2f12d0a7f0-f65b-4a74-a63f-ae4fb73a8de3_498x280.gif)
 
 <!-- Data-Lakehouse Memes -->
-![Data Lakehouse Meme](https://storage.ghost.io/c/18/db/18db57b5-6733-4aa7-891a-c0b44ef81075/content/images/2025/02/image--28-.png)
+<!-- ![Data Lakehouse Meme](https://storage.ghost.io/c/18/db/18db57b5-6733-4aa7-891a-c0b44ef81075/content/images/2025/02/image--28-.png) -->
 
-That duplication is the actual reason the Data-Lakehouse needed to exist. Not because lakes or warehouses are bad, but because running both, forever, to cover for each other's weaknesses, is expensive and fragile.
+**That duplication is the actual reason the Data-Lakehouse needed to exist.** <-- cool, question answered, let's pack up the article...
+
+Not because lakes or warehouses are bad, but because running both, forever, to cover for each other's weaknesses, is expensive and fragile.
 
 {{< mermaid >}}
 graph TD;

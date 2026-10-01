@@ -76,7 +76,7 @@ Task Status Key:
 
 | Title | Author | Status |
 | --- | --- | --- |
-| Grokking Algorithms | Aditya Bhargava | ❌ |
+| Grokking Algorithms | Aditya Bhargava | 🚧 |
 | Algorithms - Theory and Practice | Thomas Cormen | ❌ |
 | OSTEP: Operating Systems - Three Easy Pieces | Remzi & Andrea Arpaci-Dusseau | ❌ |
 | Computer Networking: A Top-Down Approach | Kurose & Ross | ❌ |
