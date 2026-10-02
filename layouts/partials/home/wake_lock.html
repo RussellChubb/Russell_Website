@@ -1,0 +1,23 @@
+<div class="wake-lock" data-wake-lock>
+  <p class="wake-lock__title"><strong>Keep your screen awake</strong></p>
+  <p class="wake-lock__description">
+    <em>Prevent the screen from dimming while you're reading or following along.</em>
+  </p>
+  <button
+    class="wake-lock__button"
+    type="button"
+    aria-pressed="false"
+  >
+    <span class="wake-lock__icon" aria-hidden="true">🌙</span>
+    <span class="wake-lock__text">Keep screen awake</span>
+  </button>
+</div>
+
+{{ $wakeLock := resources.Get "wakelock.js" }}
+{{ $wakeLock := $wakeLock | minify | fingerprint }}
+
+<script
+  src="{{ $wakeLock.RelPermalink }}"
+  integrity="{{ $wakeLock.Data.Integrity }}"
+  defer
+></script>

@@ -5,22 +5,6 @@
         font-family: 'JetBrains Mono', monospace;
     }
 
-    body {
-        background-color: rgb(21, 25, 30);
-        background-image:
-            linear-gradient(to bottom, rgba(21, 25, 30, 0.88), rgba(21, 25, 30, 0.96)),
-            url('/img/BG_Fix.webp');
-        background-attachment: fixed;
-        background-position: center;
-        background-size: cover;
-    }
-
-    html.dark body {
-        background-color: rgb(21, 25, 30);
-        background-image:
-            linear-gradient(to bottom, rgba(21, 25, 30, 0.88), rgba(21, 25, 30, 0.96)),
-            url('/img/BG_Fix.webp');
-    }
 }
 
 .subscribe-shortcode {
@@ -53,11 +37,6 @@ html.dark .subscribe-shortcode {
     font-weight: 700;
     letter-spacing: 0.01em;
     text-transform: none;
-    color: #f8fafc;
-}
-
-html.dark .subscribe-shortcode__eyebrow {
-    color: #f8fafc;
 }
 
 .subscribe-shortcode__description {
@@ -76,11 +55,6 @@ html.dark .subscribe-shortcode__description {
     font-size: 1.05rem;
     line-height: 1.4;
     font-weight: 700;
-    color: #f8fafc;
-}
-
-html.dark .subscribe-shortcode__label {
-    color: #f8fafc;
 }
 
 .subscribe-shortcode__controls {
@@ -151,6 +125,123 @@ html.dark .subscribe-shortcode input[type="submit"]:hover {
     }
 
     .subscribe-shortcode input[type="submit"] {
+        width: 100%;
+    }
+}
+
+.wake-lock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    margin: 2rem 0;
+    padding: 1.25rem;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    border-radius: 1rem;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.95), rgba(245, 247, 250, 0.95));
+    box-shadow: 0 10px 30px rgba(15, 23, 42, 0.06);
+    color: #111827;
+}
+
+html.dark .wake-lock {
+    border-color: rgba(255, 255, 255, 0.12);
+    background: linear-gradient(135deg, rgba(17, 24, 39, 0.96), rgba(31, 41, 55, 0.96));
+    box-shadow: 0 10px 30px rgba(2, 6, 23, 0.35);
+    color: #f9fafb;
+}
+
+.wake-lock__title,
+.wake-lock__description {
+    margin: 0;
+    text-align: center;
+}
+
+.wake-lock__title {
+    font-size: 1.05rem;
+    font-weight: 700;
+}
+
+.wake-lock__description {
+    max-width: 40rem;
+    color: #64748b;
+    font-size: 0.92rem;
+    line-height: 1.6;
+}
+
+html.dark .wake-lock__description {
+    color: #cbd5e1;
+}
+
+.wake-lock__button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75rem;
+    width: min(100%, 22rem);
+    min-height: 4rem;
+    padding: 1rem 1.5rem;
+    border: 0;
+    border-radius: 999px;
+    background: #111827;
+    color: #fff;
+    font: inherit;
+    font-size: 1.05rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: transform 0.15s ease, background-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.wake-lock__button:hover {
+    background: #1f2937;
+    transform: translateY(-1px);
+}
+
+.wake-lock__button:focus-visible {
+    outline: 3px solid #2563eb;
+    outline-offset: 3px;
+}
+
+.wake-lock__button[aria-pressed="true"] {
+    background: #2563eb;
+    color: #fff;
+}
+
+.wake-lock__button[aria-pressed="true"]:hover {
+    background: #1d4ed8;
+}
+
+html.dark .wake-lock__button {
+    background: #f8fafc;
+    color: #111827;
+}
+
+html.dark .wake-lock__button:hover {
+    background: #e2e8f0;
+}
+
+html.dark .wake-lock__button[aria-pressed="true"] {
+    background: #60a5fa;
+    color: #0f172a;
+}
+
+html.dark .wake-lock__button[aria-pressed="true"]:hover {
+    background: #3b82f6;
+}
+
+.wake-lock__icon {
+    display: inline-grid;
+    width: 1.5rem;
+    height: 1.5rem;
+    place-items: center;
+    font-size: 1.25rem;
+}
+
+@media (max-width: 640px) {
+    .wake-lock {
+        padding: 1rem;
+    }
+
+    .wake-lock__button {
         width: 100%;
     }
 }

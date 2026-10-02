@@ -9,4 +9,5 @@ draft: true
 
 ---
 
-## Notes for this Blog post
+<!-- Wake Lock Partial -->
+{{< wake-lock >}}
