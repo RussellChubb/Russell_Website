@@ -16,4 +16,6 @@
 
 8) I'd love to add an element to the home-page to show "tools" I've worked with as a slider of small white icons that scroll across the screen to give the page a bit of movement. I'd like shit like ["Python", "SQL", "Excel", "Databricks", "Airflow", "DBT", "Spark", "Premiere Pro", "Photoshop", "After-Effects" etc etc to scroll]. How hard would this be to achieve?
 
-9) Fix bug where you can see recipe content when navigating to the Resume section.
+9) ~~Fix bug where you can see recipe content when navigating to the Resume section.~~
+
+10) Fix bug where UK residents can't see certain images due to them being in the UK
