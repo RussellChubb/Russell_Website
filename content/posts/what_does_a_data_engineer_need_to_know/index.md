@@ -93,7 +93,7 @@ Task Status Key:
 | CS50: Introduction to Computer Science | Harvard | ❌ |
 | Data Engineering Zoomcamp | DataTalksClub | 🚧 |
 | Blind 75 | NeetCode | ❌ |
-| Data Engineer Associate | Databricks | ❌ |
+| Data Engineer Associate | Databricks | 🚧 |
 | Data Engineer Professional | Databricks | ❌ |
 
 ## Preface 💬
