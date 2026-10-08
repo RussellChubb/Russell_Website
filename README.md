@@ -16,11 +16,11 @@
 
 ## Pictures
 
-[Website_1](static/Website_1.png)
+![Website_1](static/Website_1.png)
 
-[Website_1](static/Website_2.png)
+![Website_1](static/Website_2.png)
 
-[Website_1](static/Website_3.png)
+![Website_1](static/Website_3.png)
 
 ## About
 
