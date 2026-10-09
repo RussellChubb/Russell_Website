@@ -6,7 +6,7 @@ description: "Databases, Data-Lakes and Data-Warehouses all solve half the probl
 summary: "Databases, Data-Lakes and Data-Warehouses all solve half the problem. Here's why the Data-Lakehouse exists to solve the other half."
 date: 2026-09-22
 featureimage: "featured.png"
-tags: ["Technical"]
+tags: ["Technical", "Data Engineering"]
 ---
 
 <!-- Space for a Quote -->
