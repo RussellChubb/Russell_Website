@@ -4,7 +4,7 @@
 
 2) Clean up Repo
 
-3) Create cool README
+3) ~~Create cool README~~
 
 4) ~~Remove background from home-page / Fix pages not taking custom BG (*regenerate thumbnails with solid colour bg.*)~~
 
