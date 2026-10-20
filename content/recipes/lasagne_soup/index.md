@@ -22,3 +22,9 @@ u/[DELTETED]: That's the neat thing, they all become data swamps
 {{< /typeit >}} -->
 
 ---
+
+<!-- Wake Lock Partial -->
+{{ partial "wake-lock.html" . }}
+
+<!-- Subscribe Partial -->
+{{< subscribe >}}

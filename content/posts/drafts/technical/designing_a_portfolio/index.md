@@ -31,10 +31,4 @@ I'd also like to touch on why I did it, how it's changed my life in interesting 
 
 ## Great Personal Websites
 
-### Adam Green
-
-[Adam Green](https://adgefficiency.com/)
-
-### Flavio Copes
-
-[Flavio Copes](https://flaviocopes.com/)
+Use my Apple-Notes, note on this to demonstrate what a good website looks like.

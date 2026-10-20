@@ -272,7 +272,7 @@ Suddenly, having some structure starts looking like a pretty good idea.
 
 ## When Does Data Move Between Layers? ➡️
 
-This is a question that I personally had before starting this article, and my mother used to tell me that if I had a question, it's more than likely that someone else has the same question.
+This is a question that I personally had before starting this article (*and my mother used to tell me that if I had a question, it's more than likely that someone else has the same question*)
 
 From my research, I've found that there isn't some magical moment when a Bronze table becomes Silver.
 
