@@ -130,7 +130,7 @@ Heyo! - My name is **Russell David Chubb**.
 
 At the time of writing this, I'm 25 years old. I was born in Brisbane Australia, and moved over to New Zealand when I was around ~ 1 year old. I grew up in Palmerston North, and studied in Wellington, then, moved to Masterton to be closer to my girlfriend and her family!
 
-Somewhere in late 2026, I'll be settling down in Edinburgh, Scotland, wherein I'll be exploring a brand new country!
+I moved to Edinburgh, Scotland in September 2026, and have been living here since!
 
 ### Free Time Donut Chart 🍩
 
@@ -320,6 +320,8 @@ I was only able to break out of this state of mind when I listened to **someone*
 
 Almost as soon as I heard this advice, I got straight into creating my first video; "Introduction to Python"... **24** videos later, and I've grown the channel to ~ 560 Subscribers (*at the point of writing this*).
 
+<!-- TODO -->
+<!-- This section should be developed out further -->
 ### Working at Meridian Energy 💼
 
 Anyway, 42 Job Applications, 2 Interviews, and two follow-up interviews later, I was offered a role as a Data Analyst at Meridian Energy.

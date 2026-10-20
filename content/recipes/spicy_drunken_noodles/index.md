@@ -1,6 +1,6 @@
 ---
 title: "Spicy Drunken Noodles"
-draft: true
+draft: false
 showReadingProgress: true
 description: "Spicy Drunken Noodles"
 summary: "Spicy Drunken Noodles"
@@ -9,6 +9,8 @@ featureimage: "featured.png"
 tags: ["Recipe", "Dinner", "Thai"]
 ---
 
+<!-- TODO -->
+<!-- Get quote or remove this quote? -->
 <!-- Space for a Quote -->
 <!-- {{< typeit
   tag=h4
@@ -23,10 +25,15 @@ u/[DELTETED]: That's the neat thing, they all become data swamps
 
 ---
 
+<!-- TODO -->
+<!-- Validate this works -->
 <!-- Wake Lock Partial -->
-{{ partial "wake-lock.html" . }}
+{{< wake-lock >}}
 
 ## Overview
+
+<!-- TODO -->
+<!-- Create Jump Links -->
 
 Spicy Thai stir-fried rice noodles with:
 
@@ -37,6 +44,9 @@ Spicy Thai stir-fried rice noodles with:
 
 *Pad Kee Mao* translates roughly to "*drunken noodles*" and is traditionally enjoyed with an ice-cold beer. It's a quick, savoury, and spicy dish that comes together in minutes.
 
+<!-- Image1 -->
+![Image1](https://www.recipetineats.com/tachyon/2014/07/Thai-Drunken-Noodles-on-Plate.jpg?resize=900%2C1260&zoom=1)
+
 ## Details
 
 * **Prep time:** 10 minutes
@@ -46,7 +56,12 @@ Spicy Thai stir-fried rice noodles with:
 * **Difficulty:** Easy
 * **Cuisine:** Thai
 
+<!-- Image2 -->
+![Image2](https://www.recipetineats.com/tachyon/2014/07/Thai-Drunken-Noodles-in-Wok.jpg?resize=900%2C1260&zoom=1)
+
 ## Ingredients
+
+![Ingredients](https://www.recipetineats.com/tachyon/2014/07/Ingredients-in-Drunken-Noodles.jpg?resize=900%2C643&zoom=1)
 
 ### Noodles
 
@@ -72,6 +87,9 @@ Spicy Thai stir-fried rice noodles with:
 * 1 tbsp water
 
 ## Method
+
+<!-- Method Image -->
+![Method](https://www.recipetineats.com/tachyon/2014/07/How-to-make-Thai-Drunken-Noodles.jpg?resize=900%2C754&zoom=1)
 
 1. **Prepare the noodles.** Cook or soak the rice noodles according to the packet instructions, then drain.
 
@@ -103,6 +121,8 @@ Spicy Thai stir-fried rice noodles with:
 
 *Approximate values per serving, assuming 3 servings.*
 
+<!-- TODO -->
+<!-- Format into .md table -->
 | Nutrient | Amount |
 | --- | --- : |
 | Calories | 454 kcal |

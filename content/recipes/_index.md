@@ -2,8 +2,12 @@
   title: "Recipes"
   description: "List of Recipes I love to cook and eat!"
   showAuthor: true
+  showViews: true
+  showLikes: true
   showDate: false
-  draft: true
+  draft: false
+  showTableOfContents: true
+  featureimage: "featured.jpg"
 ---
 
   <!-- Space for some kind of celebrity chef quote -->
