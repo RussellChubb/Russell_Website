@@ -12,9 +12,11 @@ draft: true
 
 ## 4th - 🇮🇹
 
-* travel to Milan
-* 5 hour bus
-* Expensive outdoor Plaza Restraunt for Tapas and then went to Turkish
+After taking a tram back to the airport (*and remembering to validate our card on the way out*), we boarded our Flixbus, and made our way to Milan over the course of 5 hours.
+
+The next accomodation was also a bit of a dive, it was dark and underground, and the entire flat was covered in a light layer of dampness. It did come with a dehumidifier, which I think ended up filling up about 4 or 5 five times in our two-day stay.
+
+I don't have many notes from this day, other than we got expensive outdoor Pizza's and Aperol Spritz's, and that it started raining on us, so we paid the bill, and went to a turkish place to fill us up.
 
 ## 5th - 🇮🇹
 
@@ -25,7 +27,7 @@ draft: true
 * Then walked to the Willy Wonka place + saw the big ass church
 * Walked to a park, saw turtles, got Aperol Spritzes
 * Walked to Canal
-* Bought some no THC weed - waste of money.
+* Guy trying to fight the other guy, then bought some no THC weed - waste of money.
 * Ate all you can eat buffet for dinner
 * Hit a local spot for a beer, it was busy!
 * Got ice cream, met English uni students, invited them back for a joint

@@ -31,65 +31,59 @@ After that, we relaxed for a bit and started watching Geordie Shore, and went on
 
 ## 3rd - 🇫🇷
 
-* Beach Day
-* Olivia burnt AF
-* Chinese takeaway for dinner
+Our third day in Nice, the beach was too tempting to hold-off on any longer, we packed up a bag with some lunch and snacks and spent the day alternating between the water, and the rocky beach.
+
+One interesting facet about Nice was the acceptance of nudity at beaches, as there were plenty of people without clothes on. You'll get around to reading this later, but places like Croatia, they would almost prefer you to have a shirt on, while at the beach.
+
+Anyway, at the end of the day, after a long day of telling me how "*the sun is different in Europe, and that you don't need sunblock*" Olivia starts turning a nice tomato shade of red. Granted, she took it like a champ, and we finished the day with some Chinese Takeaway for dinner.
 
 (*this jumps forward to the end of our trip*)
 
 ## 20th - 🇫🇷
 
-* Woke up at 6:00AM
-* Had to Uber to bus, otherwise we would have missed it
-* Bussed to Paris
-* Trained to Accomodation
-* Did a Puzzle! - didn’t finish it, but made good progress
-* Went out to a Chinese French restaurant for dinner. Mogged Olivia with my French, despite her practicing on Duolingo.
+Olivia and I woke at 6:00AM and ended up having to catch a cab from our accomodation in Amsterdam to the bus station, as we missed our train, and the next one wouldn't arrive until after we needed to be on ths bus!
+
+<!-- TODO -->
+We then took a Flixbus to Paris, and then trained in to our accomodation. This particular hostel (*name*) was super funky in terms of the layout of rooms, and also how unfriendly everyone was (*except for one dude*).
+
+We took it pretty easy for the rest of the day, just chilling in the hostel, before going out to Chinese restraunt for dinner, wherein I mogged Olivia with my French, despite her consistenly practicing on Duolingo.
 
 ## 21st - 🇫🇷
 
-* Woke up late
-* Went to Cafe Angelic, super old French Cafe, Olivia had hot chocolate, I had a Ice Matcha and the craziest pastry. Anyway it was really nice but super rich.
-* Tuilieres Garden
-* The Lourve, took some photos pinching the Lourve and two older dudes photobombed two seperate photos, was quite funny
-* Had a Croque Monsuir and a Croque Madame for lunch with some wine which was delicious. Our waiter was super cool also!
-* Picked up some snacks and bottle of wine and went to by the Eifel Tower. As soon as we sat down however it started raining and blowing a gale, so we had to retreat under some cover nearby (we kept drinking however)
-* We met up with this German guy Luca, who had been living in Australia for the past year and spoke with the funniest Australian German Accent Ever.
-* We then went to an Irish Pub to split the G and then pushed on to a Jazz bar that turned into a Techno Club at 12:00AM
-* It was pretty cool in there, people were just vibing and listening to the music, of which the musicians were very talented!
-* Bought a curry (I walked into the storeroom while looking for the bathroom and got told off) and then caught the metro home!
+On the 21st, Olivia and I woke up late, got ready, and then headed out to Cafe Angelic, which is a super old French Cafe. Olivia had hot chocolate, I had a Ice Matcha and the craziest pastry. (*find it, it's their signature*) Anyway it was a really beautiful cafe, but the food was super rich.
+
+We then proceeded to walk off our food through Tuilieres Gardens, before making our way over to the Lourve, wherein we took some photos pinching the Lourve and two dudes photobombed two seperate photos, was was quite funny. For lunch, we stopped at this small cafe for a beautiful Croque Monsuir and a Croque Madame for lunch with some wine which was delicious. Our waiter was super cool also!
+
+We then picked up some snacks and bottle of wine and went to by the Eifel Tower. As soon as we sat down however it started raining and blowing a gale, so we had to retreat under some cover nearby (*we kept drinking however*). We then met up with this German guy Luca, who had been living in Australia for the past year and spoke with the funniest Australian German Accent Ever.
+
+After that, we all went to an Irish Pub to split the G and then pushed on to a Jazz bar that turned into a Techno Club at 12:00AM It was pretty cool in there, people were just vibing and listening to the music, of which the musicians were very talented!
+
+To end the night we shared a curry (*I walked into the storeroom while looking for the bathroom and got told off*) and then caught the metro home!
 
 ## 22nd - 🇫🇷
 
-* Woke up late (after a late night to be fair)
-* Almost killed by a falling piece of concrete
-* Croque Monseuir for lunch!
-* Notre Dame
-* Arch De Triumph
+On the 22nd, we both woke up late (*after a late night to be fair*), I then went downstairs to eat some breakfast, wherein while I was sitting outside, I was almost killed by a falling piece of concrete from the construction site above me. To brush off that near miss with death, I decided on a Croque Monseuir for lunch, before visting Notre Dame, and the Arch De Triumph.
+
+One thing about the Arch De Triumph, no-one tells you that it's in the middle of a round-about, and that people have to sprint in between gaps in traffic to try get closer to the structure.
 
 ## 23rd - 🇫🇷
 
-* Woke up early and did some washing!
-* Helped some dude take his suitcase down the stairs and he rewarded me with a biscuit
-* Took a train to Chateau De Versais
-    * Super interesting, super beautiful
-    * was interested in the French Revolution + Napoleon stuff.
-    * Gardens were beautiful
-    * Would recommend bringing food!
-    * Walked 8KM around the gardens for the Strava
-* Train back and went to a Canadian bar for dinner, Olivia got a Poutine with super cheesy cheese!
-* Walked to the Love Lock Bridge + Pantheon to walk off dinner!
-* Also checked out the Emily in Paris apartment (Russell in Paris)
+On the 23rd, Olivia and I woke up slightly earlier to go do some washing, while our clothes were washing, I bought Olivia and I some matcha's to drink.
+
+When we got back to the hostel, I helped some dude down take his suitcase down the stairs and he rewarded me with a biscuit, (*does that make me a dog?*).
+
+After we had re-packed our washing, we took a train out to Chateau De Versais. What a place, super interesting, super beautiful. It was particularly interesting to read about the French Revolution and Napoleon. Olivia and I also enjoyed walking 8KM through the gardens, however, I'd reccomend bringing some food, as it's a little expensive at the actual Chateau.
+
+We then took a train back, and went to a Canadian bar for dinner, Olivia got a Poutine with super cheesy cheese! We finished off the evening (*it was a super beautiful sunset btw*) with a walk to the Love Lock Bridge (*now missing all locks, but still*) + Pantheon.
+
+We also checked out the exterior of the Emily in Paris Apartment (*Russell in Paris???*)
 
 ## 24th - 🇫🇷
 
-* Final (full) day in Europe
-* Woke up late and worked on my blog post
-* Grabbed a classic French breakfast and ate it slowly and meaningfully!
-* Homeless man threw a coffee cup near us and almost cut Olivia up.
-* Caught metro to sacrecœur Basilca (beautiful) and walked around the streets (very tourist trappy but very cool)
-* Walked to moulin rouge
-* Didn’t realise it would be like the red light district in Amsterdam
-* Walked in direction of hostel and found a cool bar with cheap happy hour drinks
-* Stayed for a couple hours and played cards then left
-* Got Vietnamese for dinner and they sprinkled peanuts on Olivia’s food and she had allergic reaction but they made her a new one so was okay (not serious just throat, mouth and lip itching).
+The 24th was our final full day in Europe, we awoke late, and grabbed a classic classic French breakfast and ate it slowly and meaningfully! My blissful disposistion was interrupted when a man threw a coffee cup near us and almost cut Olivia up.
+
+We then caught a metro to Sacrecœur Basilca, very beautiful, before walking around the streets, which felt very "*tourist trappy*" , but still super cool. We then walked to Moulin Rouge, which I didn't realise, but is kind of like the red light district in Amsterdam.
+
+We then decided to walk back in the direction of our hostel until we found a cool bar with cheap happy hour drinks. After stopping in a few clothes stores, we eventually found a cool bar. By the way, a good way to find cool bars is to find all of the vintages clothes stores and then start looking around. Regardless, we stayed for a couple of hours enjoying the late afternoon sun, cards, each others company, and a few cold drinks.
+
+For dinner, we decided on a Vietnamese restraunt near our accomodation for dinner, however, they sprinkled peanuts on Olivia’s food and she had allergic reaction but they made her a new one so was okay (*not serious just throat, mouth and lip itching*).
