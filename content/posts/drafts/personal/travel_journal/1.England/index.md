@@ -29,7 +29,7 @@ I collected some notes over our trip, with the intention of creating a bit of a 
 
 Our journey begins on the 22nd of May, 2026, as Olivia and I arrive in Heathrow Airport in London. We arrivied in fairly good spirits, although I was beginning to tire of cramped airplanes and movies.
 
-As we made our way out of the Airport, one the things I remember being most suprised about was how easily it was to clear customs, as Olivia and I were both prepared for it to be a bit of a slog (*similar to how it is in New Zealand*). The other thing that I was looking forward to was the warm weather, which to be fair, I wasn't exactly expecting flying into London, but lowe and behold, it was about 25 degree's and clear blue skies!
+As we made our way out of the Airport, one the things I remember being most suprised about was how easy it was to clear customs, as Olivia and I were both prepared for it to be a bit of a slog (*similar to how it is in New Zealand*).
 
 The next step was getting from the airport to Rians, which, after asking around for directions to the tube, and managed to bumble our way onto a line into the central city, before then catching the caledonian line (*which I'll add, any London line on peak-hours is hell to try and get on with luggage*) out to my brothers place.
 
