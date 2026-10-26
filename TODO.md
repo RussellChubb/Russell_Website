@@ -15,3 +15,5 @@
 7) Update the about section of my website to reflect my new living situation.
 
 8) Create recipe content
+
+9) Build out that section in my about section for what I did at Meridian, it feels kind of light.

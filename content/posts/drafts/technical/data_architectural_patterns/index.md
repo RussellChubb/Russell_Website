@@ -147,9 +147,13 @@ As such, deep consideration should be placed when deciding to pursue a external 
 
 **NOTE** not necessairly always true, however, defintly something to think about.
 
+<!-- TODO -->
 ## BI Not using Gold Tables
 
 * I'm unsure at how much of a problem it is, but it's for sure an anti-pattern, but I notice a lot of gold tables still aren't BI ready, thus, we have BI analysts / other SME's performing downstream transformations on tables to get them into the format they require for their work.
+
+<!-- TODO -->
+<!-- Platform is locked down tighter than fort knox -->
 
 ## Conclusion
 

@@ -8,6 +8,7 @@ showAuthor: true
 featureimage: "featured.png"
 date: 2026-10-04
 tags: ["Technical", "Data Engineering"]
+
 ---
 
 <!-- Space for a Quote -->
@@ -40,30 +41,37 @@ Ether: Entire department laid off
 ---
 
 <!-- TODO -->
-<!-- Redo intro with either my question, or with something about cutting through marketing hype and renaming old patterns -->
 <!-- Add Bronze Silver Gold Images to the Thumbnail -->
 
-You've probably seen this before:
+Unless you've been living under a rock you've probably either heard about, ingested from, or implemented some form of Medallion Architecture (*as long as you're anywhere adjacent to a Data-Role*).
 
-<!-- Medallion Architecture Image -->
-![Medallion_Databricks](https://www.databricks.com/sites/default/files/inline-images/building-data-pipelines-with-delta-lake-120823.png)
+<!-- Living Under Rock -->
+![Living Under Rock](https://media.tenor.com/NkvKWjP3Qi4AAAAe/under-a-rock-living-under-a-rock.png)
 
-It looks simple. And, to be fair, it is.
+<!-- Medallion Architecture Image
+![Medallion_Databricks](https://www.databricks.com/sites/default/files/inline-images/building-data-pipelines-with-delta-lake-120823.png) -->
 
-But somewhere along the way, three fairly sensible ideas about organising data turned into "*The Medallion Architecture™*", complete with:
+Now, the concept of having separations between different layers of data quality has been around almost since the beginning of data.
 
-* diagrams
-* conference talks
-* consulting decks
+However, somewhere along the way, sensible ideas about organising data turned into "*The Medallion Architecture™*", complete with:
+
+* Diagrams
+* Conference talks
+* Consulting decks
+
+(*I'm looking at you Databricks Marketing / Sales Team*)
+
+<!-- Side-Eye Meme with Mr Fresh -->
+![Mr Fresh](https://cdn-v2.meme.com/memes/mr-fresh-side-eye-cat/mr-fresh-side-eye-cat-mr-fresh-side-eye-closeup.webp)
 
 <!-- Trying out a Gallery -->
-{{< gallery >}}
+<!-- {{< gallery >}}
   <img src="https://i.programmerhumor.io/2025/08/f470e30d6c89733466baa6a4265675f388d2d93b99b739e855e301cc4fd8f218.png" alt="Gallery image 1" caption="First caption" class="grid-w50 md:grid-w33 xl:grid-w25"/>
 
   <img src="https://preview.redd.it/my-linkedin-profile-v0-bka1gb843z7z.jpg?auto=webp&s=6cfb96d8655d60640be922271e2ce66569730a34" alt="Gallery image 2" caption="Second caption" class="grid-w50 md:grid-w33 xl:grid-w25"/>
 
   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlZHEsR7xWXsnAyYJ3aepny_tNh6bdhP88cgYLhLbSvkrupaNZtYiTmCk&s=10" alt="Gallery image 2" caption="Third caption" class="grid-w50 md:grid-w33 xl:grid-w25" />
-{{< /gallery >}}
+{{< /gallery >}} -->
 
 So what actually is it? But more importantly:
 
@@ -72,7 +80,7 @@ So what actually is it? But more importantly:
 > **Why should you care?**
 {{< /lead >}}
 
-## What is Medallion Architecture?
+## What is Medallion Architecture? 💭
 
 Medallion Architecture is a way of organising data into progressively more useful layers. The three commonly used layers are:
 
@@ -80,124 +88,109 @@ Medallion Architecture is a way of organising data into progressively more usefu
 * 🥈 Silver — cleaned and structured data
 * 🥇 Gold — business-ready data
 
-The basic idea is:
-
-```text
-Raw
- ↓
-Clean
- ↓
-Useful
-
-Or, if you prefer the corporate version:
-
-Bronze
-   ↓
-Silver
-   ↓
-Gold
-```
-
-The important thing is that each layer has a different job, and that despite the naming convention, there is value in each of the layers.
+The important thing is that each layer has a different job, and that despite the naming convention (*I'll touch on this later*), there is value in each of the layers.
 
 <!-- Meme I'm probably going to remove later -->
-![Hmmm](https://i.programmerhumor.io/2025/11/48f56cec67143e89d98a639c0c83cc52743b5e8eee008155f753e44591d088eb.jpeg)
+<!-- ![Hmmm](https://i.programmerhumor.io/2025/11/48f56cec67143e89d98a639c0c83cc52743b5e8eee008155f753e44591d088eb.jpeg) -->
 
-### 🥉 Bronze — Keep the Raw Stuff
+### Bronze 🥉
 
-You can think of "Bronze" as the landing zone for raw data. The primary objective in this space isn't to make the data beautiful, it's to instead preserve what you have received.
+You can think of "*Bronze*" as the landing zone for raw data. The primary objective in this space isn't to make the data beautiful, it's to preserve what you have received.
 
-Imagine an energy company called "*Russell's Energy Company*" where-in IoT devices send generation data every five minutes:
+<!-- Airplane Landing -->
+![Landing Zone](https://upload.wikimedia.org/wikipedia/commons/3/31/Lufthansa_Airbus_A319_landing_at_Split_Airport.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original)
 
-<!-- TODO -->
-<!-- Convert to MD Table -->
-timestamp           site        generation_mw
-2026-10-01 10:00    Site A      42.7
-2026-10-01 10:05    Site A      43.1
-2026-10-01 10:10    Site A      41.9
+Let's now imagine a company called "*Russell's Energy Company*" which ingests data from IoT devices every 5 minutes.
 
-This data might get moved into a bronze table, as is, or there might be some ingestion meta-data added at this stage (*it's really down to the specific business requirement*).
+At "*Russell's Energy Company*" this IoT data gets moved into a bronze table (*via Azure Event Hubs*) with some additional ingestion metadata. Readings arrive in batches, and sometimes a source resends a reading it got wrong.
 
-I've added some examples of ingestion meta-data below.
+| timestamp        | site   | generation_mw | _ingested_at        | _source | _batch_id |
+|------------------|--------|---------------|---------------------|---------|-----------|
+| 2026-10-01 10:00 | Site A | 42.7          | 2026-10-01 10:11:02 | IoT     | 001       |
+| 2026-10-01 10:00 | Site B | 51.2          | 2026-10-01 10:11:02 | IoT     | 001       |
+| 2026-10-01 10:00 | Site C | 33.0          | 2026-10-01 10:11:02 | IoT     | 001       |
+| 2026-10-01 10:05 | Site A | NULL          | 2026-10-01 10:11:02 | IoT     | 001       |
+| 2026/10/01 10:05 | Site B | 50.4          | 2026-10-01 10:11:02 | IoT     | 001       |
+| 2026-10-01 10:05 | Site C | 34.2          | 2026-10-01 10:11:02 | IoT     | 001       |
+| 2026-10-01 10:10 | Site A | 44.1          | 2026-10-01 10:11:02 | IoT     | 001       |
+| 2026-10-01 10:10 | Site B | 49.8          | 2026-10-01 10:11:02 | IoT     | 001       |
+| 2026-10-01 10:10 | Site C | 35.1          | 2026-10-01 10:11:02 | IoT     | 001       |
+| 2026-10-01 10:05 | Site A | 45.3          | 2026-10-01 10:12:30 | IoT     | 002       |
+| 2026-10-01 10:10 | Site B | 49.8          | 2026-10-01 10:12:30 | IoT     | 002       |
 
-```text
-_ingested_at
-_source
-_file_name
-_batch_id
-```
+#### Why keep raw data? 🥩
 
-However, generally Bronze isn't where you want to be doing loads of business logic (*ergo you might choose to omit the ingestion columns*).
+Now you might be wondering why Russell's Electricity Company chooses to keep raw data? i.e. "*why don't we just perform transforms before ingesting into our Data-Estate?*".
 
-#### Why keep raw data?
+Well, it's effectively for covering our asses. Shit happens dude, pipelines break, sources change and people (*being people*) make mistakes.
 
-For the following reasons:
+<!-- Donkey -->
+![Shrek?](https://img-9gag-fun.9cache.com/photo/aYevX87_460s.jpg)
 
-* Data pipelines break.
-* Sources change.
-* People make mistakes.
-
-Think about an imaginery situation (*not one that I've never personally been in during my time working at an electricity company*) where someone asks:
+Think about an imaginary situation at Russell's Electricity Company where someone asks:
 
 > "*Why does this number look different from what we reported three months ago?*"
 
 If we've already transformed everything immediately and thrown away the original data, we've got a problem...
 
-However... if you've kept the raw data, you can go back and investigate.
+However, because my company keeps the raw data, we can go back and investigate.
 
-So to summarize bronze, it's essentially your "*source-of-truth-ish*" copy of what arrived.
+### Silver 🥈
+
+The silver layer is where we start making the data *nicer* to work with.
+
+We might engage in the following activities to clean and smooth our bronze data:
+
+* [de-duplication](https://www.geeksforgeeks.org/sql/sql-query-to-delete-duplicate-rows/)
+* [type conversion](www.geeksforgeeks.org/sql/data-type-conversion-in-sql/)
+* [joins](https://www.w3schools.com/sql/sql_join.asp)
+* [data validation](https://www.ibm.com/think/topics/data-validation)
+* [handling missing values](https://www.geeksforgeeks.org/data-analysis/handling-missing-values-machine-learning/)
+
+<!-- Cleaning Data Meme -->
+![Cleaning Data](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEM89XN7fNUVn9yYH0ESMjR3wvLgaEBPf1doIeDdDTPqHD--BDYhIdMCbs&s=10)
+
+You might have noticed a few issues with our table if you were looking hard enough:
+
+* Site A at `10:05` is `NULL` in batch 001, but batch 002 contains a corrected value (`45.3`)
+* Site B at `10:05` has an incorrectly formatted date (`2026/10/01`)
+* Site B at `10:10` appears twice (batch 002 is an exact resend)
+
+So, to "*fix*" these issues, we'd write a SQL / PySpark query that:
+
+1. Standardises the timestamp format
+2. Keeps one row per `site` + `timestamp`, preferring the most recently ingested (`_ingested_at`)
+3. Drops the ingestion-specific columns
+
+Once executed, we end up with:
+
+| timestamp        | site   | generation_mw |
+|------------------|--------|---------------|
+| 2026-10-01 10:00 | Site A | 42.7          |
+| 2026-10-01 10:00 | Site B | 51.2          |
+| 2026-10-01 10:00 | Site C | 33.0          |
+| 2026-10-01 10:05 | Site A | 45.3          |
+| 2026-10-01 10:05 | Site B | 50.4          |
+| 2026-10-01 10:05 | Site C | 34.2          |
+| 2026-10-01 10:10 | Site A | 44.1          |
+| 2026-10-01 10:10 | Site B | 49.8          |
+| 2026-10-01 10:10 | Site C | 35.1          |
+
+Eleven Bronze rows became nine Silver rows (three sites × three readings), and nothing was thrown away that we can't recover from Bronze.
 
 > [!NOTE]
-> **Not necessarily the ultimate source of truth!**
-> That's an important distinction — but a record of what your pipeline received.
+> Had no correction arrived for Site A at `10:05`, I'd keep the `NULL` rather than convert it to `0`. `NULL` means "we don't know", whereas `0` means "it generated nothing", and those lead to very different Gold numbers.
 
-### 🥈 Silver — Make It Usable
+### Gold 🥇
 
-Silver is where we start making the data actually pleasant to work with. This where the following things start happening:
+I like golf... sorry, gold...
 
-* cleaning
-* deduplication
-* type conversion
-* standardisation
-* joins
-* validation
-* handling missing values
-* basic transformations
-
-For example, Bronze might contain:
-
-<!-- TODO -->
-<!-- Convert to .md table -->
-timestamp             site       generation
-01/10/2026 10:00      Site A    "42.7"
-01/10/2026 10:05      Site A    "43.1"
-01/10/2026 10:10      Site A    "N/A"
-01/10/2026 10:10      Site A    "41.9"
-
-Silver might turn that into:
-
-<!-- TODO -->
-<!-- Convert to .md table -->
-timestamp            site       generation_mw
-2026-10-01 10:00     Site A     42.7
-2026-10-01 10:05     Site A     43.1
-2026-10-01 10:10     Site A     NULL
-
-We've:
-
-* parsed the timestamp
-* converted generation to a numeric type
-* standardised the column name
-* dealt with the invalid value
-* removed the duplicate
-
-Which now makes the data much easier for downstream systems to consume.
-
-### 🥇 Gold — Make It Useful to Humans
+<!-- Gold Golf Clubs -->
+![Donald Trump ass clubs](https://d23jngptvnttd7.cloudfront.net/2022/11/11075135/honma-gold-clubs.jpg)
 
 Gold is where we start thinking less about what the source system looks like and more about what the business wants to know.
 
-For example, Silver might contain:
+For example in the case of Russell's Electricity Company, Silver contains the following columns:
 
 ```text
 timestamp
@@ -205,7 +198,7 @@ site
 generation_mw
 ```
 
-But a business user might want:
+But, an (*annoying*) BI Analyst at the company wants:
 
 ```text
 site
@@ -215,9 +208,9 @@ average_generation_mw
 capacity_factor
 ```
 
-#### Charcteristics of Gold
+#### Characteristics of Gold 🧈
 
-Gold datasets are often:
+Generally, Gold datasets are often:
 
 * aggregated
 * business-oriented
@@ -225,73 +218,49 @@ Gold datasets are often:
 * optimised for reporting
 * consumed by BI tools, applications, analysts or ML models
 
-You might have a Gold table called `daily_site_generation` rather than `raw_generation_readings`
+For the example of Russell's Electricity Company, to meet the requirements of that (*annoying*) BI Analyst, we might make a gold table called `daily_site_generation`, which might look something like this:
 
-## Why Bother? 🤷‍♂️
+| site   | date       | total_generation_mwh | average_generation_mw | capacity_factor  |
+|--------|------------|----------------------|---------------------- | -----------------|
+| Site A | 2026-10-01 | 426.0                | 17.75                 | 0.4438           |
+| Site B | 2026-10-01 | 936.0                | 39.00                 | 0.7800           |
+| Site C | 2026-10-01 | 1034.4               | 43.10                 | 0.8620           |
 
-At this point you might be thinking:
+## Common Medallion Architecture Questions ❓
 
-> "*Couldn't I just put everything in one table?*"
+### Why do I need this? 🤔
 
-Fuck yeah, technically you could (*And for a small project, you probably should*).
+The short answer is that **you don't always need this**, but, Medallion Architecture does become useful when your data platform starts becomes more complex.
 
-Medallion Architecture becomes useful when your data platform starts becoming more complicated...
+<!-- Silence Sys Architect Meme
+![sshhhhhh](https://i.programmerhumor.io/2025/08/71bdea4a217c2f7e9cca24c416ddc0d7c0d33d1eb6d24ec4c034d8de59c401e3.jpeg) -->
 
-Imagine this:
+For example, imagine that Russell's Electricity Company has an Analytics / BI Department and a ML Department.
 
-```text
+The Analytics / BI Department wants a different version of a gold table to what the ML Department wants. This now means that we have multiple customers, and we need a strategy to provide each group with their specific requirements.
 
-             ┌─────────────┐
-             │  Source A   │
-             └──────┬──────┘
-                    │
-             ┌──────▼──────┐
-             │   Bronze    │
-             └──────┬──────┘
-                    │
-             ┌──────▼──────┐
-             │   Silver    │
-             └──────┬──────┘
-                    │
-             ┌──────┴──────┐
-             ↓             ↓
-        ┌──────────┐  ┌──────────┐
-        │   Gold   │  │   Gold   │
-        │   BI     │  │    ML    │
-        └──────────┘  └──────────┘
-```
+<!-- Mermaid Diagram -->
+{{< mermaid >}}
+flowchart TD
+    A["Source A"] --> B["Bronze"]
+    B --> C["Silver"]
+    C --> D["Gold<br/>BI"]
+    C --> E["Gold<br/>ML"]
+{{< /mermaid >}}
 
-Now you have:
+This is the point at which having some kind of structure starts looking like a pretty good idea.
 
-* multiple consumers.
-* Your BI dashboard wants one version of the data & Your ML model wants another.
-* An analyst wants something slightly different.
-* A new source system arrives.
-
-Suddenly, having some structure starts looking like a pretty good idea.
-
-## When Does Data Move Between Layers? ➡️
+### When Does Data Move Between Layers? ➡️
 
 This is a question that I personally had before starting this article (*and my mother used to tell me that if I had a question, it's more than likely that someone else has the same question*)
 
-From my research, I've found that there isn't some magical moment when a Bronze table becomes Silver.
+From my research, I've found that there isn't some magical moment when a Bronze table becomes Silver Instead, you **internally define the rules for each layer.**
 
-There is no:
-
-```python
-if data.is_ready():
-    move_to_silver()
-```
-
-Instead, you **internally define the rules for each layer.**
-
-A useful way to think about it is:
-
-> Data moves to the next layer when it meets the quality and transformation requirements of that layer.
+A useful way to think about it is that Data moves to the next layer when it meets the quality and transformation requirements of that layer.
 
 For example:
 
-### Bronze → Silver
+#### Bronze → Silver 🥉🥈
 
 You might move data into Silver when:
 
@@ -302,7 +271,7 @@ You might move data into Silver when:
 * identifiers have been standardised
 * data quality checks pass
 
-### Silver → Gold
+#### Silver → Gold 🥈🥇
 
 You might move data into Gold when:
 
@@ -312,17 +281,13 @@ You might move data into Gold when:
 * aggregations have been created
 * the dataset serves a specific business use case
 
-The important point is:
+### Does Everything Have to Go Through All Three? 🏃‍♂️
 
-**Bronze, Silver and Gold aren't really stages of time. They're stages of responsibility.**
-
-## Does Everything Have to Go Through All Three?
-
-**Nope!** - This is where the marketing starts to creep in. You might hear something like:
+**Nope!** - This is where some of that pesky marketing starts to creep in. You might hear something like:
 
 > "*All data should flow through the Bronze → Silver → Gold architecture*".
 
-That sounds nice... It also isn't necessarily true.
+That sounds nice in theory, but it doesn't really reflect reality.
 
 Imagine you ingest a reference table containing:
 
@@ -338,11 +303,14 @@ Creating three layers because "*that's the architecture*" could make the system 
 
 Not to make diagrams look impressive.
 
-## The Marketing Hype
+### Where does the "Marketing Hype" come in? 🔥
 
 "*Medallion Architecture*" sounds like a grand architectural philosophy, but if you strip away the branding, the underlying idea is pretty straightforward:
 
 **Keep your raw data, clean it, then create data products from it.**
+
+<!-- Marketing Hype Image -->
+![hmmmmmmm](https://supercopyeditors.com/wp-content/uploads/2021/01/avoiding-marketing-hype-1024x683.jpg)
 
 The terms Bronze, Silver and Gold are useful because they give teams a shared vocabulary. Instead of saying:
 
@@ -354,107 +322,24 @@ you can say:
 
 The problem comes when the terminology starts being treated as a set of commandments.
 
-### Bronze Doesn't Mean Bad
+### Does Bronze Mean Bad? 👎
 
-I touched on this at the start, but one of the stranger implications of the terminology is that Bronze sounds like the "bad" data.
+I touched on this at the start, but one of the stranger implications of the terminology is that Bronze sounds like the "*bad*" data.
 
 **FYI: It's not.**
 
 Bronze data can be extremely valuable. In fact, its rawness is the point. A Bronze dataset might be the only copy you have of exactly what a source system sent you.
 
-That's useful for:
+<!-- Lebron James meme -->
+![Guess he plays for Philly now](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcGrFfj7DBhxRvaoQuj9zGyzTEibOysZNBvMWLKKQNY3fipM9f3DYQ-J8&s=10)
 
-* auditing
-* debugging
-* replaying pipelines
-* investigating historical changes
-* recovering from transformation bugs
+On the flip-side **silver doesn't mean perfect!** , similarly silver doesn't always mean "*clean*. It's data that has been cleaned **according to the requirements of your system**.
 
-So don't think:
+One thing to keep in mind for any scientists / analysts / engineers reading this is that data quality isn't binary. A dataset doesn't suddenly become trustworthy because somebody moved it to an environment / folder called "*silver*".
 
-```python
-Bronze == Bad
-Silver == Good
-Gold == Great
-```
+Lastly, gold isn't necessarily more correct than Silver. It's usually more useful for a particular purpose.
 
-Think:
-
-```python
-Bronze == Raw
-Silver == Refined
-Gold == Purpose-built
-```
-
-**Silver Doesn't Mean Perfect!** - Similarly, Silver isn't necessarily "*clean data*".
-
-It's data that has been cleaned **according to the requirements of your system**.
-
-There can still be:
-
-* missing values
-* anomalies
-* late-arriving records
-* questionable source data
-* business-specific edge cases
-
-Data quality is not binary. A dataset doesn't suddenly become trustworthy because somebody moved it to an environment / folder called "*silver*".
-
-This is another important distinction. Gold isn't necessarily more correct than Silver. It's usually more useful for a particular purpose.
-
-For example:
-
-```text
-Silver
-│
-├── customer_id
-├── transaction_id
-├── timestamp
-├── product_id
-└── amount
-```
-
-might be a great general-purpose dataset.
-
-Gold might contain:
-
-```text
-customer_id
-month
-total_spend
-number_of_orders
-average_order_value
-```
-
-That's much more useful for a sales dashboard. But it's terrible if you suddenly need individual transactions.
-
-Gold is therefore often purpose-built rather than universally better.
-
-## The Real Architecture
-
-If you strip away the terminology, the architecture is really about controlling the flow of data:
-
-```text
-              Preserve
-                 ↓
-               Refine
-                 ↓
-              Consume
-```
-
-Or:
-
-```text
-     What did we receive?
-              ↓
-     What does it actually mean?
-              ↓
-     What does the business need?
-```
-
-That's the useful mental model. The Bronze/Silver/Gold labels are just names we put on those concepts.
-
-## When Should You Use Medallion Architecture?
+### When Should You Use Medallion Architecture? ✅
 
 I'd consider it when:
 
@@ -466,37 +351,6 @@ I'd consider it when:
 * you're building a lakehouse
 * you're starting to create multiple downstream data products
 
-I'd probably not reach for it just because you have a CSV file.
+I'd probably not reach for it just because you have a CSV file + the Databricks sales team sent you an email.
 
-If your entire data platform is just this:
-
-```text
-sales.csv
-   ↓
-pandas
-   ↓
-chart
-```
-
-You probably don't need a three-layer architecture (*You've got bigger things to worry about.*)
-
-## The Big Idea
-
-Medallion Architecture isn't really about Bronze, Silver and Gold. It's about separating responsibilities.
-
-Bronze answers:
-
-> "*What did we receive?*"
-
-Silver answers:
-
-> "*What does this data actually look like and mean?*"
-
-Gold answers:
-
-> "*How can we make this useful for a particular consumer?*"
-
-> [!Important]
-> Don't build Bronze, Silver and Gold because someone put it in a PowerPoint.
-
-Build layers when the separation solves a problem! Otherwise you're just putting medals on your CSV files.
+{{< subscribe >}}
