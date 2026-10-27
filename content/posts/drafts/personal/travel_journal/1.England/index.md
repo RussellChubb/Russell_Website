@@ -10,6 +10,13 @@ tags: ["Personal", "Travel"]
 draft: true
 ---
 
+<!-- TODO -->
+<!-- I feel like alot of this is quite descriptive in terms of what we did, but some sections lack the personal voice of what I actually thought, and what I enjoyed. Add more of this. -->
+<!-- People will probably also want to know things like how expensive stuff is etc. -->
+<!-- Very little about the accomodation we stayed at -->
+<!-- Sometimes I don't really say where we're going -->
+<!-- Some of the Greece days are a little light -->
+
 ## Introduction
 
 I collected some notes over our trip, with the intention of creating a bit of a story at the end of it! - As such, I've begun at the very beginning of the trip, when we first landed down in London!

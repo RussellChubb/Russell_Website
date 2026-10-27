@@ -13,7 +13,7 @@ draft: true
 ## 26th - 🇭🇺
 
 * Early flight, went all good.
-* Ryanair staff told this random guy infront of me and Olivia his bag wasn’t going to fit despite it very much fitting in that little metal checker thing. He ended up having to pay ~ $150 NZD to get the bag into the plane and anyone he crashed out crazy, but in my opinion, super valid, because if they had asked me to put mine in there, it probably wouldn’t have fit.
+* Ryanair staff told this random guy infront of me and Olivia his bag wasn’t going to fit despite it very much fitting in that little metal checker thing. He ended up having to pay ~ $150 NZD to get the bag into the plane and he crashed out crazy, but in my opinion, super valid, because if they had asked me to put my bag in there, it probably wouldn’t have fit.
 * Went to accom, got lucky could check in early.
 * Had naps
 * Got Kebab for Lunch
