@@ -1,3 +1,16 @@
+---
+title: "Travel Notes ✈️"
+description: "Travel Notes ✈️"
+summary: "Travel Notes ✈️"
+series: "Travel Journal"
+showAuthor: true
+date: 2026-05-22
+featureimage: "featured.jpg"
+tags: ["Personal", "Travel"]
+draft: true
+---
+
+
 # Travel Notes ✈️
 
 ## 22nd - 🏴󠁧󠁢󠁥󠁮󠁧󠁿
