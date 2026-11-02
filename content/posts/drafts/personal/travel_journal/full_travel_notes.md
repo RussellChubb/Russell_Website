@@ -10,9 +10,6 @@ tags: ["Personal", "Travel"]
 draft: true
 ---
 
-
-# Travel Notes ✈️
-
 ## 22nd - 🏴󠁧󠁢󠁥󠁮󠁧󠁿
 
 * Arrived in London.

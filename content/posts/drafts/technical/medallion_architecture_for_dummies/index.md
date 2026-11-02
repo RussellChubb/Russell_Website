@@ -3,15 +3,15 @@ title: "Medallion Architecture for Dummies"
 description: "A practical introduction to Bronze, Silver, and Gold data layers — and the marketing behind them."
 summary: "What Medallion Architecture actually is, why you'd use it, and when data should move from Bronze to Silver to Gold."
 showReadingProgress: true
-draft: true
+draft: false
 showAuthor: true
 featureimage: "featured.png"
-date: 2026-10-04
+date: 2026-11-02
 tags: ["Technical", "Data Engineering"]
 
 ---
 
-<!-- Space for a Quote -->
+<!-- Reddit Data Engineering Source -->
 {{< typeit
   tag=h4
   speed=80
@@ -39,9 +39,6 @@ Ether: Entire department laid off
 {{< /typeit >}}
 
 ---
-
-<!-- TODO -->
-<!-- Add Bronze Silver Gold Images to the Thumbnail -->
 
 Unless you've been living under a rock you've probably either heard about, ingested from, or implemented some form of Medallion Architecture (*as long as you're anywhere adjacent to a Data-Role*).
 
@@ -73,13 +70,6 @@ However, somewhere along the way, sensible ideas about organising data turned in
   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlZHEsR7xWXsnAyYJ3aepny_tNh6bdhP88cgYLhLbSvkrupaNZtYiTmCk&s=10" alt="Gallery image 2" caption="Third caption" class="grid-w50 md:grid-w33 xl:grid-w25" />
 {{< /gallery >}} -->
 
-So what actually is it? But more importantly:
-
-<!-- Main Lead -->
-{{< lead >}}
-> **Why should you care?**
-{{< /lead >}}
-
 ## What is Medallion Architecture? 💭
 
 Medallion Architecture is a way of organising data into progressively more useful layers. The three commonly used layers are:
@@ -95,14 +85,14 @@ The important thing is that each layer has a different job, and that despite the
 
 ### Bronze 🥉
 
-You can think of "*Bronze*" as the landing zone for raw data. The primary objective in this space isn't to make the data beautiful, it's to preserve what you have received.
+You can think of "*Bronze*" as the landing zone for raw data. The primary objective in this space isn't to make the data beautiful, it's to **preserve what you have received**.
 
 <!-- Airplane Landing -->
 ![Landing Zone](https://upload.wikimedia.org/wikipedia/commons/3/31/Lufthansa_Airbus_A319_landing_at_Split_Airport.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original)
 
 Let's now imagine a company called "*Russell's Energy Company*" which ingests data from IoT devices every 5 minutes.
 
-At "*Russell's Energy Company*" this IoT data gets moved into a bronze table (*via Azure Event Hubs*) with some additional ingestion metadata. Readings arrive in batches, and sometimes a source resends a reading it got wrong.
+At "*Russell's Energy Company*" this IoT data gets moved into a bronze table with some additional ingestion metadata. Readings arrive in batches, and sometimes a source resends a reading it got wrong.
 
 | timestamp        | site   | generation_mw | _ingested_at        | _source | _batch_id |
 |------------------|--------|---------------|---------------------|---------|-----------|
@@ -190,7 +180,7 @@ I like golf... sorry, gold...
 
 Gold is where we start thinking less about what the source system looks like and more about what the business wants to know.
 
-For example in the case of Russell's Electricity Company, Silver contains the following columns:
+For example, in the case of Russell's Electricity Company, Silver contains the following columns:
 
 ```text
 timestamp
@@ -198,7 +188,7 @@ site
 generation_mw
 ```
 
-But, an (*annoying*) BI Analyst at the company wants:
+But, a (*annoying*) BI Analyst at the company wants:
 
 ```text
 site
@@ -230,14 +220,16 @@ For the example of Russell's Electricity Company, to meet the requirements of th
 
 ### Why do I need this? 🤔
 
-The short answer is that **you don't always need this**, but, Medallion Architecture does become useful when your data platform starts becomes more complex.
+The short answer is that **you don't always need this**, but, Medallion Architecture does become useful when your data platform starts becoming more complex.
 
 <!-- Silence Sys Architect Meme
 ![sshhhhhh](https://i.programmerhumor.io/2025/08/71bdea4a217c2f7e9cca24c416ddc0d7c0d33d1eb6d24ec4c034d8de59c401e3.jpeg) -->
 
 For example, imagine that Russell's Electricity Company has an Analytics / BI Department and a ML Department.
 
-The Analytics / BI Department wants a different version of a gold table to what the ML Department wants. This now means that we have multiple customers, and we need a strategy to provide each group with their specific requirements.
+The Analytics / BI Department wants a different version of a gold table to what the ML Department wants. 
+
+This now means that we have multiple customers, and we need a strategy to provide each group with their specific requirements.
 
 <!-- Mermaid Diagram -->
 {{< mermaid >}}
@@ -254,7 +246,10 @@ This is the point at which having some kind of structure starts looking like a p
 
 This is a question that I personally had before starting this article (*and my mother used to tell me that if I had a question, it's more than likely that someone else has the same question*)
 
-From my research, I've found that there isn't some magical moment when a Bronze table becomes Silver Instead, you **internally define the rules for each layer.**
+To be blunt, there isn't some ✨ **magical** ✨ moment when a Bronze table becomes Silver. Instead, you **internally define the rules for each layer.**
+
+<!-- Magic Meme -->
+![Magic tha cat, mr triple double hahhahha](https://i.pinimg.com/736x/bb/fa/5d/bbfa5d608c690578543979cfbdd61343.jpg)
 
 A useful way to think about it is that Data moves to the next layer when it meets the quality and transformation requirements of that layer.
 
@@ -289,6 +284,9 @@ You might move data into Gold when:
 
 That sounds nice in theory, but it doesn't really reflect reality.
 
+<!-- Trust me I'm in Sales Image -->
+![Gordan G](https://miro.medium.com/v2/resize:fit:1400/1*-8N-zjRnH1b7tr9KZkwfEQ.jpeg)
+
 Imagine you ingest a reference table containing:
 
 ```text
@@ -299,9 +297,12 @@ continent
 
 You might barely need a Bronze/Silver/Gold pipeline for that. Or perhaps you've got a small application where the raw data is already clean and structured.
 
-Creating three layers because "*that's the architecture*" could make the system worse, not better. Architecture exists to solve problems.
+Creating three layers because "*that's the architecture*" could make the system worse, not better.
 
-Not to make diagrams look impressive.
+Architecture exists to solve problems, not to make diagrams look impressive.
+
+<!-- Semi Unrelated Meme -->
+![Hmmmmmm](https://i.programmerhumor.io/2025/02/programmerhumor-io-programming-memes-368c67fb352693d.jpeg)
 
 ### Where does the "Marketing Hype" come in? 🔥
 
@@ -324,9 +325,7 @@ The problem comes when the terminology starts being treated as a set of commandm
 
 ### Does Bronze Mean Bad? 👎
 
-I touched on this at the start, but one of the stranger implications of the terminology is that Bronze sounds like the "*bad*" data.
-
-**FYI: It's not.**
+I touched on this at the start, but one of the stranger implications of the terminology is that Bronze sounds like the "***bad***" data.
 
 Bronze data can be extremely valuable. In fact, its rawness is the point. A Bronze dataset might be the only copy you have of exactly what a source system sent you.
 
@@ -347,8 +346,6 @@ I'd consider it when:
 * you need reproducible transformations
 * data quality is becoming a problem
 * multiple teams consume the same data
-* you need to reprocess historical data
-* you're building a lakehouse
 * you're starting to create multiple downstream data products
 
 I'd probably not reach for it just because you have a CSV file + the Databricks sales team sent you an email.
