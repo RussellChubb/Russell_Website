@@ -12,31 +12,24 @@ draft: true
 
 ## 26th - 🇭🇺
 
-* Early flight, went all good.
-* Ryanair staff told this random guy infront of me and Olivia his bag wasn’t going to fit despite it very much fitting in that little metal checker thing. He ended up having to pay ~ $150 NZD to get the bag into the plane and he crashed out crazy, but in my opinion, super valid, because if they had asked me to put my bag in there, it probably wouldn’t have fit.
-* Went to accom, got lucky could check in early.
-* Had naps
-* Got Kebab for Lunch
-* Szechdnyi Chain Bridge
-* Buda Castle
-* Castle Garden Bazaar
-* St Gerard Sagredo Statue for sunset
-* Karavan for Dinner. This was quite funny, we accidentally bought like $90 NZD worth of food.
+We awoke early on the morning of the 26th to catch a tram out to Edinburgh Airport, wherein we then walked over to our gate wherein a member of Ryanair staff told this random guy infront of me and Olivia his bag wasn’t going to fit despite it very much fitting in that little metal checker thing. He ended up having to pay ~ $150 NZD to get the bag into the plane and he crashed out crazy, but in my opinion, super valid, because if they had asked me to put my bag in there, it probably wouldn’t have fit.
+
+<!-- Hostel was a bit boring -->
+
+We then caught a bus from the airport to our accomodation, wherein we got quite lucky and were able to check into our rooms early, where after a short nap, we went out for a quick feed (*of kebabs*), before checking out the Szechdnyi Chain Bridge, Buda Castle, Castle Garden Bazaar and St Gerard Sagredo Statue, where we caught the sun setting on a beautiful day.
+
+After a fun day of seeing the sights, we then proceeded to go to a place called "*Karavan*" for dinner, where we then proceeded to accidentally order $90 NZD worth of food.
 
 ## 27th - 🇭🇺
 
-* Russell went for a solo, bridge to bridge to bridge run. Was trying to run at like 5:45 splits and it was hard, still kinda sick lol.
-* Went to a bunch of vintage clothes stores, all cool, but couldn’t find anything I wanted :(
-* Those markets? - can’t remember the name of them, but they were cool.
-* Mystica Museum, very cool - would recommend.
-* Got a beer at Ruin Bars.
-* We once again paid a tonne of money for food. $40 NZD each for some takeaway pad Thai. Damn
-* Olivia and I watched a movie and while watching, she pushed out about 10 of the stinkiest farts I’ve ever smelt in my life.
+On the 27th, I woke up freshed and motivated, which resulted in me overestimating how over the cold I was, and then struggling to complete a bridge to bridge to bridge run at little more than 5:45's.
+
+After showering and picking up a light breakfast, Olivia and I then went clothes shopping around the various stores in the city. However, I couldn't find anything I wanted, and so didn't pick up anything fun!
+
+We also went to a place called Mystica Markets, which I'd highly reccomend for anyone that visits Budapest! - It's basically like a animated, and interactive visual arts and lights display. Olivia and I had a load of fun, and it was well worth it. During our visit to Mystica, we must have worked up a thirst, because after that, we then proceeded to go to a place called Ruin Bars, which is like a collection of places that serve alcohol. Anyway, the ruin bars are super cool, and I'd for sure reccomend it as a place to visit while in Budapest.
 
 ## 28th - 🇮🇹
 
-* Fisherman’s Bastion
-* Hungarian Parliament at Night
-* Jewish Shoe Memorial
-* Goulash with Sam and Hannah
-* We got a free desert from the restaurant after Hannah got tricked by the waitress lol.
+For our last full day in Budapest, we decided to tick off the rest of the sites that we hadn't yet visited. These included Fishermans Bastion, The Hungarian Parliament and the Jewish Shoe Memorial.
+
+On this day, we also linked it up with Hannah and Sam, and went out for a traditional Hungarian dinner of Goulash, wherein we also got given a free desert because the waitress felt bad for tricking Hannah.

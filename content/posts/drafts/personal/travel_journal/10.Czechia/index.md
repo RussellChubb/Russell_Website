@@ -12,17 +12,18 @@ draft: true
 
 ## 1st - 🇨🇿
 
-* Woke up feeling not too bad for only 4 hours of sleep! - packed our bags and headed to the train station, then caught our bus to Prague.
-* Walked to our Accomodation from train station, we found out it’s a bit of a boiler-room shoebox.
-* Met up with Grace, Vikky, Fletch & Kaylee at about 12:00 AM
-* Had some drinks then went to an Irish Pub, the MC selected me out of the crowd to sing the last song (I chose Party in the USA)
-* On our way to the next club, we basically witnessed a small fight wherein a man was rendered unconscious from a punch from another bloke, he basically fell backwards and smashed his head open. We ended up calling Czech 111, (112) - The police arrived and we made our exit, not before some dude came and shook up a beer and squirted the guy with it. (Not sure why he did that)
+On the morning of the 1st, Olivia and I woke up not feeling too bad after only getting about 4 hours of sleep. And so we made our way to the train station, wherein we proceeded to catch our bus to Prague to meet up with our friends Grace, Vikky, Fletch & Kaylee.
+
+This is where things all sort of start going down-hill ish. When we arrived to our accomodation, it was furnished appropriately, but it was for sure the smallest space that Olivia and I had stayed up until this point. It was also very hot, with no ability to cool down the room.
+
+Regardless, we ended up meeting with our mates at about 12:00AM, (*quite late to meet up with them!*), where we then had some drinks at a Irish Pub, wherein the MC selected me out of the crowd to sing the last song on Karaoke (*I chose Party in the USA*)
+
+On our way to the next club, we basically witnessed a small fight wherein a man was rendered unconscious from a punch from another bloke, he basically fell backwards and smashed his head open. We ended up calling Czech 111, (112) - The police arrived and we made our exit, not before some dude came and shook up a beer and squirted the unconsicous guy with it. (*Not sure why he did that*)
 
 ## 2nd - 🇨🇿
 
-* Woke up at about mid-day on account of us going to bed at 3:00AM
-* Went to get a feed from the supermarket and ate it at a local park.
-* Fed the pigeons and watched them turn into little Italians.
+Olivia and I awoke at around mid-day, (*on account of us going to bed at 3:00AM*), wherein we went to get a feed from the supermarket and ate it at a local park. We also fed the pigeons and watched them turn into little Italians.
+
 * Just watched a bunch of episodes of Outlander until about 8PM when we went to a Medieval Dinner Experience (Place was called Upavouka).
     * One hell of an experience aye.
     * I was skeptical about wether or not I’d make it out at that point, as I’d basically just started shitting myself at that point (Think it was the kebab from the previous night), but I sort of forgot about it once we got there.
