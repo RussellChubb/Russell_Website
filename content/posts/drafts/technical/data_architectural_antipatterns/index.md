@@ -1,5 +1,5 @@
 ---
-title: "Data Architectural Patterns"
+title: "Data Architectural Anti-Patterns"
 draft: true
 # description: ""
 # date: 2026-04-16
