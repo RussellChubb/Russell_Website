@@ -17,6 +17,7 @@ draft: true
 <!-- Very little about the accommodation we stayed at -->
 <!-- Sometimes I don't really say where we're going -->
 <!-- Some of the Greece days are a little light -->
+<!-- What about a graphic for steps per day? - I feel like I need to get some data / visuals in there somewhere -->
 
 <!-- England Specific -->
 <!-- Captions for everything need to be reviewed -->
@@ -33,7 +34,7 @@ Each day during this trip, I collected notes with the intention of creating a st
 
 So, without further ado, enjoy the greatest story of my life!
 
-### 22/05
+## 22/05
 
 <!-- Airport Gallery -->
 {{< gallery >}}
@@ -70,7 +71,7 @@ Now, for anyone wondering about jet lag, although we were tired, Olivia was actu
 
 However, after settling the bill and walking back to Rian's, we hit the hay at 9:00 p.m. and called it a day!
 
-### 23/05
+## 23/05
 
 We awoke to a glorious first day in London: the sun was shining, and it was a balmy 25 degrees.
 
@@ -170,7 +171,7 @@ As the day started to wind down, we went to a super cool old pub called the [Red
 {{< figure src="https://file.garden/atcrboPYCQOy1FQn/England/Beauty_View" alt="A view of London" caption="Great spot to be a duck" figureClass="grid-w50" >}}
 {{< /gallery >}}
 
-### 24/05
+## 24/05
 
 What a fun day this was! Looking back on it now, it's one of my favourites.
 
@@ -243,7 +244,7 @@ Another thing about this game was that Arsenal had won the Premier League, so th
 
 {{< figure src="https://file.garden/atcrboPYCQOy1FQn/England/Streets_Lined" alt="Arsenal supporters celebrating in London" caption="I'm pretty sure this is a local Arsenal pub. The photo doesn't do justice to how much it was popping off." >}}
 
-### 25/05
+## 25/05
 
 On the 25th, we spent the day in Highbury Park. After picking up some meal deals (*the first of many on this trip*), we lay in the sun, soaking up the rays and chatting shit about the dangers of ticks in long grass.
 
@@ -256,7 +257,7 @@ We ended the day with some pizzas in another park close to my brother's flat and
 > [!WARNING]
 > This next entry jumps 4 months forward into the future, at the very end of our trip.
 
-### 25/09
+## 25/09
 
 As we left France, sad but optimistic vibes were floating in the air. Olivia and I woke earlier than usual (*usually about 10 a.m., haha*) and went to the same place as the day before for breakfast (*it was so good we had to run it back*).
 
@@ -279,7 +280,7 @@ The police sent about six cars. Even though there was a bit of blood, six cars w
 
 Once we arrived at Rian's, we had a good chat and a pizza that Maria bought us (*thanks, Maria!*). Afterwards, we ended the day at Rian's local pub, [the Prince Edward](https://londonpubsgroup.camra.org.uk/viewnode.php?id=48851), and polished off a few pints of Guinness.
 
-### 26/09
+## 26/09
 
 I don't have many notes on this day, but I assume we probably just walked around and took it easy after a few months of being on the go.
 
@@ -297,7 +298,7 @@ Anyway, John went to the pub every night. On this particular night, poor John wa
 
 We ended the night by walking John back to his home, just up the road.
 
-### 27/09
+## 27/09
 
 I started this day by applying for some more jobs while Olivia rested. Once she rose (*like a phoenix*), we ventured into town to take a look around and do some shopping.
 
@@ -315,7 +316,7 @@ We managed to find a store that sold Mango Ouid Gritti, where I tried it on. It 
 
 We ended up walking out of the store empty-handed...
 
-### 29/09
+## 29/09
 
 I started the day applying for more jobs, which I wouldn't actually recommend anyone do, as most of my best job prospects came from having a well-configured LinkedIn profile.
 
@@ -333,7 +334,7 @@ After leaving the bar (*with our drinks in hand, might I add*), we decided we ne
 
 She hated it, low-key, because they mixed my spicy chicken in with her mild one. Ergo, she couldn't eat it, lol (*more food for me, haha*).
 
-### 30/09
+## 30/09
 
 It was the final full day of travel, and I had very mixed feelings. On the one hand, I was starting to get very tired of sleeping in a different bed every couple of nights; on the other, it meant the start of something new.
 

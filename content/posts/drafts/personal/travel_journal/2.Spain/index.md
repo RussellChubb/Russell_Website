@@ -11,7 +11,7 @@ tags: ["Personal", "Travel"]
 draft: true
 ---
 
-## 26th - 🇪🇸
+## 26/05
 
 <!-- TODO -->
 Our first travel day (*of many more to come*), we took a few different lines to get out to Luton (*validate this*) Airport, wherein we hopped on old faithful (*a Ryanair flight*), before getting dropped off in Barcelona Airport, met up with Mum and Dad, and then took a Taxi into the city to our shared AirBNB (*thanks for having us at the accomodation mum and dad <3 )
@@ -20,7 +20,7 @@ Once we got to the AirBNB, we unpacked and went out for a afternoon cervsa (*bee
 
 I want to highlight how high this meal set my expectations for food in Europe, because the very first place we went to, had the most amazing food. So good in fact that we went back maybe like two more times, and the meals we had still remain one of the highlights of our trip. (*I feel like this is funny because it’s not like the place was known for its food or anything*).
 
-## 27th - 🇪🇸
+## 27/05
 
 My father and I had one objective on this day, get our suits fitted! So, after starting the day with a light breakfast, we took a Taxi out with Olivia and Mum. Once we got to the store, we were greeted by a lady who spoke no English at all, however, she still got us fitted out.
 
@@ -34,13 +34,13 @@ After that, we purchased out patch and fridge magnet for Barcelona, and then Olv
 
 Then, (*with cooler ears*), we walked to the main drag to take a look at the shop's and the Gaudi Building (*which is pretty dope might I add*). Olivia ended up buying some cheap shoes for the wedding, and I purchased some running shoes!
 
-## 28th - 🇪🇸
+## 28/05
 
 We awoke to another blue sky, 30 degree day in Barcelona, however, before the mid-day heat set-in, we decided to go for a run to see the city by foot. Now, this is such a noble idea, but to execute this successfully, you actually have to leave your house before 6:00AM, as by the time we were leaving, the sun was well and truly up, and we absolutely baked during this run, sweat was absoutely pouring out of me every which way. In the end we still put up a valiant ~ 10 KM effort from our accomodation to the beach, however it definently took it out of us.
 
 After we showered and ate a light brekkie, we then went shopping. Now for some reference, I don't really like shopping, it's not really in my DNA. So much of the day I was likely sulking about. However, my mood drastically changed as we started doing some drinking, which I want to note that if there's something that you really don't want to do, just start drinking. (*delete this*)
 
-## 29th - 🇪🇸
+## 29/05
 
 This was a particularly fun day, we fell into a similar pattern as yesterday (*albeit without the run*), wherein, while out shopping we both found exactly what we were looking for, which for Olivia, was a skort, and for me, was a jort.
 
@@ -53,7 +53,7 @@ At the Irish bar, we started chatting to some Americans who were live streaming.
 
 Somewhere after a couple more guiness's, we called it a night and went home.
 
-## 30th - 🇪🇸
+## 30/05
 
 The day of Rian and Maria's wedding I awoke with a code-red hangover, sweating, shaking headaches, and my stomach was doing backflips (*Not good*). So I proceeded to down some food, put my suit on, and make our way to the bus which was set to take us out to the location of the wedding. However, the first stop on the bus was to the actual church for the ceremony, wherein I was the ring bearer (*in lieue of any small children attending the wedding*). As part of these responsibilites, I didn't have to just walk up with the rings, I also had to read a passage from the bible to the congregation, which, in my condition, combined with regular nerves, prooved to be an interesting challenge. However, I got it done, and after some beautiful photos, we where shuttled back onto the bus for our final destination for the evening.
 
@@ -68,7 +68,7 @@ Anyway, I mentioned that some of the cuisine was particularly, "*adventerous*", 
 
 Now I want to make mention that my brother is a quirky guy, and I feel like this showed through in some of the activities / food / celebrations during the wedding. For some examples of this, there were some sumo suits that people (*and later me*) hopped into and jumped around, which was great fun, until you almost over-heated. There was also a few other things, hotdogs being served at 11:30, pigeon masks, a giant sword to cut the wedding cake etc. All in all though, I loved the combination of traditional cathloic and modern excentricity.
 
-## 31st - 🇪🇸
+## 31/05
 
 Our final full day in Spain! Olivia and I both woke-up feeling pretty well, considering we still had quite a few drinks at the wedding.
 
