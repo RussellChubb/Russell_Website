@@ -1,10 +1,11 @@
 ---
 title: "Spain 🇪🇸"
 description: "Travel Journal for Spain 🇪🇸"
-summary: "Travel Journal for Spain 🇪🇸"
-series: "Travel Journal"
+summary: "Una más cerveza, por favor..."
+series: ["Travel Journal"]
+series_order: 2
 showAuthor: true
-date: 2026-05-22
+date: 2026-11-25
 featureimage: "featured.jpg"
 tags: ["Personal", "Travel"]
 draft: true
