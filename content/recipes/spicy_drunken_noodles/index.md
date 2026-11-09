@@ -1,6 +1,6 @@
 ---
 title: "Spicy Drunken Noodles"
-draft: false
+draft: true
 showReadingProgress: true
 description: "Spicy Drunken Noodles"
 summary: "Spicy Drunken Noodles"

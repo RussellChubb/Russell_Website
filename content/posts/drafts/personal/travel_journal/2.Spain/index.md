@@ -8,33 +8,90 @@ showAuthor: true
 date: 2026-11-25
 featureimage: "featured.jpg"
 tags: ["Personal", "Travel"]
-draft: true
+draft: false
 ---
 
 ## 26/05
 
 <!-- TODO -->
-Our first travel day (*of many more to come*), we took a few different lines to get out to Luton (*validate this*) Airport, wherein we hopped on old faithful (*a Ryanair flight*), before getting dropped off in Barcelona Airport, met up with Mum and Dad, and then took a Taxi into the city to our shared AirBNB (*thanks for having us at the accomodation mum and dad <3 )
+Our first travel day (*of many more to come*), we took a few different lines to get out to Luton Airport, wherein we hopped on old faithful (*a Ryanair flight*), before getting dropped off in Barcelona Airport, met up with Mum and Dad, and then took a Taxi into the city to our shared AirBNB (*thanks for having us at the accomodation mum and dad ❤️*)
 
 Once we got to the AirBNB, we unpacked and went out for a afternoon cervsa (*beer*) and a bite to eat. Now, the first place we went to was a little tapa's place on the corner, and after trying the waiters patience with my terrible Spanish, we were presented with a meal of pata's brava's, pork tacos and beer.
+
+<!-- Meal Gallery -->
+{{< gallery >}}
+  {{< figure src="https://www.jocooks.com/wp-content/uploads/2023/02/patatas-bravas-1-18.jpg" alt="Patas Bravas" caption="Yom 1" figureClass="grid-w33" >}}
+
+  {{< figure src="https://www.simplejoy.com/wp-content/uploads/2022/09/pulled-pork-tacos.jpg" alt="Pork Tacos" caption="Yom 2" figureClass="grid-w33" >}}
+
+  {{< figure src="https://www.vipbottles.co.uk/wp-content/uploads/2021/09/Estrella-Damm-Premium-Lager-Beer-24-x-33cl-Case.jpg" alt="hehe" caption="It's spelt Estrella, but said Estreya" figureClass="grid-w33" >}}
+{{< /gallery >}}
 
 I want to highlight how high this meal set my expectations for food in Europe, because the very first place we went to, had the most amazing food. So good in fact that we went back maybe like two more times, and the meals we had still remain one of the highlights of our trip. (*I feel like this is funny because it’s not like the place was known for its food or anything*).
 
 ## 27/05
 
-My father and I had one objective on this day, get our suits fitted! So, after starting the day with a light breakfast, we took a Taxi out with Olivia and Mum. Once we got to the store, we were greeted by a lady who spoke no English at all, however, she still got us fitted out.
+My father and I had one objective on this day, get our suits fitted!
+
+So, after starting the day with a light breakfast, we took a Taxi out with Olivia and Mum. Once we got to the store, we were greeted by a lady who spoke no English at all, however, she still got us fitted out.
+
+<!-- TODO -->
+<!-- Fitting Gallery -->
+{{< gallery >}}
+  {{< figure src="https://file.garden/atcrboPYCQOy1FQn/Spain/2026-05-27/Dad_and_I" alt="Patas Bravas" caption="Yom 1" figureClass="grid-w50" >}}
+
+  {{< figure src="https://file.garden/atcrboPYCQOy1FQn/Spain/2026-05-27/Socksman" alt="Pork Tacos" caption="Yom 2" figureClass="grid-w50" >}}
+
+
+{{< /gallery >}}
 
 However, we were unable to finalize some of the details of the arrangement due to the language barrier. She then called in a man who I assume was her son, to try and help us out. Funnily enough he still didn't speak any English, so this called for the big guns (*Google Translate*), after which we were able to provide him the deposit and we were on our way.
 
-We then stopped for a quick coffee (*and Juice for Olivia*), before mum and dad took a taxi back to the accomodation, and Olivia and I decided to go for a walk to explore the city by foot, (*might I add quite a good city to explore by foot*). We then proceeded to walk to a place for a feed (*I mainly decided to stop at this particular place because I saw a group of swaggy young people outside*). Now, one of my favourite foods from my 2023 visit to Spain was Padron peppers, which are these specific peppers that are fried in oil with salt and pepper. Anyway, Olvia isn't exactly the most adventerous when it comes to food, but I'm sure she's glad that she tried the Padron peppers, as she ended up realling enjoying them! After letting our food and mid-day beer digest, we then walked over to La Sagrada Famila.
+We then stopped for a quick coffee (*and Juice for Olivia*), before mum and dad took a taxi back to the accomodation, and Olivia and I decided to go for a walk to explore the city by foot, (*might I add quite a good city to explore by foot*).
+
+https://file.garden/atcrboPYCQOy1FQn/Spain/2026-05-27/Rambla
+
+We then proceeded to walk to a place for a feed (*I mainly decided to stop at this particular place because I saw a group of swaggy young people outside*).
+
+Now, one of my favourite foods from my 2023 visit to Spain was Padron peppers, which are these specific peppers that are fried in oil with salt and pepper.
+
+<!-- Padron Peppers -->
+https://apronandwhisk.com/wp-content/uploads/2022/01/Padron-Peppers-with-Mustard-Aioli-Apron-Whislk-2.jpg
+
+Anyway, Olvia isn't exactly the most adventerous when it comes to food, but I'm sure she's glad that she tried the Padron peppers, as she ended up realling enjoying them! After letting our food and mid-day beer digest, we then walked over to La Sagrada Famila.
+
+<!-- Sagrada Gallery -->
+https://file.garden/atcrboPYCQOy1FQn/Spain/2026-05-27/Sagrada_1
+
+https://file.garden/atcrboPYCQOy1FQn/Spain/2026-05-27/Sagrada_2
+
+https://file.garden/atcrboPYCQOy1FQn/Spain/2026-05-27/Sagrada_6
+
+https://file.garden/atcrboPYCQOy1FQn/Spain/2026-05-27/Sagrada_5
+
+https://file.garden/atcrboPYCQOy1FQn/Spain/2026-05-27/Sagrada_4
+
+https://file.garden/atcrboPYCQOy1FQn/Spain/2026-05-27/Sagrada_3
 
 Now, when I visited La Sagrada in 2023, you didn't need to book in advance to go inside, however, when we arrived, and I rolled up to the counter expecting to go straight through, I was sorely mistaken when they turned me away after telling me I needed a booking. So instead, we decided to walk around all four facades, while I read out La Sagrada trivia to Olivia that I was ripping from Wikipedia.
 
-After that, we purchased out patch and fridge magnet for Barcelona, and then Olvia went to get her nails done, and I to get a haircut. Now, I haven't written this here yet, but if you didn't know, the main reason we went to Barcelona first was because my brother Rian was getting married! As such, my mum convinced me that mullets aren't welcome at the wedding, and so I made the critical mistake of getting mine cut off during my haircut.
+After that, we purchased out patch and fridge magnet for Barcelona, and then Olvia went to get her nails done, and I to get a haircut.
+
+Now, I haven't written this here yet, but if you didn't know, the main reason we went to Barcelona first was because my brother Rian was getting married! As such, my mum convinced me that mullets aren't welcome at the wedding, and so I made the critical mistake of getting mine cut off during my haircut.
 
 Then, (*with cooler ears*), we walked to the main drag to take a look at the shop's and the Gaudi Building (*which is pretty dope might I add*). Olivia ended up buying some cheap shoes for the wedding, and I purchased some running shoes!
 
-## 28/05
+https://file.garden/atcrboPYCQOy1FQn/Spain/2026-05-27/Gaudi_Building_1
+
+https://file.garden/atcrboPYCQOy1FQn/Spain/2026-05-27/Gaudi_Building_2
+
+https://file.garden/atcrboPYCQOy1FQn/Spain/2026-05-27/IMG_0160.jpeg
+
+The 27th was also a special date for Olivia and I, as it's our anniversary! - As such, Olivia and I went out for dinner on one of the Ramblas (*and funnily enough ran into Rian and Adam*)
+
+https://file.garden/atcrboPYCQOy1FQn/Spain/2026-05-27/Anniversary_Dinner
+
+## 28th - 🇪🇸
 
 We awoke to another blue sky, 30 degree day in Barcelona, however, before the mid-day heat set-in, we decided to go for a run to see the city by foot. Now, this is such a noble idea, but to execute this successfully, you actually have to leave your house before 6:00AM, as by the time we were leaving, the sun was well and truly up, and we absolutely baked during this run, sweat was absoutely pouring out of me every which way. In the end we still put up a valiant ~ 10 KM effort from our accomodation to the beach, however it definently took it out of us.
 

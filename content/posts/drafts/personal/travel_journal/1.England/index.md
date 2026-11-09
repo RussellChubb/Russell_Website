@@ -8,7 +8,7 @@ showAuthor: true
 date: 2026-11-05
 featureimage: "featured.jpg"
 tags: ["Personal", "Travel"]
-draft: true
+draft: false
 ---
 
 <!-- TODO -->
