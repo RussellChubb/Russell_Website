@@ -8,7 +8,7 @@ showAuthor: true
 date: 2026-11-05
 featureimage: "featured.jpg"
 tags: ["Personal", "Travel"]
-draft: false
+draft: true
 ---
 
 <!-- TODO -->
@@ -18,6 +18,7 @@ draft: false
 <!-- Sometimes I don't really say where we're going -->
 <!-- Some of the Greece days are a little light -->
 <!-- What about a graphic for steps per day? - I feel like I need to get some data / visuals in there somewhere -->
+<!-- I don't think I've actually included all my runs -->
 
 <!-- England Specific -->
 <!-- Captions for everything need to be reviewed -->
