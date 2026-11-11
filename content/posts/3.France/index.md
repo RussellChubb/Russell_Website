@@ -153,9 +153,9 @@ We then proceeded to walk off our food through Tuilieres Gardens, before making 
 <!-- TODO -->
 <!-- Photo-Bomb Gallery -->
 {{< gallery >}}
-{{< figure src="https://file.garden/atcrboPYCQOy1FQn/France/2026-08-21/Olivia_Lourve_Photobomb" alt="Olivia posing by the Louvre with a photobomber in the background" caption="A Louvre photo, complete with a photobomber" figureClass="grid-w33" >}}
+{{< figure src="https://file.garden/atcrboPYCQOy1FQn/France/2026-08-21/Olivia_Lourve_Photobomb" alt="Olivia posing by the Louvre with a photobomber in the background" caption="A Louvre photo, complete with a photobomber" figureClass="grid-w50" >}}
 
-{{< figure src="https://file.garden/atcrboPYCQOy1FQn/France/2026-08-21/Lourve_Photo_Bombed" alt="A photo by the Louvre interrupted by photobombers" caption="The photobombers made it into another photo" figureClass="grid-w33" >}}
+{{< figure src="https://file.garden/atcrboPYCQOy1FQn/France/2026-08-21/Lourve_Photo_Bombed" alt="A photo by the Louvre interrupted by photobombers" caption="The photobombers made it into another photo" figureClass="grid-w50" >}}
 {{< /gallery >}}
 
 <!-- Tuilieres Gardens Gallery -->
