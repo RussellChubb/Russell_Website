@@ -7,6 +7,7 @@ showLikes: true
 date: 2026-04-24
 ---
 
+<!-- This page is particular feels like -->
 <!-- Saw this from an image on Pinterest, thought it went hard, kinda references a few things I'm into lol -->
 {{< typeit
   tag=h4
@@ -25,27 +26,36 @@ Master: Go has always existed.
 
 ## TL;DR 👋
 
-I'm a Data-Analyst from New Zealand living in Edinburgh, Scotland.
+I'm a Kiwi, (*Born in Australia*), living in Edinburgh, Scotland.
 
-I've been doing ***Data Stuff*** (*including but not limited to Software Engineering, UX/UI Design and Development, Video and Graphics Editing, Project Implementation*) for ~ 3 years at this point, with a key area that I enjoy being the dissemination of complex and or technical information to a large audience, emphasising design and purpose that fits the need of an end user.
+I've been doing ***Data Stuff*** (*including but not limited to Software Engineering, Data Analysis, BI Engineering, Data Engineering*) for ~ 3 years at this point, with a key area that I enjoy being the dissemination of complex and or technical information to a large audience, emphasising design and purpose that fits the need of an end user.
+
+I've also got some "*skillz*" (*yes, spelt with a "z"*) in other (*not data*) areas:
+
+* UX / UI Design
+* Communication
+* Video / Graphical Editing
+* Business Analysis
 
 <!-- Adding this in to let the people know wsup -->
 > [!IMPORTANT]
 > i.e. I like making shit that people use and enjoy.
 
 <!-- TODO: Add in BASH & Terminal / Git -->
+
 ### Skills 🎯
 
-I always think it's a little silly to have to create a skill matrix for yourself and boil an entire person down to just some skills or characteristics. However, just taking a look at this chart gives you a good idea of what kind of skills I have out of the box.
+<!-- I always think it's a little silly to have to create a skill matrix for yourself and boil an entire person down to just some skills or characteristics. However, just taking a look at this chart gives you a good idea of what kind of skills I have out of the box. -->
+<!-- > I do think though, if you do want to get a really good vibe on who I am, and what I can do for you, it's much better that you evaluate my skills based on the outputs of my work, as opposed to a skill matrix that I could in theory, be bullshitting on.
+> -->
 
 I've expressed my level of "*skill*" in a given area, by providing a value between 1-10 (*1 being a complete novice, 10 being a master*). The catch with a skills matrix is that different people will interpret your skills in different ways, combined with the fact that mastery is easy to point out, but hard to define.
 
 > [!NOTE]
-> I do think though, if you do want to get a really good vibe on who I am, and what I can do for you, it's much better that you evaluate my skills based on the outputs of my work, as opposed to a skill matrix that I could in theory, be bullshitting on.
->
-> **NOTE:** I've noticed this chart has some text cut-off on mobile, best to view the site on desktop anyway.
+> This chart has some text cut-off on mobile! - It's best to view the site on desktop anyway!
 
 <!-- TODO: Why is there so much room at the top and bottom of this chart? -->
+
 #### Skill Matrix Spider Chart 🕷️
 
 **NOTE:** Don't view this in light mode, I haven't got this configured to be able to dynamically check which theme people are using and then switch around colour elements. Just use dark mode!
@@ -126,11 +136,11 @@ options: {
 
 ## Long Version 📜
 
-Heyo! - My name is **Russell David Chubb**.
+Heyo! - My name is **Russell Chubb**.
 
-At the time of writing this, I'm 25 years old. I was born in Brisbane Australia, and moved over to New Zealand when I was around ~ 1 year old. I grew up in Palmerston North, and studied in Wellington, then, moved to Masterton to be closer to my girlfriend and her family!
+I'm 26 years old. I was born in Brisbane Australia, and moved over to New Zealand when I was around ~ 1 year old. I grew up in Palmerston North, and studied in Wellington, then, moved to Masterton to be closer to my girlfriend and her family!
 
-I moved to Edinburgh, Scotland in September 2026, and have been living here since!
+In September 2026, I moved to Edinburgh with my girlfriend Olivia (*for a bit of a change of scenery*) and have been living here since!
 
 ### Free Time Donut Chart 🍩
 
@@ -234,7 +244,7 @@ During this role, I engaged with a variety of Education Subject Matter Experts (
 
 During this role, I was moved towards the ICT Business-Unit within MoE wherein I got to engage and work first-hand with ICT Professionals for the first time in my career, and I actually attribute this, (*combined with inspiration from a Data-Analyst within my team at MoE - shout out to you Scott*), for first opening my eyes to the world of data, and the outcomes that can be gleaned from it.
 
-Anyway, once the project had wrapped up, I moved horizontally within MoE across to the Web-Services team, working as a "Web Advisor". It was during this role that I got my first kind of exposure to Web Development, Including:
+Anyway, once the project had wrapped up, I moved horizontally within MoE across to the Web-Services team, working as a "*Web Advisor*". It was during this role that I got my first kind of exposure to Web Development, Including:
 
 * Business Analysis (*requirement gathering, project planning etc*).
 * Design (*Designers and Front-End Developers working hand in hand, Wire-Frame Development, Figma etc*),  
@@ -254,6 +264,7 @@ After developing my first dashboard, I got bit with the "**data bug**", as there
 
 1) Technical.
 2) Good to look at.
+3) Useful.
 
 ### Self Driven Data Studies 🔬
 
@@ -263,7 +274,7 @@ At a certain point, I really got interested in the idea of doing Data-Analysis a
 * Python
 * Databases
 * Data Modelling
-* Business Intelligence / Data Visualisation (*PowerBI, Tableau etc*)
+* Business Intelligence / Data Visualisation (*PowerBI, Tableau, Streamlit etc*)
 * Databricks
 * Statistics
 * UX / UI
@@ -279,7 +290,7 @@ One of the best resources I found on my search would have been the [Roadmap.sh](
   {{< /accordionItem >}}
 {{< /accordion >}}
 
-From here, I basically had the topics that I needed to "study-up on" in order to become competent in this new field. This was very helpful early on, as (*at least personally*) I find that I can learn best when I have a top-down understanding of what is actually involved in a certain topic, or field.
+From here, I basically had the topics that I needed to "*study-up on*" in order to become competent in this new field. This was very helpful early on, as (*at least personally*) I find that I can learn best when I have a top-down understanding of what is actually involved in a certain topic, or field.
 
 Regardless, after this, I spent a large amount of time researching different topics, watching videos, writing notes etc.
 
@@ -343,14 +354,14 @@ Much like any situation I found myself in, I was eventually able to build an und
 
  I found myself quickly coming to understand what the terms (*like the following*), actually meant:
 
-* "MW vs MWH"
-* "Wind Power Curve"
-* "Nacelle"
-* "Transformers"
-* "Penstocks"
-* "Wicket Gates"
-* "Under Frequency Events"
-* "Revenue Metering"
+* MW vs MWH
+* Wind Power Curve
+* Nacelle
+* Transformers
+* Penstocks
+* Wicket Gates
+* Under Frequency Events
+* Revenue Metering
 
 And so, so, so many more...
 
