@@ -17,3 +17,5 @@
 8) Create recipe content
 
 9) Build out that section in my about section for what I did at Meridian, it feels kind of light.
+
+10) CREATE CHRISTMAS MODE RUSSELL! - 🎄🎅

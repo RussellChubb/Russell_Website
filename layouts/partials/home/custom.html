@@ -5,17 +5,131 @@
 <!-- Foreground hero image -->
  <!-- This is a Hero Image of me with the text "Russ (The Muss) on it, designed to be slightly humorous and immediately draw the viewers eyes to me" -->
 <div class="relative px-8 py-0 flex flex-col items-center justify-center text-center" style="margin-top: -100px;">
-<picture>
-  <source type="image/avif"
+<picture id="home-hero"
+         data-default-root="{{ "img/Russell_Website_v4" | relURL }}"
+         data-seasonal-root="{{ "img/hero/" | relURL }}">
+  <source id="home-hero-avif"
+          type="image/avif"
           srcset="{{ "img/Russell_Website_v4-1600.avif" | relURL }} 1x, {{ "img/Russell_Website_v4-3200.avif" | relURL }} 2x">
-  <source type="image/webp"
+  <source id="home-hero-webp"
+          type="image/webp"
           srcset="{{ "img/Russell_Website_v4-1600.webp" | relURL }} 1x, {{ "img/Russell_Website_v4-3200.webp" | relURL }} 2x">
-  <img src="{{ "img/Russell_Website_v4-1600.webp" | relURL }}"
+  <img id="home-hero-image"
+       src="{{ "img/Russell_Website_v4-1600.webp" | relURL }}"
        srcset="{{ "img/Russell_Website_v4-3200.webp" | relURL }} 2x"
        class="nozoom"
        style="max-width: 1600px; width: 100%;"
        loading="eager" decoding="async" alt="Russell Chubb" />
 </picture>
+
+<!-- This is the script that I'm using for seasonal hero images -->
+<script>
+(() => {
+  const birthdays = {
+    "11-27": "my-birthday",
+    "04-02": "mum-birthday",
+    "04-17": "dad-birthday",
+    "01-20": "olivia-birthday"
+  };
+
+  const fixedHolidays = {
+    "02-06": "waitangi",
+    "03-17": "st-patricks",
+    "04-25": "anzac",
+    "11-30": "st-andrews"
+  };
+
+  const seasonalRanges = [
+    { theme: "hogmanay", start: "12-27", end: "01-02" },
+    { theme: "valentines", start: "02-01", end: "02-14" },
+    { theme: "halloween", start: "10-01", end: "10-31" },
+    { theme: "christmas", start: "12-01", end: "12-26" }
+  ];
+
+  function inAnnualRange(date, start, end) {
+    return start <= end
+      ? date >= start && date <= end
+      : date >= start || date <= end;
+  }
+
+  function easterSunday(year) {
+    const a = year % 19;
+    const b = Math.floor(year / 100);
+    const c = year % 100;
+    const d = Math.floor(b / 4);
+    const e = b % 4;
+    const f = Math.floor((b + 8) / 25);
+    const g = Math.floor((b - f + 1) / 3);
+    const h = (19 * a + b - d - g + 15) % 30;
+    const i = Math.floor(c / 4);
+    const k = c % 4;
+    const l = (32 + 2 * e + 2 * i - h - k) % 7;
+    const m = Math.floor((a + 11 * h + 22 * l) / 451);
+    const value = h + l - 7 * m + 114;
+    const month = Math.floor(value / 31);
+    const day = (value % 31) + 1;
+
+    return new Date(Date.UTC(year, month - 1, day))
+      .toISOString()
+      .slice(0, 10);
+  }
+
+  function addDays(isoDate, days) {
+    const date = new Date(`${isoDate}T00:00:00Z`);
+    date.setUTCDate(date.getUTCDate() + days);
+    return date.toISOString().slice(0, 10);
+  }
+
+  const dateParts = new Intl.DateTimeFormat("en", {
+    timeZone: "Europe/London",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit"
+  }).formatToParts(new Date());
+
+  const part = type => dateParts.find(item => item.type === type).value;
+  const year = part("year");
+  const dateKey = `${part("month")}-${part("day")}`;
+  const today = `${year}-${dateKey}`;
+  const easter = easterSunday(Number(year));
+  const isEasterPeriod = today >= addDays(easter, -2) && today <= addDays(easter, 1);
+  const isJuneSolsticePeriod = inAnnualRange(dateKey, "06-20", "06-22");
+  const isDecemberSolsticePeriod = inAnnualRange(dateKey, "12-20", "12-22");
+
+  const theme =
+    birthdays[dateKey] ||
+    fixedHolidays[dateKey] ||
+    (isEasterPeriod ? "easter" : null) ||
+    (isJuneSolsticePeriod ? "june-solstice" : null) ||
+    (isDecemberSolsticePeriod ? "december-solstice" : null) ||
+    seasonalRanges.find(range =>
+      inAnnualRange(dateKey, range.start, range.end)
+    )?.theme;
+
+  if (theme) {
+    const picture = document.getElementById("home-hero");
+    const avif = document.getElementById("home-hero-avif");
+    const webp = document.getElementById("home-hero-webp");
+    const image = document.getElementById("home-hero-image");
+    const defaultRoot = picture.dataset.defaultRoot;
+    const seasonalRoot = `${picture.dataset.seasonalRoot}${theme}`;
+
+    // If a seasonal asset is missing, restore the known-good homepage images.
+    image.onerror = () => {
+      image.onerror = null;
+      avif.srcset = `${defaultRoot}-1600.avif 1x, ${defaultRoot}-3200.avif 2x`;
+      webp.srcset = `${defaultRoot}-1600.webp 1x, ${defaultRoot}-3200.webp 2x`;
+      image.srcset = `${defaultRoot}-3200.webp 2x`;
+      image.src = `${defaultRoot}-1600.webp`;
+    };
+
+    avif.srcset = `${seasonalRoot}-1600.avif 1x, ${seasonalRoot}-3200.avif 2x`;
+    webp.srcset = `${seasonalRoot}-1600.webp 1x, ${seasonalRoot}-3200.webp 2x`;
+    image.srcset = `${seasonalRoot}-3200.webp 2x`;
+    image.src = `${seasonalRoot}-1600.webp`;
+  }
+})();
+</script>
 </div>
 
 <!-- Background image (fixed, full screen) -->
