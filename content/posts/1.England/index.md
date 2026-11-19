@@ -21,9 +21,8 @@ draft: false
 <!-- I don't think I've actually included all my runs -->
 
 <!-- England Specific -->
-<!-- Captions for everything need to be reviewed -->
+<!-- We went for a run on the 29th I think and saw a Camel -->
 <!-- Add fridge photo -->
-<!-- Fix spelling and grammar -->
 
 ## Preface
 
@@ -74,7 +73,7 @@ After hugs and introductions were exchanged with Olivia and Maria (*Rian's fianc
 
 After walking into the Lord Stanley, I quickly learned that in British pubs, people sit at the bar and talk to each other (*as you can see by the three blokes in red*). To be honest, I couldn't wrap my antipodean brain around the concept, but I did appreciate it none the less.
 
-Now, for anyone wondering about jet lag, although we were tired, Olivia was actually charging on quite well, attributing her stamina to the many night-shift sequences she endured during her time at Masterton Medical Centre.
+Now, for anyone wondering about jet lag, although we were tired, Olivia was actually charging on quite well, attributing her stamina to the many night-shift sequences she endured during her time at Wairarapa Hospital.
 
 However, after settling the bill and walking back to Rian's, we hit the hay at 9:00 p.m. and called it a day!
 

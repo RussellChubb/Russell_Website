@@ -8,13 +8,12 @@ showAuthor: true
 date: 2026-11-25
 featureimage: "featured.jpg"
 tags: ["Personal", "Travel"]
-draft: true
+draft: false
 ---
 
 ## 26/05
 
-<!-- TODO -->
-Our first travel day (*of many more to come*), we took a few different lines to get out to Luton Airport, wherein we hopped on old faithful (*a Ryanair flight*), before getting dropped off in Barcelona Airport, met up with Mum and Dad, and then took a Taxi into the city to our shared AirBNB (*thanks for having us at the accomodation mum and dad ❤️*)
+Our first travel day (*of many more to come*), we took a few different train-lines to get out to Luton Airport, wherein we hopped on old faithful (*a Ryanair flight*), before getting dropped off in Barcelona Airport, met up with Mum and Dad, and then took a Taxi into the city to our shared AirBNB (*thanks for having us at the accomodation mum and dad ❤️*)
 
 Once we got to the AirBNB, we unpacked and went out for a afternoon cervsa (*beer*) and a bite to eat. Now, the first place we went to was a little tapa's place on the corner, and after trying the waiters patience with my terrible Spanish, we were presented with a meal of pata's brava's, pork tacos and beer.
 
