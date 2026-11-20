@@ -7,7 +7,7 @@
 <div class="relative px-8 py-0 flex flex-col items-center justify-center text-center" style="margin-top: -100px;">
 <picture id="home-hero"
          data-default-root="{{ "img/Russell_Website_v4" | relURL }}"
-         data-seasonal-root="{{ "img/hero/" | relURL }}">
+         data-seasonal-root="{{ "img/V3_Hero_Images/" | relURL }}">
   <source id="home-hero-avif"
           type="image/avif"
           srcset="{{ "img/Russell_Website_v4-1600.avif" | relURL }} 1x, {{ "img/Russell_Website_v4-3200.avif" | relURL }} 2x">
@@ -22,14 +22,17 @@
        loading="eager" decoding="async" alt="Russell Chubb" />
 </picture>
 
-<!-- This is the script that I'm using for seasonal hero images -->
+<!-- Seasonal Foreground Hero Image Script  -->
+  <!-- This is the script that I'm using for seasonal hero images, full disclosure, I generated it all with the help of some AI, (Idk any JavaScript lol) -->
+  <!-- It basically just switches out the hero image based on the current date -->
 <script>
 (() => {
   const birthdays = {
     "11-27": "my-birthday",
     "04-02": "mum-birthday",
     "04-17": "dad-birthday",
-    "01-20": "olivia-birthday"
+    "01-20": "olivia-birthday",
+    "03-11": "kayleigh-birthday"
   };
 
   const fixedHolidays = {
@@ -37,6 +40,23 @@
     "03-17": "st-patricks",
     "04-25": "anzac",
     "11-30": "st-andrews"
+  };
+
+  const assetNames = {
+    "my-birthday": "Birthday",
+    "mum-birthday": "Mum_Birthday",
+    "dad-birthday": "Dad_Birthday",
+    "olivia-birthday": "Olivia_Birthday",
+    "kayleigh-birthday": "Kayleigh_Birthday",
+    "waitangi": "Waitangi",
+    "st-patricks": "StPatricks",
+    "anzac": "Anzac",
+    "st-andrews": "StAndrew",
+    "easter": "Easter",
+    "hogmanay": "NYE",
+    "valentines": "Valentines",
+    "halloween": "Halloween",
+    "christmas": "Christmas"
   };
 
   const seasonalRanges = [
@@ -93,15 +113,10 @@
   const today = `${year}-${dateKey}`;
   const easter = easterSunday(Number(year));
   const isEasterPeriod = today >= addDays(easter, -2) && today <= addDays(easter, 1);
-  const isJuneSolsticePeriod = inAnnualRange(dateKey, "06-20", "06-22");
-  const isDecemberSolsticePeriod = inAnnualRange(dateKey, "12-20", "12-22");
-
   const theme =
     birthdays[dateKey] ||
     fixedHolidays[dateKey] ||
     (isEasterPeriod ? "easter" : null) ||
-    (isJuneSolsticePeriod ? "june-solstice" : null) ||
-    (isDecemberSolsticePeriod ? "december-solstice" : null) ||
     seasonalRanges.find(range =>
       inAnnualRange(dateKey, range.start, range.end)
     )?.theme;
@@ -112,7 +127,12 @@
     const webp = document.getElementById("home-hero-webp");
     const image = document.getElementById("home-hero-image");
     const defaultRoot = picture.dataset.defaultRoot;
-    const seasonalRoot = `${picture.dataset.seasonalRoot}${theme}`;
+    const assetName = assetNames[theme];
+    const seasonalRoot = `${picture.dataset.seasonalRoot}Russell_Website`;
+    const avif1600 = `${seasonalRoot}_1600_${assetName}.avif`;
+    const avif3200 = `${seasonalRoot}_3200_${assetName}.avif`;
+    const webp1600 = `${seasonalRoot}_1600_${assetName}.webp`;
+    const webp3200 = `${seasonalRoot}_3200_${assetName}.webp`;
 
     // If a seasonal asset is missing, restore the known-good homepage images.
     image.onerror = () => {
@@ -123,10 +143,10 @@
       image.src = `${defaultRoot}-1600.webp`;
     };
 
-    avif.srcset = `${seasonalRoot}-1600.avif 1x, ${seasonalRoot}-3200.avif 2x`;
-    webp.srcset = `${seasonalRoot}-1600.webp 1x, ${seasonalRoot}-3200.webp 2x`;
-    image.srcset = `${seasonalRoot}-3200.webp 2x`;
-    image.src = `${seasonalRoot}-1600.webp`;
+    avif.srcset = `${avif1600} 1x, ${avif3200} 2x`;
+    webp.srcset = `${webp1600} 1x, ${webp3200} 2x`;
+    image.srcset = `${webp3200} 2x`;
+    image.src = `${webp1600}`;
   }
 })();
 </script>
