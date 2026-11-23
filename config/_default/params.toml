@@ -17,15 +17,15 @@ enableA11y = false
 # Enables the search functionality in the header
 enableSearch = true
 # Adds a copy button to code blocks
-enableCodeCopy = false
+enableCodeCopy = true
 # Enables structured breadcrumbs (schema.org markup for SEO)
 enableStructuredBreadcrumbs = false
 # enableStyledScrollbar = true # disable to use native scrollbar style (defaults to true)
 
 # Allows readers to reply via email
-replyByEmail = false # turning this on to see what it does
+replyByEmail = true
 
-mainSections = ["posts", "projects"] # Sections to include in the main content feed
+mainSections = ["posts"] # Sections to include in the main content feed
 # robots = "" # Custom robots meta tag value
 
 # Whether Hugo should optimise/resize images during build
@@ -78,7 +78,7 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
   # Whether to show recent articles on the homepage
   showRecent = true
   # Number of recent articles to show
-  showRecentItems = 5
+  showRecentItems = 6
   # Whether to show a "see more" link below recent articles
   showMoreLink = true
   # Where the "see more" link points to
