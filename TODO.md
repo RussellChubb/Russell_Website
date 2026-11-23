@@ -10,7 +10,7 @@
 
 5) I'd love to add an element to the home-page to show "tools" I've worked with as a slider of small white icons that scroll across the screen to give the page a bit of movement. I'd like shit like ["Python", "SQL", "Excel", "Databricks", "Airflow", "DBT", "Spark", "Premiere Pro", "Photoshop", "After-Effects" etc etc to scroll]. How hard would this be to achieve?
 
-6) Fix bug where UK residents can't see certain images due to them being in the UK
+6) Fix bug where UK residents can't see certain images (*a few of them are in the about page*) due to them being in the UK
 
 7) Update the about section of my website to reflect my new living situation.
 
@@ -18,4 +18,6 @@
 
 9) Build out that section in my about section for what I did at Meridian, it feels kind of light.
 
-10) CREATE CHRISTMAS MODE RUSSELL! - 🎄🎅
+10) ~~CREATE CHRISTMAS MODE RUSSELL! - 🎄🎅~~
+
+11) Seems to be some kind of buggy behaviour around the England Travel Journal, with certain images not rendering in, and instead falling back to the alt-text.
