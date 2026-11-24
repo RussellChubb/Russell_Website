@@ -387,3 +387,6 @@ Other than that, I'm playing the world by ear right now, taking it one step at a
 Well, that concludes my "about" page! - Thank you so much for reading!
 
 Cheers!
+
+<!-- Subscribe Button -->
+{{< subscribe >}}
